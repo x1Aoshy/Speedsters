@@ -1,0 +1,2 @@
+PASS actual spin: pending save, same transaction/roll on retry, one ticket, duplicate result replay
+PASS actual client: result after 16s still lands, unrelated message cannot cancel it, duplicate ignored, retries stop

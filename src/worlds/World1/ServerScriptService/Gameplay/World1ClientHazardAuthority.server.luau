@@ -1,0 +1,5 @@
+-- Retired 2026-09-24 (comment-only stub). Server half of the retired
+-- World1ClientMotionHazards: it validated hits on parts with a ClientMotionType attribute,
+-- which no part has, so it never killed anyone; its World1ClientHazardHit remote only let a
+-- client trigger recursive Workspace searches (11 per call). World 1's hazard kills are
+-- validated by NewWorld1ServerMotion.

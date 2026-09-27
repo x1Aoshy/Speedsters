@@ -1,0 +1,1710 @@
+{
+  "desertSha256": "bcccc84855dec18b265018894bd82573e5fc9899696e3d6426e9592e279425b3",
+  "inputSha256": "2b5823ff3f2314d25f614c413a1e921503543c7d1673faa81ab8541e1e4b96c3",
+  "report": [
+    "Removed 19 World 2 scripts outside the map",
+    "Removed 516 World 2 map objects from Workspace",
+    "Removed the portal backdoor (PoseTexture, 3 hidden asset ids)",
+    "Removed 14 tycoon MoneyScripts from Stage 7",
+    "Removed the Asset Pack Stud folder",
+    "Moved the Snake (green, its AI script and 12 joints and forces removed) and the Scorpion (12.8 x 10.4 x 16.0) to ServerStorage.World3HazardTemplates",
+    "Added the finish's x2 marker Winstage2 at (268.9, -8847.0), beside Winstage1",
+    "Moved 15 desert map objects into Workspace",
+    "Added the Basic treadmill to the lobby (World 2's Golden x1.37, z 440.8 to 459.2, before Diamond at 462.8)",
+    "Added World 2's group reward chest to the lobby (pad at 180.0, 96.10, 385.0, facing the spawn)",
+    "Lighting from the desert map: sky and effects, and EnvironmentDiffuseScale, EnvironmentSpecularScale, GlobalShadows, ShadowSoftness",
+    "PlaceWorldNumber = 3 on Workspace and ReplicatedStorage"
+  ],
+  "scripts": [
+    {
+      "class": "LocalScript",
+      "id": 79,
+      "segments": [
+        "ReplicatedFirst",
+        "LegacyRunControllerCleanup"
+      ],
+      "world2Id": 580
+    },
+    {
+      "class": "LocalScript",
+      "id": 80,
+      "segments": [
+        "ReplicatedFirst",
+        "SpawnFloorSurfaceFix"
+      ],
+      "world2Id": 581
+    },
+    {
+      "class": "LocalScript",
+      "id": 81,
+      "segments": [
+        "ReplicatedFirst",
+        "LoadingScreen"
+      ],
+      "world2Id": 582
+    },
+    {
+      "class": "ModuleScript",
+      "id": 125,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon"
+      ],
+      "world2Id": 626
+    },
+    {
+      "class": "ModuleScript",
+      "id": 126,
+      "segments": [
+        "ReplicatedStorage",
+        "AdminBannerConfig"
+      ],
+      "world2Id": 627
+    },
+    {
+      "class": "Script",
+      "id": 137,
+      "segments": [
+        "ServerScriptService",
+        "Bootstrap"
+      ],
+      "world2Id": 638
+    },
+    {
+      "class": "Script",
+      "desertSource": "script.Parent.Touched:connect(function(hit)\n\tif hit and hit.Parent and hit.Parent:FindFirstChild(\"Humanoid\") then\n\t\thit.Parent.Humanoid.Health = 0\n\tend\nend)\n-- this script will kill players that touch the block",
+      "id": 199,
+      "segments": [
+        "Workspace",
+        "Lava",
+        "Kill script"
+      ]
+    },
+    {
+      "class": "ModuleScript",
+      "id": 299,
+      "segments": [
+        "Workspace",
+        "BestRunAnimR6",
+        "README"
+      ],
+      "world2Id": 4406
+    },
+    {
+      "class": "Script",
+      "id": 306,
+      "segments": [
+        "StarterPlayer",
+        "StarterCharacterScripts",
+        "R6DeathRagdoll"
+      ],
+      "world2Id": 4415
+    },
+    {
+      "class": "Script",
+      "id": 307,
+      "segments": [
+        "StarterPlayer",
+        "StarterCharacterScripts",
+        "R6AnimatorAuthority"
+      ],
+      "world2Id": 4416
+    },
+    {
+      "class": "LocalScript",
+      "id": 308,
+      "segments": [
+        "StarterPlayer",
+        "StarterCharacterScripts",
+        "R15SpeedsterRun"
+      ],
+      "world2Id": 4417
+    },
+    {
+      "class": "LocalScript",
+      "id": 309,
+      "segments": [
+        "StarterPlayer",
+        "StarterCharacterScripts",
+        "Animate"
+      ],
+      "world2Id": 4418
+    },
+    {
+      "class": "LocalScript",
+      "id": 342,
+      "segments": [
+        "StarterGui",
+        "Messages",
+        "MessageHandler"
+      ],
+      "world2Id": 4452
+    },
+    {
+      "class": "LocalScript",
+      "id": 352,
+      "segments": [
+        "StarterGui",
+        "Index",
+        "IndexScript"
+      ],
+      "world2Id": 4462
+    },
+    {
+      "class": "LocalScript",
+      "id": 357,
+      "segments": [
+        "StarterGui",
+        "Backpack",
+        "BackpackScript"
+      ],
+      "world2Id": 4467
+    },
+    {
+      "class": "ModuleScript",
+      "id": 462,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "SuitCatalog"
+      ],
+      "world2Id": 4572
+    },
+    {
+      "class": "ModuleScript",
+      "id": 463,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "StudUi"
+      ],
+      "world2Id": 4573
+    },
+    {
+      "class": "ModuleScript",
+      "id": 464,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "PurchaseButtonSound"
+      ],
+      "world2Id": 4574
+    },
+    {
+      "class": "ModuleScript",
+      "id": 465,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "ProgressBar"
+      ],
+      "world2Id": 4575
+    },
+    {
+      "class": "ModuleScript",
+      "id": 466,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "PlaytimeRewards"
+      ],
+      "world2Id": 4576
+    },
+    {
+      "class": "ModuleScript",
+      "id": 467,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "ModalJuice"
+      ],
+      "world2Id": 4577
+    },
+    {
+      "class": "ModuleScript",
+      "id": 468,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "MenuPanelLayout"
+      ],
+      "world2Id": 4578
+    },
+    {
+      "class": "ModuleScript",
+      "id": 469,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "MenuEvents"
+      ],
+      "world2Id": 4579
+    },
+    {
+      "class": "ModuleScript",
+      "id": 470,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "DailyRewardsData"
+      ],
+      "world2Id": 4580
+    },
+    {
+      "class": "ModuleScript",
+      "id": 471,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "DailyRewards"
+      ],
+      "world2Id": 4581
+    },
+    {
+      "class": "ModuleScript",
+      "id": 472,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "CosmeticCatalog"
+      ],
+      "world2Id": 4582
+    },
+    {
+      "class": "ModuleScript",
+      "id": 473,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "ConsolePanelSupport"
+      ],
+      "world2Id": 4583
+    },
+    {
+      "class": "ModuleScript",
+      "id": 474,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "Config"
+      ],
+      "world2Id": 4584
+    },
+    {
+      "class": "ModuleScript",
+      "id": 475,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "AdminGlobalEvents"
+      ],
+      "world2Id": 4585
+    },
+    {
+      "class": "ModuleScript",
+      "id": 494,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "VERSION"
+      ],
+      "world2Id": 4604
+    },
+    {
+      "class": "ModuleScript",
+      "id": 495,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "TopbarPlusReference"
+      ],
+      "world2Id": 4605
+    },
+    {
+      "class": "ModuleScript",
+      "id": 496,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "TopbarPlusGui"
+      ],
+      "world2Id": 4606
+    },
+    {
+      "class": "ModuleScript",
+      "id": 497,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "Themes"
+      ],
+      "world2Id": 4607
+    },
+    {
+      "class": "ModuleScript",
+      "id": 498,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "Signal"
+      ],
+      "world2Id": 4608
+    },
+    {
+      "class": "ModuleScript",
+      "id": 499,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "Maid"
+      ],
+      "world2Id": 4609
+    },
+    {
+      "class": "ModuleScript",
+      "id": 500,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "IconController"
+      ],
+      "world2Id": 4610
+    },
+    {
+      "class": "Script",
+      "id": 502,
+      "segments": [
+        "ServerScriptService",
+        "Worlds",
+        "WorldPortalService"
+      ],
+      "world2Id": 4612
+    },
+    {
+      "class": "Script",
+      "id": 503,
+      "segments": [
+        "ServerScriptService",
+        "Worlds",
+        "World2StageSystem"
+      ],
+      "world2Id": 4613
+    },
+    {
+      "class": "Script",
+      "id": 504,
+      "segments": [
+        "ServerScriptService",
+        "Worlds",
+        "TeleportSystem"
+      ],
+      "world2Id": 4614
+    },
+    {
+      "class": "Script",
+      "id": 505,
+      "segments": [
+        "ServerScriptService",
+        "Social",
+        "GlobalAnnouncementService"
+      ],
+      "world2Id": 4615
+    },
+    {
+      "class": "Script",
+      "id": 506,
+      "segments": [
+        "ServerScriptService",
+        "Social",
+        "PlaytimeRewards"
+      ],
+      "world2Id": 4616
+    },
+    {
+      "class": "Script",
+      "id": 507,
+      "segments": [
+        "ServerScriptService",
+        "Social",
+        "GlobalLeaderboards"
+      ],
+      "world2Id": 4617
+    },
+    {
+      "class": "Script",
+      "id": 508,
+      "segments": [
+        "ServerScriptService",
+        "Social",
+        "FirstTimeTutorial"
+      ],
+      "world2Id": 4618
+    },
+    {
+      "class": "Script",
+      "id": 509,
+      "segments": [
+        "ServerScriptService",
+        "Social",
+        "DailyLoginSystem"
+      ],
+      "world2Id": 4619
+    },
+    {
+      "class": "Script",
+      "id": 510,
+      "segments": [
+        "ServerScriptService",
+        "Social",
+        "CodesSystem"
+      ],
+      "world2Id": 4620
+    },
+    {
+      "class": "ModuleScript",
+      "id": 511,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "PadTouchService"
+      ],
+      "world2Id": 4621
+    },
+    {
+      "class": "ModuleScript",
+      "id": 512,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "DynamicCodeDefinitions"
+      ],
+      "world2Id": 4622
+    },
+    {
+      "class": "ModuleScript",
+      "id": 513,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "RemoteGuard"
+      ],
+      "world2Id": 4623
+    },
+    {
+      "class": "ModuleScript",
+      "id": 514,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "RewardPadClaims"
+      ],
+      "world2Id": 4624
+    },
+    {
+      "class": "ModuleScript",
+      "id": 519,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "StageTeleportService"
+      ],
+      "world2Id": 4629
+    },
+    {
+      "class": "ModuleScript",
+      "id": 520,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "ServerRateLimiter"
+      ],
+      "world2Id": 4630
+    },
+    {
+      "class": "ModuleScript",
+      "id": 521,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "PotionServer"
+      ],
+      "world2Id": 4631
+    },
+    {
+      "class": "ModuleScript",
+      "id": 522,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "MovementGuard"
+      ],
+      "world2Id": 4632
+    },
+    {
+      "class": "Script",
+      "id": 523,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "TreadmillTraining"
+      ],
+      "world2Id": 4634
+    },
+    {
+      "class": "Script",
+      "id": 524,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "TreadmillCollisionFix"
+      ],
+      "world2Id": 4636
+    },
+    {
+      "class": "Script",
+      "id": 525,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "RebirthSystem"
+      ],
+      "world2Id": 4637
+    },
+    {
+      "class": "Script",
+      "id": 526,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "RankReward"
+      ],
+      "world2Id": 4638
+    },
+    {
+      "class": "ModuleScript",
+      "id": 527,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "ProgressionBridge"
+      ],
+      "world2Id": 4639
+    },
+    {
+      "class": "ModuleScript",
+      "id": 528,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "PlayerStatsBridge"
+      ],
+      "world2Id": 4640
+    },
+    {
+      "class": "Script",
+      "id": 529,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "PlayerStats"
+      ],
+      "world2Id": 4641
+    },
+    {
+      "class": "Script",
+      "id": 530,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "LevelUpConfettiTemplate"
+      ],
+      "world2Id": 4642
+    },
+    {
+      "class": "Script",
+      "id": 531,
+      "segments": [
+        "ServerScriptService",
+        "Progression",
+        "LevelProgress"
+      ],
+      "world2Id": 4643
+    },
+    {
+      "class": "Script",
+      "id": 532,
+      "segments": [
+        "ServerScriptService",
+        "Infrastructure",
+        "WaterStreamingSafety"
+      ],
+      "world2Id": 4644
+    },
+    {
+      "class": "Script",
+      "id": 533,
+      "segments": [
+        "ServerScriptService",
+        "Infrastructure",
+        "AutoReconnect"
+      ],
+      "world2Id": 4645
+    },
+    {
+      "class": "Script",
+      "id": 534,
+      "segments": [
+        "ServerScriptService",
+        "Infrastructure",
+        "AnimationReplicationSync"
+      ],
+      "world2Id": 4646
+    },
+    {
+      "class": "Script",
+      "id": 535,
+      "segments": [
+        "ServerScriptService",
+        "Infrastructure",
+        "AAA_ReferenceClipLighting"
+      ],
+      "world2Id": 4647
+    },
+    {
+      "class": "Script",
+      "id": 536,
+      "segments": [
+        "ServerScriptService",
+        "Gameplay",
+        "WinPadStagePlacement"
+      ],
+      "world2Id": 4655
+    },
+    {
+      "class": "Script",
+      "id": 537,
+      "segments": [
+        "ServerScriptService",
+        "Gameplay",
+        "TogetherController"
+      ],
+      "world2Id": 4656
+    },
+    {
+      "class": "Script",
+      "id": 538,
+      "segments": [
+        "ServerScriptService",
+        "Gameplay",
+        "StageDecor"
+      ],
+      "world2Id": 4657
+    },
+    {
+      "class": "Script",
+      "id": 539,
+      "segments": [
+        "ServerScriptService",
+        "Gameplay",
+        "SpawnOutlineChecker"
+      ],
+      "world2Id": 4658
+    },
+    {
+      "class": "Script",
+      "id": 540,
+      "segments": [
+        "ServerScriptService",
+        "Gameplay",
+        "RotatingLaser"
+      ],
+      "world2Id": 4659
+    },
+    {
+      "class": "Script",
+      "id": 542,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "VipSystem"
+      ],
+      "world2Id": 4661
+    },
+    {
+      "class": "Script",
+      "id": 543,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "TrailShopSystem"
+      ],
+      "world2Id": 4662
+    },
+    {
+      "class": "Script",
+      "id": 544,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "SpeedProductPurchases"
+      ],
+      "world2Id": 4663
+    },
+    {
+      "class": "Script",
+      "id": 545,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "SkinSystem"
+      ],
+      "world2Id": 4664
+    },
+    {
+      "class": "Script",
+      "id": 546,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "AuraShopSystem"
+      ],
+      "world2Id": 4665
+    },
+    {
+      "class": "Script",
+      "id": 547,
+      "segments": [
+        "ServerScriptService",
+        "Bosses",
+        "ZoomBoss"
+      ],
+      "world2Id": 4667
+    },
+    {
+      "class": "Script",
+      "id": 548,
+      "segments": [
+        "ServerScriptService",
+        "Bosses",
+        "RemoveWallyWestBoss"
+      ],
+      "world2Id": 4668
+    },
+    {
+      "class": "Script",
+      "id": 549,
+      "segments": [
+        "ServerScriptService",
+        "Admin",
+        "ChatBoostCommands"
+      ],
+      "world2Id": 4669
+    },
+    {
+      "class": "ModuleScript",
+      "id": 550,
+      "segments": [
+        "ServerScriptService",
+        "Admin",
+        "AdminRequestValidation"
+      ],
+      "world2Id": 4670
+    },
+    {
+      "class": "Script",
+      "id": 551,
+      "segments": [
+        "ServerScriptService",
+        "Admin",
+        "AdminPanelService"
+      ],
+      "world2Id": 4671
+    },
+    {
+      "class": "Script",
+      "id": 552,
+      "segments": [
+        "ServerScriptService",
+        "Admin",
+        "AdminGiveCommands"
+      ],
+      "world2Id": 4672
+    },
+    {
+      "class": "Script",
+      "id": 553,
+      "segments": [
+        "ServerScriptService",
+        "Admin",
+        "AdminCommands"
+      ],
+      "world2Id": 4673
+    },
+    {
+      "class": "Script",
+      "id": 554,
+      "segments": [
+        "ServerScriptService",
+        "Admin",
+        "AdminAbuseServer"
+      ],
+      "world2Id": 4674
+    },
+    {
+      "class": "LocalScript",
+      "id": 1835,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "CodesModalController"
+      ],
+      "world2Id": 9511
+    },
+    {
+      "class": "LocalScript",
+      "id": 1836,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "AdminPanelController"
+      ],
+      "world2Id": 9512
+    },
+    {
+      "class": "LocalScript",
+      "id": 1837,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "UpdateLogsController"
+      ],
+      "world2Id": 9513
+    },
+    {
+      "class": "LocalScript",
+      "id": 1838,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "WalkSpeedSelector"
+      ],
+      "world2Id": 9514
+    },
+    {
+      "class": "LocalScript",
+      "id": 1839,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "VipChatTag"
+      ],
+      "world2Id": 9515
+    },
+    {
+      "class": "LocalScript",
+      "id": 1840,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "ConsoleUiScale"
+      ],
+      "world2Id": 9516
+    },
+    {
+      "class": "LocalScript",
+      "id": 1841,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "TreadmillLockPanel"
+      ],
+      "world2Id": 9517
+    },
+    {
+      "class": "LocalScript",
+      "id": 1842,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "TopbarIconsController"
+      ],
+      "world2Id": 9518
+    },
+    {
+      "class": "LocalScript",
+      "id": 1843,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "TimeGiftController"
+      ],
+      "world2Id": 9519
+    },
+    {
+      "class": "LocalScript",
+      "id": 1844,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "TeleportController"
+      ],
+      "world2Id": 9520
+    },
+    {
+      "class": "LocalScript",
+      "id": 1845,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "ShopController"
+      ],
+      "world2Id": 9521
+    },
+    {
+      "class": "LocalScript",
+      "id": 1846,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "SettingsController"
+      ],
+      "world2Id": 9522
+    },
+    {
+      "class": "LocalScript",
+      "id": 1847,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "RevivePrompt"
+      ],
+      "world2Id": 9523
+    },
+    {
+      "class": "LocalScript",
+      "id": 1848,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "RebirthController"
+      ],
+      "world2Id": 9524
+    },
+    {
+      "class": "LocalScript",
+      "id": 1849,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "RankRewardPanel"
+      ],
+      "world2Id": 9525
+    },
+    {
+      "class": "LocalScript",
+      "id": 1850,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "OverheadStats"
+      ],
+      "world2Id": 9526
+    },
+    {
+      "class": "LocalScript",
+      "id": 1851,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "MainHUDController"
+      ],
+      "world2Id": 9527
+    },
+    {
+      "class": "LocalScript",
+      "id": 1852,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "GlobalLeaderboardDisplay"
+      ],
+      "world2Id": 9528
+    },
+    {
+      "class": "LocalScript",
+      "id": 1853,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "FirstTimeTutorial"
+      ],
+      "world2Id": 9529
+    },
+    {
+      "class": "LocalScript",
+      "id": 1854,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "EvolveController"
+      ],
+      "world2Id": 9530
+    },
+    {
+      "class": "LocalScript",
+      "id": 1855,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "DailyRewardController"
+      ],
+      "world2Id": 9531
+    },
+    {
+      "class": "LocalScript",
+      "id": 1856,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "WorldsController"
+      ],
+      "world2Id": 9532
+    },
+    {
+      "class": "LocalScript",
+      "id": 1857,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "UI",
+        "AbilitiesPanel"
+      ],
+      "world2Id": 9533
+    },
+    {
+      "class": "LocalScript",
+      "id": 1858,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Movement",
+        "SpeedsterClient"
+      ],
+      "world2Id": 9534
+    },
+    {
+      "class": "LocalScript",
+      "id": 1859,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Movement",
+        "CtrlShiftLock"
+      ],
+      "world2Id": 9535
+    },
+    {
+      "class": "LocalScript",
+      "id": 1860,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Movement",
+        "WallImpactAntiFling"
+      ],
+      "world2Id": 9538
+    },
+    {
+      "class": "LocalScript",
+      "id": 1861,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Movement",
+        "InstantMovementController"
+      ],
+      "world2Id": 9539
+    },
+    {
+      "class": "LocalScript",
+      "id": 1862,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "ZoomBossAnimation"
+      ],
+      "world2Id": 9546
+    },
+    {
+      "class": "LocalScript",
+      "id": 1863,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "ZoomArenaAmbience"
+      ],
+      "world2Id": 9547
+    },
+    {
+      "class": "LocalScript",
+      "id": 1864,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "WinPadTextDistance"
+      ],
+      "world2Id": 9548
+    },
+    {
+      "class": "LocalScript",
+      "id": 1865,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "WinPadFeedback"
+      ],
+      "world2Id": 9549
+    },
+    {
+      "class": "LocalScript",
+      "id": 1866,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "TreadmillRebirthBillboardScale"
+      ],
+      "world2Id": 9550
+    },
+    {
+      "class": "LocalScript",
+      "id": 1867,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "TreadmillOverheadPerspective"
+      ],
+      "world2Id": 9551
+    },
+    {
+      "class": "LocalScript",
+      "id": 1868,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "SpeedGainPopupSoundPatch"
+      ],
+      "world2Id": 9552
+    },
+    {
+      "class": "LocalScript",
+      "id": 1869,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "RotatingLaserVisual"
+      ],
+      "world2Id": 9553
+    },
+    {
+      "class": "LocalScript",
+      "id": 1870,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "ReverseFlashBossAnimation"
+      ],
+      "world2Id": 9554
+    },
+    {
+      "class": "LocalScript",
+      "id": 1871,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "RemoteAnimatorFidelity"
+      ],
+      "world2Id": 9555
+    },
+    {
+      "class": "LocalScript",
+      "id": 1872,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "RedBallContact"
+      ],
+      "world2Id": 9556
+    },
+    {
+      "class": "LocalScript",
+      "id": 1873,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "LevelUpCelebration"
+      ],
+      "world2Id": 9557
+    },
+    {
+      "class": "LocalScript",
+      "id": 1874,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Gameplay",
+        "BoostNotifier"
+      ],
+      "world2Id": 9558
+    },
+    {
+      "class": "LocalScript",
+      "id": 1875,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Audio",
+        "SfxAudioController"
+      ],
+      "world2Id": 9559
+    },
+    {
+      "class": "LocalScript",
+      "id": 1876,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Audio",
+        "RunningAndTreadmillSound"
+      ],
+      "world2Id": 9560
+    },
+    {
+      "class": "LocalScript",
+      "id": 1877,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Audio",
+        "LeftButtonClickSoundAuthority"
+      ],
+      "world2Id": 9561
+    },
+    {
+      "class": "LocalScript",
+      "id": 1878,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Audio",
+        "BackgroundMusic"
+      ],
+      "world2Id": 9562
+    },
+    {
+      "class": "LocalScript",
+      "id": 1879,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Audio",
+        "AudioIdReset"
+      ],
+      "world2Id": 9563
+    },
+    {
+      "class": "LocalScript",
+      "id": 1880,
+      "segments": [
+        "StarterPlayer",
+        "StarterPlayerScripts",
+        "Admin",
+        "AdminAbuseClient"
+      ],
+      "world2Id": 9564
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2175,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "Math",
+        "SpeedFormula"
+      ],
+      "world2Id": 9859
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2176,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "Math",
+        "NumberFormat"
+      ],
+      "world2Id": 9860
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2177,
+      "segments": [
+        "ReplicatedStorage",
+        "Shared",
+        "Catalogs",
+        "CodesCatalog"
+      ],
+      "world2Id": 9861
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2195,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "Themes",
+        "Default"
+      ],
+      "world2Id": 9879
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2196,
+      "segments": [
+        "ReplicatedStorage",
+        "Icon",
+        "Themes",
+        "BlueGradient"
+      ],
+      "world2Id": 9880
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2197,
+      "segments": [
+        "ServerScriptService",
+        "Core",
+        "Abilities",
+        "FlightService"
+      ],
+      "world2Id": 9881
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2198,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Stats",
+        "StatsService"
+      ],
+      "world2Id": 9882
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2199,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Stats",
+        "StatsProjection"
+      ],
+      "world2Id": 9883
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2200,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Stats",
+        "CharacterStatsAdapter"
+      ],
+      "world2Id": 9884
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2201,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Monetization",
+        "ReceiptLedger"
+      ],
+      "world2Id": 9885
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2202,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Monetization",
+        "ProductRegistry"
+      ],
+      "world2Id": 9886
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2203,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Monetization",
+        "MonetizationService"
+      ],
+      "world2Id": 9887
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2204,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "SessionLease"
+      ],
+      "world2Id": 9888
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2205,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "SessionActor"
+      ],
+      "world2Id": 9889
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2206,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "SaveCoordinator"
+      ],
+      "world2Id": 9890
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2207,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "RetryPolicy"
+      ],
+      "world2Id": 9891
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2208,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "ProfileReducers"
+      ],
+      "world2Id": 9892
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2209,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "ProfileCodec"
+      ],
+      "world2Id": 9893
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2210,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "DataStoreAdapter"
+      ],
+      "world2Id": 9894
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2211,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Data",
+        "DataService"
+      ],
+      "world2Id": 9895
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2212,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Buffs",
+        "BuffService"
+      ],
+      "world2Id": 9896
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2213,
+      "segments": [
+        "ServerScriptService",
+        "Services",
+        "Buffs",
+        "BuffRules"
+      ],
+      "world2Id": 9897
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2214,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "Cosmetics",
+        "CosmeticTemplateBuilder"
+      ],
+      "world2Id": 9898
+    },
+    {
+      "class": "ModuleScript",
+      "id": 2215,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "Cosmetics",
+        "CosmeticService"
+      ],
+      "world2Id": 9899
+    },
+    {
+      "class": "Script",
+      "id": 2216,
+      "segments": [
+        "ServerScriptService",
+        "Economy",
+        "Cosmetics",
+        "CosmeticBootstrap"
+      ],
+      "world2Id": 9900
+    },
+    {
+      "class": "Script",
+      "desertSource": "script.Parent.Touched:connect(function(hit)\n\tif hit and hit.Parent and hit.Parent:FindFirstChild(\"Humanoid\") then\n\t\thit.Parent.Humanoid.Health = 0\n\tend\nend)\n-- this script will kill players that touch the block",
+      "id": 6891,
+      "segments": [
+        "Workspace",
+        "Stage 4",
+        "Folder",
+        "Lava",
+        "Kill script"
+      ]
+    },
+    {
+      "class": "Script",
+      "desertSource": "script.Parent.Touched:connect(function(hit)\n\tif hit and hit.Parent and hit.Parent:FindFirstChild(\"Humanoid\") then\n\t\thit.Parent.Humanoid.Health = 0\n\tend\nend)\n-- this script will kill players that touch the block",
+      "id": 6994,
+      "segments": [
+        "Workspace",
+        "Stage 4",
+        "Folder",
+        "Lava",
+        "Kill script"
+      ]
+    },
+    {
+      "class": "Script",
+      "desertSource": "script.Parent.Touched:connect(function(hit)\n\tif hit and hit.Parent and hit.Parent:FindFirstChild(\"Humanoid\") then\n\t\thit.Parent.Humanoid.Health = 0\n\tend\nend)\n-- this script will kill players that touch the block",
+      "id": 7590,
+      "segments": [
+        "Workspace",
+        "Stage 6",
+        "Parkour",
+        "Lava",
+        "Kill script"
+      ]
+    },
+    {
+      "class": "Script",
+      "desertSource": "local conveyor = script.Parent\nlocal beam = conveyor:FindFirstChild(\"Beam\")\nlocal speed = script.Parent.Speed.Value\n\nconveyor.Velocity = script.Parent.CFrame.LookVector * speed\nconveyor.FrontSurface = \"Studs\"\nscript:Remove()\n\nbeam.TextureSpeed = speed / beam.TextureLength\n",
+      "id": 7637,
+      "segments": [
+        "Workspace",
+        "Stage 6",
+        "Parkour",
+        "Conveyor",
+        "Script"
+      ]
+    },
+    {
+      "class": "Script",
+      "desertSource": "local conveyor = script.Parent\nlocal beam = conveyor:FindFirstChild(\"Beam\")\nlocal speed = script.Parent.Speed.Value\n\nconveyor.Velocity = script.Parent.CFrame.LookVector * speed\nconveyor.FrontSurface = \"Studs\"\nscript:Remove()\n\nbeam.TextureSpeed = speed / beam.TextureLength\n",
+      "id": 10966,
+      "segments": [
+        "Workspace",
+        "Stage 10",
+        "Action Parts",
+        "Model",
+        "Conveyor",
+        "Script"
+      ]
+    },
+    {
+      "class": "Script",
+      "desertSource": "script.Parent.Touched:Connect(function(hit)\n\tif hit.Parent:FindFirstChild(\"Humanoid\") then\n\t\thit.Parent:FindFirstChild(\"Humanoid\").Sit = true\n\tend\nend)",
+      "id": 22215,
+      "segments": [
+        "Workspace",
+        "Stage 6",
+        "Pyramid",
+        "Pyramid",
+        "Smooth Block Model",
+        "Script"
+      ]
+    }
+  ],
+  "world2InputSha256": "a143551249db84a22b380c8b0764904cc9c923cad01c91a5ca1d9ca2135a96c0"
+}

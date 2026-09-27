@@ -1,0 +1,44 @@
+{
+  "timestamp": "2026-09-19T19:32:39Z",
+  "worlds": {
+    "World1": {
+      "bytes": 2756667,
+      "compiledScripts": 281,
+      "file": "World1Update3New.rbxl",
+      "streaming": {
+        "clientAnimatorThrottling": "Disabled",
+        "integrity": "Disabled",
+        "minRadius": 512,
+        "streamOut": "LowMemory",
+        "targetRadius": 1024
+      },
+      "unanchoredFixed": 0
+    },
+    "World2": {
+      "bytes": 2433506,
+      "compiledScripts": 328,
+      "file": "World2Update3new.rbxl",
+      "streaming": {
+        "clientAnimatorThrottling": "Disabled",
+        "integrity": "Disabled",
+        "minRadius": 512,
+        "streamOut": "LowMemory",
+        "targetRadius": 1024
+      },
+      "unanchoredFixed": 0
+    },
+    "World3": {
+      "bytes": 2703998,
+      "compiledScripts": 269,
+      "file": "World3Update3New.rbxl",
+      "streaming": {
+        "clientAnimatorThrottling": "Disabled",
+        "integrity": "Disabled",
+        "minRadius": 512,
+        "streamOut": "LowMemory",
+        "targetRadius": 1024
+      },
+      "unanchoredFixed": 44
+    }
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "World1": {
+    "differentFromMerged": {},
+    "duplicateScriptPaths": {
+      "Workspace.neworld1.Lava.Kill script": 4
+    },
+    "file": "World1 Speedtercorrect.rbxl",
+    "instances": 26913,
+    "rankGuiInStarter": true,
+    "scripts": 176,
+    "world": 1
+  },
+  "World2": {
+    "differentFromMerged": [
+      "ReplicatedStorage.AdminBannerConfig",
+      "ServerScriptService.Bootstrap",
+      "StarterGui.Messages.MessageHandler",
+      "ReplicatedStorage.Shared.MenuPanelLayout",
+      "ReplicatedStorage.Shared.MenuEvents",
+      "ReplicatedStorage.Shared.ConsolePanelSupport",
+      "ServerScriptService.Worlds.WorldPortalService",
+      "ServerScriptService.Worlds.World2StageSystem",
+      "ServerScriptService.Social.CodesSystem",
+      "ServerScriptService.Services.StageTeleportService",
+      "ServerScriptService.Services.PotionServer",
+      "ServerScriptService.Progression.RebirthSystem",
+      "ServerScriptService.Progression.PlayerStatsBridge",
+      "ServerScriptService.Progression.PlayerStats",
+      "ServerScriptService.Gameplay.World2FlightAbility",
+      "ServerScriptService.Gameplay.World2ManualStagePads",
+      "ServerScriptService.Gameplay.World2StageTeleportService",
+      "ServerScriptService.Gameplay.RotatingLaser",
+      "ServerScriptService.Admin.AdminAbuseServer",
+      "StarterPlayer.StarterPlayerScripts.UI.UpdateLogsController",
+      "StarterPlayer.StarterPlayerScripts.UI.ConsoleUiScale",
+      "StarterPlayer.StarterPlayerScripts.UI.TreadmillLockPanel",
+      "StarterPlayer.StarterPlayerScripts.UI.TopbarIconsController",
+      "StarterPlayer.StarterPlayerScripts.UI.TimeGiftController",
+      "StarterPlayer.StarterPlayerScripts.UI.TeleportController",
+      "StarterPlayer.StarterPlayerScripts.UI.SettingsController",
+      "StarterPlayer.StarterPlayerScripts.UI.RebirthController",
+      "StarterPlayer.StarterPlayerScripts.UI.RankRewardPanel",
+      "StarterPlayer.StarterPlayerScripts.UI.MainHUDController",
+      "StarterPlayer.StarterPlayerScripts.UI.EvolveController",
+      "StarterPlayer.StarterPlayerScripts.UI.AbilitiesPanel",
+      "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient",
+      "StarterPlayer.StarterPlayerScripts.Movement.CtrlShiftLock",
+      "StarterPlayer.StarterPlayerScripts.Movement.World2SpeedForce",
+      "StarterPlayer.StarterPlayerScripts.Movement.World2FlightAbility",
+      "StarterPlayer.StarterPlayerScripts.Gameplay.BoostNotifier",
+      "StarterPlayer.StarterPlayerScripts.Admin.AdminAbuseClient",
+      "ReplicatedStorage.Shared.Catalogs.CodesCatalog",
+      "ServerScriptService.Services.Stats.StatsProjection",
+      "ServerScriptService.Services.Data.SessionActor",
+      "ServerScriptService.Services.Data.ProfileReducers",
+      "ServerScriptService.Services.Data.ProfileCodec"
+    ],
+    "duplicateScriptPaths": {
+      "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script": 9,
+      "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script": 6,
+      "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script": 10,
+      "Workspace.Conveyor.Script": 12,
+      "Workspace.FadingPart.FadingScript": 10,
+      "Workspace.Lava.Kill script": 9
+    },
+    "file": "World2Old has to be synced with world1updated the p[ad bug still.rbxl",
+    "instances": 15174,
+    "rankGuiInStarter": true,
+    "scripts": 221,
+    "world": 2
+  }
+}

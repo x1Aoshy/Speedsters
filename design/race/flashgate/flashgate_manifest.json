@@ -1,0 +1,356 @@
+{
+ "generator": "audit/flash_gate_bpy.py",
+ "fbx": "FlashGateKit.fbx",
+ "savedModel": "FlashGateKit.rbxm",
+ "units": "1 unit = 1 stud; FBX UnitScaleFactor 1.0 (the Green Hill kit settings: Studio Import 3D, Scale Unit Stud, gives 1:1)",
+ "axes": "Roblox gate frame: x = the gate's right, y up from the floor, -z toward the players (Blender +Y); FBX -Z forward, Y up",
+ "pivot": "every piece: the gate origin, the floor point under the arch centre (identity transforms); an imported MeshPart's PivotOffset.Position is -bboxCenterOffset turned by the import's turn",
+ "placement": "part.CFrame = gateCFrame * CFrame.new(bboxCenterOffset) * CFrame.Angles(0, -importTurn, 0); part.Size = size (RaceArenaBuilder.BuildGate, Shared/MeshKitImport)",
+ "noTextures": "no textures or UV-dependent look: the builder sets Color, Material, Reflectance from here",
+ "totalTris": 23140,
+ "budgetTris": 25000,
+ "gate": {
+  "inner": 9.3,
+  "outer": 12.5,
+  "leg": 1.0,
+  "depth": 2.6,
+  "bandInner": 10.3,
+  "bandOuter": 11.5,
+  "medallionCentreY": 12.3,
+  "rim": 1.95,
+  "rimInner": 1.5,
+  "padRadius": 6.6,
+  "padTop": 0.22,
+  "medallionGlow": {
+   "centre": [
+    0.0,
+    12.3,
+    0.0
+   ],
+   "radius": 2.25,
+   "depth": 1.2
+  },
+  "legSplitDegrees": 20.0,
+  "bandTipDegrees": 75.0,
+  "width": 25.001,
+  "height": 13.5,
+  "medallionTop": 14.25,
+  "archDepth": 3.6,
+  "opening": 18.6
+ },
+ "pieces": [
+  {
+   "name": "FG_ArchRed",
+   "group": "Arch",
+   "size": [
+    23.492,
+    9.319,
+    3.0
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    8.84,
+    0.0
+   ],
+   "color": [
+    210,
+    28,
+    46
+   ],
+   "colorName": "Red",
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "castShadow": true,
+   "canCollide": false,
+   "tris": 5296,
+   "verts": 2682,
+   "renderVerts": 2844,
+   "note": "the red arch from 20 to 160 degrees, with the raised lip under the medallion"
+  },
+  {
+   "name": "FG_LegL",
+   "group": "Arch",
+   "size": [
+    3.761,
+    5.275,
+    2.6
+   ],
+   "bboxCenterOffset": [
+    -10.62,
+    2.638,
+    0.0
+   ],
+   "color": [
+    210,
+    28,
+    46
+   ],
+   "colorName": "Red",
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "castShadow": true,
+   "canCollide": true,
+   "tris": 608,
+   "verts": 353,
+   "renderVerts": 363,
+   "note": "the arch's foot on the gate's left (-x, the viewer's right): floor to 20 degrees; collides"
+  },
+  {
+   "name": "FG_LegR",
+   "group": "Arch",
+   "size": [
+    3.761,
+    5.275,
+    2.6
+   ],
+   "bboxCenterOffset": [
+    10.62,
+    2.638,
+    0.0
+   ],
+   "color": [
+    210,
+    28,
+    46
+   ],
+   "colorName": "Red",
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "castShadow": true,
+   "canCollide": true,
+   "tris": 608,
+   "verts": 353,
+   "renderVerts": 363,
+   "note": "the arch's foot on the gate's right (+x, the viewer's left): floor to 20 degrees; collides"
+  },
+  {
+   "name": "FG_BandGold",
+   "group": "Arch",
+   "size": [
+    23.0,
+    11.957,
+    3.04
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    5.978,
+    0.0
+   ],
+   "color": [
+    234,
+    178,
+    52
+   ],
+   "colorName": "Gold",
+   "material": "SmoothPlastic",
+   "reflectance": 0.2,
+   "castShadow": true,
+   "canCollide": false,
+   "tris": 3748,
+   "verts": 1930,
+   "renderVerts": 2068,
+   "note": "the gold band set into both faces, floor to its rounded ends short of the medallion"
+  },
+  {
+   "name": "FG_MedallionRim",
+   "group": "Medallion",
+   "size": [
+    3.9,
+    3.9,
+    3.3
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    12.3,
+    0.0
+   ],
+   "color": [
+    234,
+    178,
+    52
+   ],
+   "colorName": "Gold",
+   "material": "SmoothPlastic",
+   "reflectance": 0.25,
+   "castShadow": true,
+   "canCollide": false,
+   "tris": 4032,
+   "verts": 2016,
+   "renderVerts": 2117,
+   "note": "the medallion's glossy gold rim"
+  },
+  {
+   "name": "FG_MedallionFace",
+   "group": "Medallion",
+   "size": [
+    3.12,
+    3.12,
+    3.08
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    12.3,
+    0.0
+   ],
+   "color": [
+    255,
+    240,
+    200
+   ],
+   "colorName": "Cream",
+   "material": "SmoothPlastic",
+   "reflectance": 0.05,
+   "castShadow": true,
+   "canCollide": false,
+   "tris": 1728,
+   "verts": 1010,
+   "renderVerts": 1128,
+   "note": "the medallion's cream face, gently domed on both sides"
+  },
+  {
+   "name": "FG_BoltEdge",
+   "group": "Medallion",
+   "size": [
+    2.2,
+    5.2,
+    3.44
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    12.3,
+    0.0
+   ],
+   "color": [
+    234,
+    178,
+    52
+   ],
+   "colorName": "Gold",
+   "material": "SmoothPlastic",
+   "reflectance": 0.25,
+   "castShadow": false,
+   "canCollide": false,
+   "tris": 232,
+   "verts": 264,
+   "renderVerts": 264,
+   "note": "the bolt's raised gold edge: a plate on the front (its tips past the rim) and a smaller one on the back"
+  },
+  {
+   "name": "FG_Bolt",
+   "group": "Medallion",
+   "size": [
+    1.857,
+    4.203,
+    3.6
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    12.3,
+    0.0
+   ],
+   "color": [
+    255,
+    205,
+    40
+   ],
+   "colorName": "Bolt",
+   "material": "Neon",
+   "reflectance": 0.0,
+   "castShadow": false,
+   "canCollide": false,
+   "tris": 232,
+   "verts": 264,
+   "renderVerts": 264,
+   "note": "the bolt's glowing core, inset 0.09 and 0.08 higher than its gold edge (both faces)"
+  },
+  {
+   "name": "FG_PadDisc",
+   "group": "RingPad",
+   "size": [
+    13.2,
+    0.22,
+    13.2
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.11,
+    0.0
+   ],
+   "color": [
+    16,
+    26,
+    48
+   ],
+   "colorName": "PadDark",
+   "material": "SmoothPlastic",
+   "reflectance": 0.1,
+   "castShadow": false,
+   "canCollide": false,
+   "tris": 1536,
+   "verts": 866,
+   "renderVerts": 1001,
+   "note": "the sign-up pad's dark disc with a rounded edge"
+  },
+  {
+   "name": "FG_PadRingCyan",
+   "group": "RingPad",
+   "size": [
+    12.6,
+    0.285,
+    12.6
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.28,
+    0.0
+   ],
+   "color": [
+    0,
+    225,
+    255
+   ],
+   "colorName": "Cyan",
+   "material": "Neon",
+   "reflectance": 0.0,
+   "castShadow": false,
+   "canCollide": false,
+   "tris": 3200,
+   "verts": 1600,
+   "renderVerts": 1782,
+   "note": "the outer and inner cyan rings"
+  },
+  {
+   "name": "FG_PadRingGold",
+   "group": "RingPad",
+   "size": [
+    9.6,
+    0.323,
+    9.6
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.29,
+    0.0
+   ],
+   "color": [
+    255,
+    193,
+    37
+   ],
+   "colorName": "NeonGold",
+   "material": "Neon",
+   "reflectance": 0.0,
+   "castShadow": false,
+   "canCollide": false,
+   "tris": 1920,
+   "verts": 960,
+   "renderVerts": 1067,
+   "note": "the middle gold ring"
+  }
+ ],
+ "fbxReimportCheck": {
+  "objects": 11,
+  "worstSizeErrorStuds": 0.00048,
+  "trianglesMatch": true
+ }
+}

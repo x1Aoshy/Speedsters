@@ -1,0 +1,30 @@
+{
+  "backup": "output/Backup_TreadmillLoop_20260919_215007",
+  "output": "output/TreadmillLoop_Fixed_20260919_215007",
+  "worlds": {
+    "World1": {
+      "file": "World1Update3New.rbxl",
+      "instances": 31330,
+      "scripts": [
+        "ServerScriptService.Progression.TreadmillTraining",
+        "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient"
+      ]
+    },
+    "World2": {
+      "file": "World2Update3new.rbxl",
+      "instances": 19511,
+      "scripts": [
+        "ServerScriptService.Progression.TreadmillTraining",
+        "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient"
+      ]
+    },
+    "World3": {
+      "file": "World3Update3New.rbxl",
+      "instances": 45364,
+      "scripts": [
+        "ServerScriptService.Progression.TreadmillTraining",
+        "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient"
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+PASS panel layout: header, scope toggle, sidebar, seven tabs and every card the brief lists
+PASS safety: permission first, rate limit, filtered text, admins protected, cross-server dedupe
+PASS effects: every client-side effect has a handler
+PASS Remove Speed: persistent, floored at zero, rejects bad amounts
+PASS ResetStats: sets Speed=1, Wins=0, Rebirths=0 in durable store
+PASS SetStat, DebitStat, and WipeProfile: full data mutations verified
+PASS Snow: lava (texture, glow and all) turns to ice and spares players on every client, deaths always respawn, decor stays, bosses freeze, and everything thaws back exactly
+C:\Users\Aoshy´\Desktop\Update2\audit/review_20260919/test_admin_abuse_panel_baseline:384: World2: the dance floor is flat lobby floor (464/480)
+[Stack Begin]
+    Script '[C]' - function 'assert'
+    Script 'C:\Users\Aoshy´\Desktop\Update2\audit/review_20260919/test_admin_abuse_panel_baseline', Line 384
+[Stack End]
+

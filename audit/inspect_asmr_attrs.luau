@@ -1,0 +1,1 @@
+local fs=require('@lune/fs');local r=require('@lune/roblox');local g=r.deserializePlace(fs.readFile('audit/incoming_gemini_network/World2/input.rbxl'));for _,i in g:GetDescendants()do if i:IsA('Script') and i.Parent.Name=='Butter' then local ok,v=pcall(function()return i.AttributesSerialize end);print(ok,v); print(i:GetAttributes());break end end

@@ -1,0 +1,4 @@
+PASS 3 simulated servers: subscription recovers, 5 events + stop, abuse targets, boosts, announcements, treadmills/reveal/clear and music
+PASS publish accepted then timed out: retry uses same ID, no doubled effects, origin does not replay itself
+PASS stale global message rejected
+PASS actual request handler: This Server publishes nothing; All Servers publishes all 10 tested actions; UI scope matches

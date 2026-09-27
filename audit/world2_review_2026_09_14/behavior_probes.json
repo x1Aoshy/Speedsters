@@ -1,0 +1,80 @@
+{
+  "checks": [
+    "Live: eligible first final claim accepted",
+    "Live: second final claim rejected before 180 seconds",
+    "Live: final cooldown expires at 180 seconds",
+    "Live: skipped sampled stage blocks stage-3 reward",
+    "Live: rejected stage jump leaves progress at 1",
+    "Live: remaining at skipped stage re-arms block after 45 seconds",
+    "Studio: same blocked player passes CanClaim",
+    "Live: character reset does not remove final cooldown"
+  ],
+  "speed": [
+    {
+      "candidateGlideHorizontal": 45,
+      "candidatePoweredHorizontal": 35,
+      "currentGlideHorizontal": 45,
+      "currentPoweredHorizontal": 35,
+      "currentWorld1": 8,
+      "currentWorld2": 8,
+      "legacyHelperWorld2": 2.6666666666666665,
+      "oneThirdCandidate": 2.6666666666666665,
+      "raw": 1
+    },
+    {
+      "candidateGlideHorizontal": 45,
+      "candidatePoweredHorizontal": 35,
+      "currentGlideHorizontal": 64.59659727557727,
+      "currentPoweredHorizontal": 35,
+      "currentWorld1": 51.59884757215214,
+      "currentWorld2": 51.59884757215214,
+      "legacyHelperWorld2": 17.199615857384046,
+      "oneThirdCandidate": 17.199615857384046,
+      "raw": 1000000
+    },
+    {
+      "candidateGlideHorizontal": 45,
+      "candidatePoweredHorizontal": 35,
+      "currentGlideHorizontal": 132.82334387004883,
+      "currentPoweredHorizontal": 35,
+      "currentWorld1": 106.0974070373423,
+      "currentWorld2": 106.0974070373423,
+      "legacyHelperWorld2": 35.365802345780764,
+      "oneThirdCandidate": 35.365802345780764,
+      "raw": 1000000000
+    },
+    {
+      "candidateGlideHorizontal": 76.11359636743634,
+      "candidatePoweredHorizontal": 35,
+      "currentGlideHorizontal": 228.34078910230906,
+      "currentPoweredHorizontal": 57.47278747994056,
+      "currentWorld1": 182.39539028860855,
+      "currentWorld2": 182.39539028860855,
+      "legacyHelperWorld2": 60.798463429536184,
+      "oneThirdCandidate": 60.798463429536184,
+      "raw": 1000000000000
+    },
+    {
+      "candidateGlideHorizontal": 125.19,
+      "candidatePoweredHorizontal": 35,
+      "currentGlideHorizontal": 375.57,
+      "currentPoweredHorizontal": 94.53,
+      "currentWorld1": 300,
+      "currentWorld2": 300,
+      "legacyHelperWorld2": 100,
+      "oneThirdCandidate": 100,
+      "raw": 3370000000000000
+    },
+    {
+      "candidateGlideHorizontal": 167.08259182673177,
+      "candidatePoweredHorizontal": 42.054257276622074,
+      "currentGlideHorizontal": 501.2477754801953,
+      "currentPoweredHorizontal": 126.16277182986622,
+      "currentWorld1": 400.3896281493692,
+      "currentWorld2": 400.3896281493692,
+      "legacyHelperWorld2": 133.46320938312306,
+      "oneThirdCandidate": 133.46320938312306,
+      "raw": 1000000000000000000
+    }
+  ]
+}

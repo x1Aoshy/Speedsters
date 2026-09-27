@@ -1,0 +1,2 @@
+# keep every file byte-for-byte (.rbxl/.rbxm/.wav are binary; scripts compare sources exactly)
+* -text

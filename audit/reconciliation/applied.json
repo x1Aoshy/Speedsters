@@ -1,0 +1,74 @@
+[
+  {
+    "path": "ServerScriptService.Services.StageTeleportService",
+    "world": "World1"
+  },
+  {
+    "path": "ServerScriptService.Services.MovementGuard",
+    "world": "World1"
+  },
+  {
+    "path": "ServerScriptService.Bosses.ZoomBoss",
+    "world": "World1"
+  },
+  {
+    "path": "ServerScriptService.Bosses.ReverseFlashBoss",
+    "world": "World1"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.AsmrEffectsClient",
+    "world": "World2"
+  },
+  {
+    "path": "ServerScriptService.Services.MovementGuard",
+    "world": "World2"
+  },
+  {
+    "path": "ServerScriptService.Gameplay.World2StageTeleportService",
+    "world": "World2"
+  },
+  {
+    "path": "ServerScriptService.Gameplay.TogetherController",
+    "world": "World2"
+  },
+  {
+    "path": "ServerScriptService.Bosses.World2SonicEXEBoss",
+    "world": "World2"
+  },
+  {
+    "path": "ServerScriptService.Bosses.ZoomBoss",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.FadingPlatformsClient",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2SonicEXEBoss",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2TreeSlammers",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ZoomBossAnimation",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ZoomArenaAmbience",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.WinPadTextDistance",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.TreadmillRebirthBillboardScale",
+    "world": "World2"
+  },
+  {
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.TreadmillOverheadPerspective",
+    "world": "World2"
+  }
+]

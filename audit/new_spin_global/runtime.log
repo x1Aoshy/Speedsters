@@ -1,0 +1,10 @@
+PASS constructed QuestController
+[AfkRewardsController] ready on the designer's Earnings panel
+PASS constructed AfkRewardsController
+PASS constructed AdminPanelController
+PASS live UI event routes; quests/afk build in Studio and are gated off live; the old admin panel is retired
+PASS AFK Mode opens the clean designer Earnings panel as its overlay: time, Speed, Spin Tickets, countdowns, Exit AFK
+PASS real AFK service: preview accounts on live servers, everyone in Studio
+PASS shatter: gated by the preview gate, inert on a live server
+PASS real quest service: preview accounts on live servers, everyone in Studio
+PASS Choose Your Destiny: real service and the designer panel - countdown, pick with confirm, glow and live bars, pulsing Claim!, pays once with confetti, phone scroll, new day new pick

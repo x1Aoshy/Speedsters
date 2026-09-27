@@ -1,0 +1,4 @@
+PASS remotes: nothing fires a remote every frame (4 guarded per-frame reports reviewed)
+PASS replication: stamina at 4 Hz on change, Speed at 2 Hz, the safe zone at 7 Hz, cosmetics enabled once
+PASS LOD: other players' auras and trails at full rate within 75 studs, 30% to 150, none beyond; your own always full
+PASS local effects: fewer, lighter afterimages and a slower disco floor on phones; nothing left in the world after a respawn

@@ -1,0 +1,5 @@
+-- AdminPanelController (retired)
+-- The old admin panel (SpeedsterAdminPanelGui) is gone. Admins have one panel: the Admin
+-- Abuse Panel (Admin/AdminAbusePanelController), opened from its topbar icon, with F2, or
+-- with /admin in chat. The build keeps every script the places were authored with, so this
+-- one stays in the place and does nothing.

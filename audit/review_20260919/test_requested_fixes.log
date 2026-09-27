@@ -1,0 +1,3 @@
+PASS actual popup worker survives 8 hide/show cycles without losing or replaying gains
+PASS actual treadmill stop/resume preserves particle emission
+PASS three new codes plus BOOST: unique markers, temporary 2x rewards, no progression skips

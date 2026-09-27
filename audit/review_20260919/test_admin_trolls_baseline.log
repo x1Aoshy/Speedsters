@@ -1,0 +1,10 @@
+PASS Snail: a 2.5 stud/s crawl for the chosen seconds, a snail sign and slime for everyone, the real speed back when it ends
+PASS Fake Reset: the HUD reads 0 with a glitch and a fake error for six seconds, then confetti, who did it, and the latest real numbers; nothing sent or saved
+attempt to index nil with 'FindFirstChild'
+[Stack Begin]
+    Script 'luau.load(...)', Line 81
+    Script 'C:\Users\Aoshy´\Desktop\Update2\audit/review_20260919/test_admin_trolls_baseline', Line 364
+    Script 'luau.load(...)', Line 347
+    Script 'C:\Users\Aoshy´\Desktop\Update2\audit/review_20260919/test_admin_trolls_baseline', Line 386
+[Stack End]
+

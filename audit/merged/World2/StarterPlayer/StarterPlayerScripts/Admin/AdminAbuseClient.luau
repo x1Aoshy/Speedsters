@@ -1,0 +1,6 @@
+-- AdminAbuseClient (retired)
+-- The first admin abuse client drove the designer's old panel (ServerStorage.AdminAbusePanelGui,
+-- which the server no longer hands out). Admins have one panel now: the Admin Abuse Panel
+-- (Admin/AdminAbusePanelController). The build keeps every script the places were authored
+-- with, so this one stays in the place and does nothing. It must not touch PlayerGui: the
+-- new panel's ScreenGui has the old one's name.

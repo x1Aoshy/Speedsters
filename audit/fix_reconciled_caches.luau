@@ -1,0 +1,20 @@
+local fs = require('@lune/fs')
+local function edit(path, transform)
+ local source = fs.readFile(path):gsub('\r\n', '\n')
+ fs.writeFile(path, transform(source))
+end
+edit('audit/merged/World1/ServerScriptService/Services/StageTeleportService.luau', function(s)
+ s = s:gsub('local cachedStagePositions = {}\n', '', 1)
+ s = s:gsub('\tstageNumber = math.floor%(tonumber%(stageNumber%) or 0%)\n\tif cachedStagePositions%[stageNumber%] then return cachedStagePositions%[stageNumber%] end\n', '', 1)
+ return s
+end)
+edit('audit/merged/World2/ServerScriptService/Gameplay/World2StageTeleportService.luau', function(s)
+ s = s:gsub('local cachedStagePositions = {}\n\n', '', 1)
+ s = s:gsub('\tstage = math.floor%(tonumber%(stage%) or 0%)\n\tif cachedStagePositions%[stage%] then\n\t\treturn cachedStagePositions%[stage%]\n\tend\n', '', 1)
+ s = s:gsub('\tif res then cachedStagePositions%[stage%] = res end\n', '', 1)
+ return s
+end)
+edit('audit/merged/World2/StarterPlayer/StarterPlayerScripts/Gameplay/World2TreeSlammers.luau', function(s)
+ return (s:gsub('local function rebuildTreePartCache%(%)\n', 'local function rebuildTreePartCache()\n\ttable.clear(treeBasePositions) -- Discard positions of streamed-out/destroyed trees.\n', 1))
+end)
+print('Removed stale/unused position caches; retained indexed target lookup and tree distance cache')

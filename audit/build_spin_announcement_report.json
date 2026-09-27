@@ -1,0 +1,29 @@
+{
+  "applied": {},
+  "worlds": {
+    "World1": {
+      "allOtherPropertiesPreserved": true,
+      "compiledScripts": 281,
+      "file": "World1Update3New.rbxl",
+      "inputSha256": "9a8cf002f3be1d3336570640755188f862184e47267d8457f9c6673996364ed1",
+      "outputSha256": "0f9631b0d5f0c9388a84cc4aeb6e5a735f669cb8cb5e7714537deaa255adc7c5",
+      "updatedScriptCount": 5
+    },
+    "World2": {
+      "allOtherPropertiesPreserved": true,
+      "compiledScripts": 328,
+      "file": "World2Update3new.rbxl",
+      "inputSha256": "959f7d8eb0d0619695a1bac23b9bd7c7acd65c8bd52cbfd81f578b0ae051b223",
+      "outputSha256": "2d5387336bb77794c45e11494164dcb6dd1cad3990e8e1c8c982472dace62b2a",
+      "updatedScriptCount": 8
+    },
+    "World3": {
+      "allOtherPropertiesPreserved": true,
+      "compiledScripts": 269,
+      "file": "World3Update3New.rbxl",
+      "inputSha256": "65b5a6f719f11151b8576326760260936ad46bdffe87fabe0bdf8a0850842a12",
+      "outputSha256": "b41317a242385797cfb687644919aa4b9cad4bf351fac66798b39e5a5b3478a0",
+      "updatedScriptCount": 5
+    }
+  }
+}

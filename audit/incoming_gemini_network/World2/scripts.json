@@ -1,0 +1,1358 @@
+[
+  {
+    "class": "LocalScript",
+    "file": "588.luau",
+    "id": 588,
+    "path": "ReplicatedFirst.LegacyRunControllerCleanup"
+  },
+  {
+    "class": "LocalScript",
+    "file": "589.luau",
+    "id": 589,
+    "path": "ReplicatedFirst.SpawnFloorSurfaceFix"
+  },
+  {
+    "class": "LocalScript",
+    "file": "590.luau",
+    "id": 590,
+    "path": "ReplicatedFirst.LoadingScreen"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "633.luau",
+    "id": 633,
+    "path": "ReplicatedStorage.Icon"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "634.luau",
+    "id": 634,
+    "path": "ReplicatedStorage.AdminBannerConfig"
+  },
+  {
+    "class": "Script",
+    "file": "644.luau",
+    "id": 644,
+    "path": "ServerScriptService.Bootstrap"
+  },
+  {
+    "class": "Script",
+    "file": "657.luau",
+    "id": 657,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "661.luau",
+    "id": 661,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "682.luau",
+    "id": 682,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "693.luau",
+    "id": 693,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "698.luau",
+    "id": 698,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "700.luau",
+    "id": 700,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "705.luau",
+    "id": 705,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "710.luau",
+    "id": 710,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "729.luau",
+    "id": 729,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "746.luau",
+    "id": 746,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "779.luau",
+    "id": 779,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "782.luau",
+    "id": 782,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "807.luau",
+    "id": 807,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "847.luau",
+    "id": 847,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "857.luau",
+    "id": 857,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "871.luau",
+    "id": 871,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "888.luau",
+    "id": 888,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "895.luau",
+    "id": 895,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "967.luau",
+    "id": 967,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "968.luau",
+    "id": 968,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "987.luau",
+    "id": 987,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "1018.luau",
+    "id": 1018,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "1035.luau",
+    "id": 1035,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "1045.luau",
+    "id": 1045,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "1065.luau",
+    "id": 1065,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "1184.luau",
+    "id": 1184,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "1268.luau",
+    "id": 1268,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "file": "1323.luau",
+    "id": 1323,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "1443.luau",
+    "id": 1443,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "1444.luau",
+    "id": 1444,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "file": "1724.luau",
+    "id": 1724,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4399.luau",
+    "id": 4399,
+    "path": "Workspace.BestRunAnimR6.README"
+  },
+  {
+    "class": "Script",
+    "file": "4424.luau",
+    "id": 4424,
+    "path": "StarterPlayer.StarterCharacterScripts.R6DeathRagdoll"
+  },
+  {
+    "class": "Script",
+    "file": "4425.luau",
+    "id": 4425,
+    "path": "StarterPlayer.StarterCharacterScripts.R6AnimatorAuthority"
+  },
+  {
+    "class": "LocalScript",
+    "file": "4426.luau",
+    "id": 4426,
+    "path": "StarterPlayer.StarterCharacterScripts.R15SpeedsterRun"
+  },
+  {
+    "class": "LocalScript",
+    "file": "4427.luau",
+    "id": 4427,
+    "path": "StarterPlayer.StarterCharacterScripts.Animate"
+  },
+  {
+    "class": "LocalScript",
+    "file": "4459.luau",
+    "id": 4459,
+    "path": "StarterGui.Messages.MessageHandler"
+  },
+  {
+    "class": "LocalScript",
+    "file": "4469.luau",
+    "id": 4469,
+    "path": "StarterGui.Index.IndexScript"
+  },
+  {
+    "class": "LocalScript",
+    "file": "4474.luau",
+    "id": 4474,
+    "path": "StarterGui.Backpack.BackpackScript"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4579.luau",
+    "id": 4579,
+    "path": "ReplicatedStorage.Shared.SuitCatalog"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4580.luau",
+    "id": 4580,
+    "path": "ReplicatedStorage.Shared.StudUi"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4581.luau",
+    "id": 4581,
+    "path": "ReplicatedStorage.Shared.PurchaseButtonSound"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4582.luau",
+    "id": 4582,
+    "path": "ReplicatedStorage.Shared.ProgressBar"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4583.luau",
+    "id": 4583,
+    "path": "ReplicatedStorage.Shared.PlaytimeRewards"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4584.luau",
+    "id": 4584,
+    "path": "ReplicatedStorage.Shared.ModalJuice"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4585.luau",
+    "id": 4585,
+    "path": "ReplicatedStorage.Shared.MenuPanelLayout"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4586.luau",
+    "id": 4586,
+    "path": "ReplicatedStorage.Shared.MenuEvents"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4587.luau",
+    "id": 4587,
+    "path": "ReplicatedStorage.Shared.DailyRewardsData"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4588.luau",
+    "id": 4588,
+    "path": "ReplicatedStorage.Shared.DailyRewards"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4589.luau",
+    "id": 4589,
+    "path": "ReplicatedStorage.Shared.CosmeticCatalog"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4590.luau",
+    "id": 4590,
+    "path": "ReplicatedStorage.Shared.ConsolePanelSupport"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4591.luau",
+    "id": 4591,
+    "path": "ReplicatedStorage.Shared.Config"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4592.luau",
+    "id": 4592,
+    "path": "ReplicatedStorage.Shared.AdminGlobalEvents"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4611.luau",
+    "id": 4611,
+    "path": "ReplicatedStorage.Icon.VERSION"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4612.luau",
+    "id": 4612,
+    "path": "ReplicatedStorage.Icon.TopbarPlusReference"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4613.luau",
+    "id": 4613,
+    "path": "ReplicatedStorage.Icon.TopbarPlusGui"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4614.luau",
+    "id": 4614,
+    "path": "ReplicatedStorage.Icon.Themes"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4615.luau",
+    "id": 4615,
+    "path": "ReplicatedStorage.Icon.Signal"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4616.luau",
+    "id": 4616,
+    "path": "ReplicatedStorage.Icon.Maid"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4617.luau",
+    "id": 4617,
+    "path": "ReplicatedStorage.Icon.IconController"
+  },
+  {
+    "class": "Script",
+    "file": "4618.luau",
+    "id": 4618,
+    "path": "ServerScriptService.Worlds.WorldPortalService"
+  },
+  {
+    "class": "Script",
+    "file": "4619.luau",
+    "id": 4619,
+    "path": "ServerScriptService.Worlds.World2StageSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4620.luau",
+    "id": 4620,
+    "path": "ServerScriptService.Worlds.TeleportSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4621.luau",
+    "id": 4621,
+    "path": "ServerScriptService.Social.GlobalAnnouncementService"
+  },
+  {
+    "class": "Script",
+    "file": "4622.luau",
+    "id": 4622,
+    "path": "ServerScriptService.Social.PlaytimeRewards"
+  },
+  {
+    "class": "Script",
+    "file": "4623.luau",
+    "id": 4623,
+    "path": "ServerScriptService.Social.GlobalLeaderboards"
+  },
+  {
+    "class": "Script",
+    "file": "4624.luau",
+    "id": 4624,
+    "path": "ServerScriptService.Social.FirstTimeTutorial"
+  },
+  {
+    "class": "Script",
+    "file": "4625.luau",
+    "id": 4625,
+    "path": "ServerScriptService.Social.DailyLoginSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4626.luau",
+    "id": 4626,
+    "path": "ServerScriptService.Social.CodesSystem"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4627.luau",
+    "id": 4627,
+    "path": "ServerScriptService.Services.RemoteGuard"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4628.luau",
+    "id": 4628,
+    "path": "ServerScriptService.Services.RewardPadClaims"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4633.luau",
+    "id": 4633,
+    "path": "ServerScriptService.Services.StageTeleportService"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4634.luau",
+    "id": 4634,
+    "path": "ServerScriptService.Services.ServerRateLimiter"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4635.luau",
+    "id": 4635,
+    "path": "ServerScriptService.Services.PotionServer"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4636.luau",
+    "id": 4636,
+    "path": "ServerScriptService.Services.MovementGuard"
+  },
+  {
+    "class": "Script",
+    "file": "4637.luau",
+    "id": 4637,
+    "path": "ServerScriptService.Progression.World2TreadmillOverheadLabels"
+  },
+  {
+    "class": "Script",
+    "file": "4638.luau",
+    "id": 4638,
+    "path": "ServerScriptService.Progression.TreadmillTraining"
+  },
+  {
+    "class": "Script",
+    "file": "4639.luau",
+    "id": 4639,
+    "path": "ServerScriptService.Progression.TreadmillOverheadLabels"
+  },
+  {
+    "class": "Script",
+    "file": "4640.luau",
+    "id": 4640,
+    "path": "ServerScriptService.Progression.TreadmillCollisionFix"
+  },
+  {
+    "class": "Script",
+    "file": "4641.luau",
+    "id": 4641,
+    "path": "ServerScriptService.Progression.RebirthSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4642.luau",
+    "id": 4642,
+    "path": "ServerScriptService.Progression.RankReward"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4643.luau",
+    "id": 4643,
+    "path": "ServerScriptService.Progression.ProgressionBridge"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4644.luau",
+    "id": 4644,
+    "path": "ServerScriptService.Progression.PlayerStatsBridge"
+  },
+  {
+    "class": "Script",
+    "file": "4645.luau",
+    "id": 4645,
+    "path": "ServerScriptService.Progression.PlayerStats"
+  },
+  {
+    "class": "Script",
+    "file": "4646.luau",
+    "id": 4646,
+    "path": "ServerScriptService.Progression.LevelUpConfettiTemplate"
+  },
+  {
+    "class": "Script",
+    "file": "4647.luau",
+    "id": 4647,
+    "path": "ServerScriptService.Progression.LevelProgress"
+  },
+  {
+    "class": "Script",
+    "file": "4648.luau",
+    "id": 4648,
+    "path": "ServerScriptService.Infrastructure.WaterStreamingSafety"
+  },
+  {
+    "class": "Script",
+    "file": "4649.luau",
+    "id": 4649,
+    "path": "ServerScriptService.Infrastructure.AutoReconnect"
+  },
+  {
+    "class": "Script",
+    "file": "4650.luau",
+    "id": 4650,
+    "path": "ServerScriptService.Infrastructure.AnimationReplicationSync"
+  },
+  {
+    "class": "Script",
+    "file": "4651.luau",
+    "id": 4651,
+    "path": "ServerScriptService.Infrastructure.AAA_ReferenceClipLighting"
+  },
+  {
+    "class": "Script",
+    "file": "4652.luau",
+    "id": 4652,
+    "path": "ServerScriptService.Gameplay.World2WallFlightBarriers"
+  },
+  {
+    "class": "Script",
+    "file": "4653.luau",
+    "id": 4653,
+    "path": "ServerScriptService.Gameplay.World2FlightAbility"
+  },
+  {
+    "class": "Script",
+    "file": "4654.luau",
+    "id": 4654,
+    "path": "ServerScriptService.Gameplay.World2TreeSlammers"
+  },
+  {
+    "class": "Script",
+    "file": "4655.luau",
+    "id": 4655,
+    "path": "ServerScriptService.Gameplay.World2SafeZones"
+  },
+  {
+    "class": "Script",
+    "file": "4656.luau",
+    "id": 4656,
+    "path": "ServerScriptService.Gameplay.World2SpeedForce"
+  },
+  {
+    "class": "Script",
+    "file": "4657.luau",
+    "id": 4657,
+    "path": "ServerScriptService.Gameplay.World2ManualStagePads"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4658.luau",
+    "id": 4658,
+    "path": "ServerScriptService.Gameplay.World2StageTeleportService"
+  },
+  {
+    "class": "Script",
+    "file": "4659.luau",
+    "id": 4659,
+    "path": "ServerScriptService.Gameplay.WinPadStagePlacement"
+  },
+  {
+    "class": "Script",
+    "file": "4660.luau",
+    "id": 4660,
+    "path": "ServerScriptService.Gameplay.TogetherController"
+  },
+  {
+    "class": "Script",
+    "file": "4661.luau",
+    "id": 4661,
+    "path": "ServerScriptService.Gameplay.StageDecor"
+  },
+  {
+    "class": "Script",
+    "file": "4662.luau",
+    "id": 4662,
+    "path": "ServerScriptService.Gameplay.SpawnOutlineChecker"
+  },
+  {
+    "class": "Script",
+    "file": "4663.luau",
+    "id": 4663,
+    "path": "ServerScriptService.Gameplay.RotatingLaser"
+  },
+  {
+    "class": "Script",
+    "file": "4665.luau",
+    "id": 4665,
+    "path": "ServerScriptService.Economy.VipSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4666.luau",
+    "id": 4666,
+    "path": "ServerScriptService.Economy.TrailShopSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4667.luau",
+    "id": 4667,
+    "path": "ServerScriptService.Economy.SpeedProductPurchases"
+  },
+  {
+    "class": "Script",
+    "file": "4668.luau",
+    "id": 4668,
+    "path": "ServerScriptService.Economy.SkinSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4669.luau",
+    "id": 4669,
+    "path": "ServerScriptService.Economy.AuraShopSystem"
+  },
+  {
+    "class": "Script",
+    "file": "4670.luau",
+    "id": 4670,
+    "path": "ServerScriptService.Bosses.World2SonicEXEBoss"
+  },
+  {
+    "class": "Script",
+    "file": "4671.luau",
+    "id": 4671,
+    "path": "ServerScriptService.Bosses.ZoomBoss"
+  },
+  {
+    "class": "Script",
+    "file": "4672.luau",
+    "id": 4672,
+    "path": "ServerScriptService.Bosses.RemoveWallyWestBoss"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "4673.luau",
+    "id": 4673,
+    "path": "ServerScriptService.Admin.AdminRequestValidation"
+  },
+  {
+    "class": "Script",
+    "file": "4674.luau",
+    "id": 4674,
+    "path": "ServerScriptService.Admin.AdminPanelService"
+  },
+  {
+    "class": "Script",
+    "file": "4675.luau",
+    "id": 4675,
+    "path": "ServerScriptService.Admin.AdminGiveCommands"
+  },
+  {
+    "class": "Script",
+    "file": "4676.luau",
+    "id": 4676,
+    "path": "ServerScriptService.Admin.AdminCommands"
+  },
+  {
+    "class": "Script",
+    "file": "4677.luau",
+    "id": 4677,
+    "path": "ServerScriptService.Admin.AdminAbuseServer"
+  },
+  {
+    "class": "Script",
+    "file": "4708.luau",
+    "id": 4708,
+    "path": "Workspace.Model.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9466.luau",
+    "id": 9466,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9468.luau",
+    "id": 9468,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9470.luau",
+    "id": 9470,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9472.luau",
+    "id": 9472,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9474.luau",
+    "id": 9474,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9475.luau",
+    "id": 9475,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9478.luau",
+    "id": 9478,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9480.luau",
+    "id": 9480,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9482.luau",
+    "id": 9482,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9484.luau",
+    "id": 9484,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9486.luau",
+    "id": 9486,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9488.luau",
+    "id": 9488,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9490.luau",
+    "id": 9490,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9491.luau",
+    "id": 9491,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9494.luau",
+    "id": 9494,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9496.luau",
+    "id": 9496,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9498.luau",
+    "id": 9498,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9500.luau",
+    "id": 9500,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "file": "9502.luau",
+    "id": 9502,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9509.luau",
+    "id": 9509,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.AdminPanelController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9510.luau",
+    "id": 9510,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.UpdateLogsController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9511.luau",
+    "id": 9511,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.WalkSpeedSelector"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9512.luau",
+    "id": 9512,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.VipChatTag"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9513.luau",
+    "id": 9513,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.ConsoleUiScale"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9514.luau",
+    "id": 9514,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TreadmillLockPanel"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9515.luau",
+    "id": 9515,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TopbarIconsController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9516.luau",
+    "id": 9516,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TimeGiftController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9517.luau",
+    "id": 9517,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TeleportController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9518.luau",
+    "id": 9518,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.ShopController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9519.luau",
+    "id": 9519,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.SettingsController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9520.luau",
+    "id": 9520,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.RevivePrompt"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9521.luau",
+    "id": 9521,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.RebirthController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9522.luau",
+    "id": 9522,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.RankRewardPanel"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9523.luau",
+    "id": 9523,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.OverheadStats"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9524.luau",
+    "id": 9524,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.MainHUDController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9525.luau",
+    "id": 9525,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.GlobalLeaderboardDisplay"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9526.luau",
+    "id": 9526,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.FirstTimeTutorial"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9527.luau",
+    "id": 9527,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.EvolveController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9528.luau",
+    "id": 9528,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.DailyRewardController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9529.luau",
+    "id": 9529,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.WorldsController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9530.luau",
+    "id": 9530,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.AbilitiesPanel"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9531.luau",
+    "id": 9531,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9532.luau",
+    "id": 9532,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.CtrlShiftLock"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9533.luau",
+    "id": 9533,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.World2SpeedForce"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9534.luau",
+    "id": 9534,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.World2FlightAbility"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9535.luau",
+    "id": 9535,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.WallImpactAntiFling"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9536.luau",
+    "id": 9536,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.InstantMovementController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9537.luau",
+    "id": 9537,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2LeaderboardChampions"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9538.luau",
+    "id": 9538,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2SixSevenAreaAmbience"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9539.luau",
+    "id": 9539,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2SonicEXEBoss"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9540.luau",
+    "id": 9540,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2TreeSlammers"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9541.luau",
+    "id": 9541,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2ManualPadTextDistance"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9542.luau",
+    "id": 9542,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ZoomBossAnimation"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9543.luau",
+    "id": 9543,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ZoomArenaAmbience"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9544.luau",
+    "id": 9544,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.WinPadTextDistance"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9545.luau",
+    "id": 9545,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.WinPadFeedback"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9546.luau",
+    "id": 9546,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.TreadmillRebirthBillboardScale"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9547.luau",
+    "id": 9547,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.TreadmillOverheadPerspective"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9548.luau",
+    "id": 9548,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.SpeedGainPopupSoundPatch"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9549.luau",
+    "id": 9549,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.RotatingLaserVisual"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9550.luau",
+    "id": 9550,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ReverseFlashBossAnimation"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9551.luau",
+    "id": 9551,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.RemoteAnimatorFidelity"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9552.luau",
+    "id": 9552,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.RedBallContact"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9553.luau",
+    "id": 9553,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.LevelUpCelebration"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9554.luau",
+    "id": 9554,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.BoostNotifier"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9555.luau",
+    "id": 9555,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.SfxAudioController"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9556.luau",
+    "id": 9556,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.RunningAndTreadmillSound"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9557.luau",
+    "id": 9557,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.LeftButtonClickSoundAuthority"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9558.luau",
+    "id": 9558,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.BackgroundMusic"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9559.luau",
+    "id": 9559,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.AudioIdReset"
+  },
+  {
+    "class": "LocalScript",
+    "file": "9560.luau",
+    "id": 9560,
+    "path": "StarterPlayer.StarterPlayerScripts.Admin.AdminAbuseClient"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9847.luau",
+    "id": 9847,
+    "path": "ReplicatedStorage.Shared.Math.SpeedFormula"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9848.luau",
+    "id": 9848,
+    "path": "ReplicatedStorage.Shared.Math.NumberFormat"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9849.luau",
+    "id": 9849,
+    "path": "ReplicatedStorage.Shared.Catalogs.CodesCatalog"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9867.luau",
+    "id": 9867,
+    "path": "ReplicatedStorage.Icon.Themes.Default"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9868.luau",
+    "id": 9868,
+    "path": "ReplicatedStorage.Icon.Themes.BlueGradient"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9869.luau",
+    "id": 9869,
+    "path": "ServerScriptService.Services.Stats.StatsService"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9870.luau",
+    "id": 9870,
+    "path": "ServerScriptService.Services.Stats.StatsProjection"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9871.luau",
+    "id": 9871,
+    "path": "ServerScriptService.Services.Stats.CharacterStatsAdapter"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9872.luau",
+    "id": 9872,
+    "path": "ServerScriptService.Services.Monetization.ReceiptLedger"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9873.luau",
+    "id": 9873,
+    "path": "ServerScriptService.Services.Monetization.ProductRegistry"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9874.luau",
+    "id": 9874,
+    "path": "ServerScriptService.Services.Monetization.MonetizationService"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9875.luau",
+    "id": 9875,
+    "path": "ServerScriptService.Services.Data.SessionLease"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9876.luau",
+    "id": 9876,
+    "path": "ServerScriptService.Services.Data.SessionActor"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9877.luau",
+    "id": 9877,
+    "path": "ServerScriptService.Services.Data.SaveCoordinator"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9878.luau",
+    "id": 9878,
+    "path": "ServerScriptService.Services.Data.RetryPolicy"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9879.luau",
+    "id": 9879,
+    "path": "ServerScriptService.Services.Data.ProfileReducers"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9880.luau",
+    "id": 9880,
+    "path": "ServerScriptService.Services.Data.ProfileCodec"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9881.luau",
+    "id": 9881,
+    "path": "ServerScriptService.Services.Data.DataStoreAdapter"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9882.luau",
+    "id": 9882,
+    "path": "ServerScriptService.Services.Data.DataService"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9883.luau",
+    "id": 9883,
+    "path": "ServerScriptService.Services.Buffs.BuffService"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9884.luau",
+    "id": 9884,
+    "path": "ServerScriptService.Services.Buffs.BuffRules"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9885.luau",
+    "id": 9885,
+    "path": "ServerScriptService.Economy.Cosmetics.CosmeticTemplateBuilder"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "9886.luau",
+    "id": 9886,
+    "path": "ServerScriptService.Economy.Cosmetics.CosmeticService"
+  },
+  {
+    "class": "Script",
+    "file": "9887.luau",
+    "id": 9887,
+    "path": "ServerScriptService.Economy.Cosmetics.CosmeticBootstrap"
+  },
+  {
+    "class": "Script",
+    "file": "10244.luau",
+    "id": 10244,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "file": "10245.luau",
+    "id": 10245,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "file": "10248.luau",
+    "id": 10248,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "file": "10249.luau",
+    "id": 10249,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "file": "10251.luau",
+    "id": 10251,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "file": "10253.luau",
+    "id": 10253,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "file": "10962.luau",
+    "id": 10962,
+    "path": "Workspace.Sonic.EXE.HeadParts.MiddleSpine.Mesh.Structure"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "12387.luau",
+    "id": 12387,
+    "path": "Workspace.Sonic.EXE.HeadParts.MiddleSpine.Mesh.Structure.Type"
+  },
+  {
+    "class": "ModuleScript",
+    "file": "12388.luau",
+    "id": 12388,
+    "path": "Workspace.Sonic.EXE.HeadParts.MiddleSpine.Mesh.Structure.Layout"
+  }
+]

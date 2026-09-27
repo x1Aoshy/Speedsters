@@ -1,0 +1,2 @@
+PASS World1 pending trip survives rejoin/exact refund; temporary Flight expiry/unequip/rejoin and one permanent purchase
+PASS strict dynamic codes/cache/fail closed; yielding remote blocks reentry without blocking other players

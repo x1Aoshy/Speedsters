@@ -1,0 +1,89 @@
+Count,Severity,Type,First seen at,Message,,
+14607,Error,Client,Sun Sep 20 2026 21:55:40 GMT-0600 (Central Standard Time),Remote event invocation discarded event; did you forget to implement OnClientEvent? (events dropped),ReplicatedStorage.Remotes.StaminaSync,
+14506,Error,Client,Tue Aug 11 2026 13:26:05 GMT-0600 (Central Standard Time),Failed to load sound: Timedout,rbxassetid://110509599718307: HttpError
+rbxassetid://113977368098146: HttpError
+rbxassetid://114152684566510: HttpError
+rbxassetid://122959603077641: HttpError
+rbxassetid://125476440612900: HttpError
+rbxassetid://127648968320882: HttpError
+rbxassetid://128689215851296: HttpError
+rbxassetid://139777823649977: HttpError
+rbxassetid://142376088: HttpError
+rbxassetid://1840684529: HttpError,
+11808,Warning,Client,Thu Aug 06 2026 09:40:15 GMT-0600 (Central Standard Time),Infinite yield possible on WaitForChild,Players.<Player>.PlayerGui:WaitForChild("Codes Modal")
+Players.<Player>.PlayerGui:WaitForChild("DailyReward")
+Players.<Player>.PlayerGui:WaitForChild("SpinWheelGui")
+Players.<Player>.PlayerGui:WaitForChild("WalkSpeedSelectorHUD")
+Workspace:WaitForChild("SpinWheelLobby"),
+9970,Error,Client,Sat Aug 08 2026 14:59:35 GMT-0600 (Central Standard Time),Failed to load sound: User is not authorized to access Asset.,rbxassetid://10468693967,
+6671,Error,Client,Tue Aug 11 2026 13:26:00 GMT-0600 (Central Standard Time),Failed to load animation with sanitized ID. Animation failed to load,rbxassetid://105655805870914
+rbxassetid://108196819514550
+rbxassetid://72327681713648
+rbxassetid://74232261112592,
+5751,Warning,Client,Wed Sep 02 2026 14:19:25 GMT-0600 (Central Standard Time),Setting GuiService.SelectedObject to invalid GuiObject,,
+4995,Error,Client,Tue Aug 11 2026 13:26:00 GMT-0600 (Central Standard Time),MeshContentProvider failed to process asset because 'could not fetch',https://assetdelivery.roblox.com/v1/asset?id=100795515315315
+https://assetdelivery.roblox.com/v1/asset?id=100854013611414
+https://assetdelivery.roblox.com/v1/asset?id=108034175660242
+https://assetdelivery.roblox.com/v1/asset?id=121725002379738
+https://assetdelivery.roblox.com/v1/asset?id=125033311371773
+https://assetdelivery.roblox.com/v1/asset?id=137011541950520
+https://assetdelivery.roblox.com/v1/asset?id=14778651825
+https://assetdelivery.roblox.com/v1/asset?id=74878559,
+4466,Warning,Client,Tue Aug 11 2026 04:23:10 GMT-0600 (Central Standard Time),[ZoomArenaAmbience] Roblox did not load rbxassetid://134989380630915; verify that this experience has permission to use the audio,,
+4436,Warning,Client,Tue Aug 11 2026 04:23:10 GMT-0600 (Central Standard Time),[ZoomArenaAmbience] Roblox did not load rbxassetid://113977368098146; verify that this experience has permission to use the audio,,
+4099,Warning,Client,Sat Sep 19 2026 11:19:15 GMT-0600 (Central Standard Time),Native code generation of script =ReplicatedStorage.Shared.ForgeVFX.mod.utility failed:  Native code generation is not supported on this device.,,
+2075,Error,Client,Thu Aug 13 2026 09:35:45 GMT-0600 (Central Standard Time),Failed to load sound: NetFail,rbxasset://sounds/action_falling.ogg: HttpError
+rbxassetid://114152684566510: HttpError
+rbxassetid://122959603077641: HttpError
+rbxassetid://125476440612900: HttpError
+rbxassetid://127741614429245: HttpError
+rbxassetid://132281440773764: HttpError
+rbxassetid://136221009150327: HttpError
+rbxassetid://1836406945: HttpError
+rbxassetid://3682728129: HttpError
+rbxassetid://3802270540: HttpError
+rbxassetid://85735197482652: HttpError,
+1918,Error,Client,Sat Aug 15 2026 06:42:15 GMT-0600 (Central Standard Time),Failed to load sound: DnsResolve,rbxasset://sounds/action_falling.ogg: HttpError
+rbxassetid://110509599718307: HttpError
+rbxassetid://135478009117226: HttpError
+rbxassetid://140323850218372: HttpError
+rbxassetid://89362634813966: HttpError
+rbxassetid://9114615010: HttpError
+rbxassetid://96750121076266: HttpError,
+1837,Error,Client,Fri Aug 14 2026 16:00:40 GMT-0600 (Central Standard Time),Failed to load sound: ConnectFail,rbxasset://sounds/action_falling.ogg: HttpError
+rbxassetid://110509599718307: HttpError
+rbxassetid://113977368098146: HttpError
+rbxassetid://114152684566510: HttpError
+rbxassetid://3120909354: HttpError
+rbxassetid://89362634813966: HttpError,
+954,Error,Client,Thu Aug 13 2026 11:18:10 GMT-0600 (Central Standard Time),Failed to load sound: ServerProtocolError,rbxassetid://113977368098146: HttpError
+rbxassetid://114152684566510: HttpError
+rbxassetid://120445653626639: HttpError
+rbxassetid://122959603077641: HttpError
+rbxassetid://125476440612900: HttpError
+rbxassetid://139959590610806: HttpError
+rbxassetid://140521045204459: HttpError,
+876,Error,Client,Wed Aug 12 2026 02:26:15 GMT-0600 (Central Standard Time),Failed to load sound: HTTP 429 (Too Many Requests),rbxasset://sounds/action_falling.ogg
+rbxassetid://110509599718307
+rbxassetid://138158731526545
+rbxassetid://3120909354
+rbxassetid://9114615010
+rbxassetid://96591611478915
+rbxassetid://96750121076266,
+856,Error,Client,Sat Aug 15 2026 07:59:25 GMT-0600 (Central Standard Time),Failed to load sound: SslConnectFail,rbxasset://sounds/action_falling.ogg: HttpError
+rbxasset://sounds/uuhhh.mp3: HttpError
+rbxassetid://10066921516: HttpError
+rbxassetid://113108830240353: HttpError
+rbxassetid://127039883737564: HttpError
+rbxassetid://3120909354: HttpError
+rbxassetid://596046130: HttpError,
+744,Error,Server,Sat Sep 05 2026 10:47:20 GMT-0600 (Central Standard Time),DataStoreService: StandardWriteExperienceThrottled: StandardWrite request was throttled by experience limits. API: UpdateAsync,SpeedsterEscape_MainSave_v17,
+621,Warning,Server,Wed Aug 12 2026 00:17:10 GMT-0600 (Central Standard Time),[CosmeticService] Could not restore Aura for <Player>: Target part is not ready: HumanoidRootPart,,
+618,Error,Client,Wed Aug 19 2026 13:34:05 GMT-0600 (Central Standard Time),Failed to load sound: unsupported file format,rbxassetid://96750121076266,
+571,Error,Server,Sat Sep 05 2026 10:47:20 GMT-0600 (Central Standard Time),DataStoreService: StandardWriteExperienceThrottled: The standard write request rate exceeds the allowed maximum for the experience. API: UpdateAsync,SpeedsterEscape_MainSave_v17,
+513,Warning,Client,Sun Aug 16 2026 06:55:00 GMT-0600 (Central Standard Time),[World2SixSevenAreaAmbience] Audio not loaded/permission unavailable: rbxassetid://95039478522269,,
+493,Error,Server,Sat Sep 19 2026 11:22:35 GMT-0600 (Central Standard Time),The current thread cannot fire 'RagdollEvent' since 'RagdollEvent' has the Sandboxed property set to false but the calling thread is sandboxed,"Script 'Workspace.Stage 6.Pyramid.Pyramid.Smooth Block Model.Script', Line 72",
+486,Error,Server,Sat Sep 19 2026 11:22:50 GMT-0600 (Central Standard Time),The current thread cannot fire 'RagdollEvent' since 'RagdollEvent' has the Sandboxed property set to false but the calling thread is sandboxed,"Script 'Workspace.Stage 6.Pyramid.Pyramid.Smooth Block Model.Script', Line 74",
+463,Warning,Server,Wed Sep 16 2026 02:07:20 GMT-0600 (Central Standard Time),[CosmeticService] Could not restore Trail for <Player>: Target part is not ready: UpperTorso,,
+438,Error,Server,Fri Jul 10 2026 06:25:25 GMT-0600 (Central Standard Time),Failed to load sound: User is not authorized to access Asset.,rbxassetid://10468693967
+rbxassetid://77131850715240,

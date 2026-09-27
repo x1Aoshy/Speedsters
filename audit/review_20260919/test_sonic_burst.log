@@ -1,0 +1,7 @@
+PASS charge and throw: the stamina drained is the charge; x5.8 dash at 16 studs/s (32 studs), 490 studs at 1000, logarithmic, fuller charge further, capped, never slower; MovementGuard counts its stages; FOV 70 -> 88 and back
+PASS price: 500M Wins damped like Flight: 12.2 World 3 laps at x1, 6.1 at x4, 3.0 at x16, 2.16 at x32
+PASS server: bought once at the quoted price, equipped; charges and bursts only when owned, equipped, off cooldown and on its feet, broadcast to every client
+PASS client: a tap is a sprint; held standing still it charges with time; running, the stamina drains into the charge under a frantic, distorted bubble; let go, the Glass Shatter and a throw steered by the pointer or camera that stops at walls; all cleaned up
+PASS Burst button: phones only, the designer's Sprint button, clear of jump, Sprint, thumbstick, boosts and speedometer on 8 phones; button and card saved in every place
+PASS glass: stage barriers and the finish play the very Glass Shatter (with its smash) at speed; walking, respawns and the sprint never do
+ALL SONIC BURST CHECKS PASSED

@@ -1,0 +1,8 @@
+PASS World 3 is clean: no backdoor, no MoneyScripts, no asset pack, no Snake AI, only the map's 7 own scripts
+PASS World3NewestStable says PlaceWorldNumber = 3, and Config reads it without the map check
+C:\Users\Aoshy´\Desktop\Update2\audit/review_20260919/test_world3_place_baseline:137: ServerStorage must be exactly World 2's
+[Stack Begin]
+    Script '[C]' - function 'assert'
+    Script 'C:\Users\Aoshy´\Desktop\Update2\audit/review_20260919/test_world3_place_baseline', Line 137
+[Stack End]
+

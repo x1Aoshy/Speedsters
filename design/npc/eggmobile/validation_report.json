@@ -1,0 +1,13 @@
+{
+  "pieces": 19,
+  "triangles": 35120,
+  "maxReimportErrorStuds": 4.9494934081906194e-05,
+  "lampCount": 1,
+  "lampCenterX": 0.0,
+  "lampDiameterHorizontal": 1.3799999952316284,
+  "lampDiameterVertical": 1.381185531616211,
+  "passed": true,
+  "runtimeContractChecksPassed": 8,
+  "regenerationMatchesDeliveredGeometry": true,
+  "robloxUploaded": false
+}

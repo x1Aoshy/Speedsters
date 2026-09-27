@@ -1,0 +1,11 @@
+PASS catalog: six weighted segments, exact odds, Wins price scales and stays a sink
+PASS geometry: arrow at 1.5 deg, every prize lands under it on the real rotated tree
+PASS Wins spins: two per hour, atomic with the debit and the ticket, and saved across rejoins
+PASS wiring: preview gate, one transaction per Wins spin, designer layout left at its sizes outside compact
+PASS slice colours: 10602 sample points each show their own slice, nothing past the ring
+PASS Wins button: X1's size, clear of the wheel, buttons and countdown on 7 screen shapes
+PASS numbers: suffixes up to Vg, then short scientific notation
+PASS X10: X3's size, right of the wheel, clear of everything on 7 screen shapes
+PASS wheel economy: free spin every 12 h, 29/69/199 R$, a flat 50M Wins spin, prizes from the world's lap
+PASS the 50M spin shows the Wins trophy; Skip lands in 0.6 s, checks ownership and prompts gamepass purchase (1986854592)
+ALL SPIN WHEEL CHECKS PASSED

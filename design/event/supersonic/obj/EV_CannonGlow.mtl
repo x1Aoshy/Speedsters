@@ -1,0 +1,12 @@
+# Blender 4.5.3 LTS MTL File: 'EventKit_Source.blend'
+# www.blender.org
+
+newmtl EV_CannonGlow_Mat
+Ns 462.399994
+Ka 1.000000 1.000000 1.000000
+Kd 0.061246 0.854993 1.000000
+Ks 0.500000 0.500000 0.500000
+Ke 0.183738 2.564978 3.000000
+Ni 1.500000
+d 1.000000
+illum 2

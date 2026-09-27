@@ -1,0 +1,4 @@
+-- Retired 2026-09-24 (comment-only stub: build_core keeps every authored script, so it
+-- cannot be deleted). It looked for a part named Spawn1Outline, which no place has (checked
+-- in all three .rbxl files): it scanned the Workspace 20 times a second for 15 s after every
+-- join, then on every streaming batch for the whole session, and never changed anything.

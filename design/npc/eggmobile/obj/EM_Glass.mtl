@@ -1,0 +1,12 @@
+# Blender 4.5.3 LTS MTL File: 'EggMobile_Source.blend'
+# www.blender.org
+
+newmtl EM_Glass_Mat.003
+Ns 960.400024
+Ka 1.000000 1.000000 1.000000
+Kd 0.610496 0.806952 1.000000
+Ks 0.350000 0.350000 0.350000
+Ke 0.000000 0.000000 0.000000
+Ni 1.500000
+d 0.100000
+illum 9

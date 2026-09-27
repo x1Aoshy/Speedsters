@@ -1,0 +1,6 @@
+-- Retired 2026-09-24 (comment-only stub). The V306KR client renderer for Hammer1-5,
+-- Presser1-5 and UpDown1-3 only took over parts carrying a ClientMotionType attribute; nothing
+-- sets it and no place has it (checked in World1Update3New.rbxl). It never rendered anything,
+-- but on every World 1 join it ran 13 threads that searched the whole Workspace
+-- (FindFirstChild recursive) every 0.1 s for 20-30 s. World 1's moving obstacles are drawn by
+-- NewWorld1MapMotion / NewWorld1HammerMotion / NewWorld1TrackMotion from the server clock.

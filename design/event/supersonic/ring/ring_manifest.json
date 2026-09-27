@@ -1,0 +1,134 @@
+{
+ "generator": "audit/ring_kit_bpy.py",
+ "kitVersion": 1,
+ "kit": "RingKit",
+ "event": "Super Sonic vs Dr. Eggman (the gold rings Dr. Eggman drops when he is defeated)",
+ "fbx": "RingKit.fbx",
+ "rbxm": "Update2/RingKit.rbxm or design/event/supersonic/ring/RingKit.rbxm (saved from Studio after Import 3D, IMPORTAR_ANILLO.md)",
+ "publicCopy": "C:/Users/Public/RingKit",
+ "separateFrom": "design/event/supersonic/EventKit.rbxm (event_manifest.json, 11 pieces): not changed by this kit",
+ "units": "1 unit = 1 stud; FBX UnitScaleFactor 1.0 (cm), like EventKit.fbx; axes -Z forward, Y up (Roblox axes)",
+ "pivot": "the ring's centre, identity transform: the imported MeshPart's PivotOffset position is zero",
+ "placement": "part.CFrame = ringPivot * CFrame.Angles(0, -importTurn, 0); part.Size = size with X / Z swapped on an odd turn (audit/u4_event_kit reads importTurn from the MeshPart's size; a half turn leaves the symmetric ring unchanged)",
+ "textures": "none: one colour; audit/u4_event_kit sets Color / Material / Reflectance / Transparency from here",
+ "meshesFolder": "ReplicatedStorage.SuperSonicEventAssets.Meshes.Ring (MeshPart)",
+ "totalTris": 3072,
+ "budgets": {
+  "Ring": 4000
+ },
+ "fbxFacts": {
+  "RingKit.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 89724
+  },
+  "EV_Ring.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 89724
+  }
+ },
+ "assets": {
+  "Ring": {
+   "pieces": [
+    "EV_Ring"
+   ],
+   "primary": "EV_Ring",
+   "boundsMin": [
+    -1.2,
+    -1.2,
+    -0.3
+   ],
+   "boundsMax": [
+    1.2,
+    1.2,
+    0.3
+   ],
+   "size": [
+    2.4,
+    2.4,
+    0.6
+   ],
+   "attachments": {},
+   "origin": "the ring's centre; it stands upright (in the XY plane), its hole facing +-Z",
+   "outerDiameter": 2.4,
+   "innerDiameter": 1.2,
+   "tubeDiameter": 0.6,
+   "thickness": 0.6,
+   "majorRadius": 0.9,
+   "tubeRadius": 0.3,
+   "holeAxis": "Z",
+   "spinAxis": "Y",
+   "shape": "a smooth round torus (the owner's reference, reference/ring_reference.webp): the tube a quarter of the ring's diameter, the hole half of it; exact torus normals, no seams",
+   "segments": {
+    "around": 64,
+    "tube": 24
+   },
+   "maxNormalErrorDeg": 0.0,
+   "colors": {
+    "Gold": [
+     255,
+     196,
+     30
+    ],
+    "Sparkle": [
+     255,
+     238,
+     150
+    ]
+   },
+   "colorNote": "Gold = the ring (the piece colour); Sparkle = a pale gold for pickup sparkles / trails (effects only, the ring itself is never Neon)",
+   "lookNote": "polished gold: SmoothPlastic + Reflectance (the Metal material carries a brushed texture in Roblox)",
+   "renderFidelity": "Automatic",
+   "reference": "design/event/supersonic/ring/reference/ring_reference.webp"
+  }
+ },
+ "pieces": [
+  {
+   "name": "EV_Ring",
+   "asset": "Ring",
+   "role": "ring",
+   "primary": true,
+   "size": [
+    2.4,
+    2.4,
+    0.6
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    255,
+    196,
+    30
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.35,
+   "transparency": 0.0,
+   "castShadow": false,
+   "shading": "smooth",
+   "renderFidelity": "Automatic",
+   "tris": 3072,
+   "verts": 1536,
+   "renderVerts": 1625
+  }
+ ],
+ "reimportCheck": {
+  "worstErrorStuds": 0.0,
+  "missing": [],
+  "extra": [],
+  "tris": {
+   "EV_Ring": 3072
+  },
+  "maxNormalErrorDeg": 0.0198
+ }
+}

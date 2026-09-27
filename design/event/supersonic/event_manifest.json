@@ -1,0 +1,840 @@
+{
+ "generator": "audit/event_kit_bpy.py",
+ "kitVersion": 1,
+ "event": "Super Sonic vs Dr. Eggman",
+ "fbx": "EventKit.fbx",
+ "rbxm": "design/event/supersonic/EventKit.rbxm (saved from Studio after Import 3D, IMPORTAR_EVENTO.md)",
+ "publicCopy": "C:/Users/Public/EventKit",
+ "units": "1 unit = 1 stud; FBX UnitScaleFactor 1.0 (cm), like EggMobileKit.fbx; axes -Z forward, Y up (Roblox axes)",
+ "pivot": "every piece: its asset's origin (Bomb / ChaosEmerald / SpinBall: the asset centre; Cannon: its mount point); identity transforms, so an imported MeshPart's PivotOffset is -bboxCenterOffset (turned by the import)",
+ "placement": "part.CFrame = assetPivot * CFrame.new(bboxCenterOffset) * CFrame.Angles(0, -importTurn, 0); part.Size = size (audit/u4_event_kit reads importTurn from the pivots with Shared/MeshKitImport, one turn for the whole kit)",
+ "textures": "none: every piece is one colour; audit/u4_event_kit sets Color / Material / Reflectance / Transparency from here",
+ "meshesFolder": "ReplicatedStorage.SuperSonicEventAssets.Meshes: Bomb (Model), ChaosEmerald (MeshPart), SpinBall (MeshPart), Cannon (Model)",
+ "totalTris": 30400,
+ "budgets": {
+  "Bomb": 7000,
+  "ChaosEmerald": 400,
+  "SpinBall": 16000,
+  "Cannon": 12000
+ },
+ "fbxFacts": {
+  "EventKit.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 1004028
+  },
+  "EV_Bomb.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 105116
+  },
+  "EV_BombFins.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 83596
+  },
+  "EV_BombNose.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 34924
+  },
+  "EV_BombStripe.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 52300
+  },
+  "EV_Cannon.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 99084
+  },
+  "EV_CannonDark.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 83036
+  },
+  "EV_CannonGlow.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 40284
+  },
+  "EV_CannonMetal.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 137068
+  },
+  "EV_CannonStripe.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 35228
+  },
+  "EV_ChaosEmerald.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 17324
+  },
+  "EV_SpinBall.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 432796
+  }
+ },
+ "assets": {
+  "Bomb": {
+   "pieces": [
+    "EV_Bomb",
+    "EV_BombStripe",
+    "EV_BombFins",
+    "EV_BombNose"
+   ],
+   "primary": "EV_Bomb",
+   "boundsMin": [
+    -0.76,
+    -1.5,
+    -0.7608
+   ],
+   "boundsMax": [
+    0.76,
+    1.5,
+    0.7608
+   ],
+   "size": [
+    1.52,
+    3.0,
+    1.5216
+   ],
+   "attachments": {
+    "Nose": {
+     "position": [
+      0.0,
+      -1.5,
+      0.0
+     ],
+     "direction": [
+      0.0,
+      -1.0,
+      0.0
+     ]
+    },
+    "Fuse": {
+     "position": [
+      0.0,
+      1.44,
+      0.0
+     ],
+     "direction": [
+      0.0,
+      1.0,
+      0.0
+     ]
+    }
+   },
+   "origin": "the bomb centre; it stands nose-down: nose toward -Y, tail +Y (turn -Y onto the flight)",
+   "noseAxis": "-Y",
+   "length": 3.0,
+   "diameter": 1.5216
+  },
+  "ChaosEmerald": {
+   "pieces": [
+    "EV_ChaosEmerald"
+   ],
+   "primary": "EV_ChaosEmerald",
+   "boundsMin": [
+    -0.8,
+    -0.75,
+    -0.8
+   ],
+   "boundsMax": [
+    0.8,
+    0.75,
+    0.8
+   ],
+   "size": [
+    1.6,
+    1.5,
+    1.6
+   ],
+   "attachments": {
+    "Center": {
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "direction": [
+      0.0,
+      0.0,
+      -1.0
+     ]
+    }
+   },
+   "origin": "the gem's centre; the table up",
+   "height": 1.5,
+   "diameter": 1.6,
+   "facets": "flat (split normals)",
+   "variants": {
+    "Green": [
+     20,
+     220,
+     90
+    ],
+    "Red": [
+     240,
+     40,
+     52
+    ],
+    "Blue": [
+     40,
+     110,
+     255
+    ],
+    "Yellow": [
+     255,
+     214,
+     28
+    ],
+    "Cyan": [
+     60,
+     228,
+     255
+    ],
+    "Purple": [
+     168,
+     70,
+     255
+    ],
+    "White": [
+     236,
+     242,
+     255
+    ]
+   },
+   "variantOrder": [
+    "Green",
+    "Red",
+    "Blue",
+    "Yellow",
+    "Cyan",
+    "Purple",
+    "White"
+   ],
+   "materials": [
+    "Glass",
+    "Neon"
+   ]
+  },
+  "SpinBall": {
+   "pieces": [
+    "EV_SpinBall"
+   ],
+   "primary": "EV_SpinBall",
+   "boundsMin": [
+    -3.05,
+    -3.1821,
+    -3.1236
+   ],
+   "boundsMax": [
+    3.05,
+    3.1437,
+    3.1711
+   ],
+   "size": [
+    6.1,
+    6.3258,
+    6.2947
+   ],
+   "attachments": {
+    "Center": {
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "direction": [
+      0.0,
+      0.0,
+      -1.0
+     ]
+    },
+    "Root": {
+     "position": [
+      0.0,
+      0.4,
+      0.0
+     ],
+     "direction": [
+      0.0,
+      0.0,
+      -1.0
+     ]
+    }
+   },
+   "origin": "the ball's centre; rolling axis X (quills sweep round it)",
+   "outerRadius": 3.05,
+   "innerRadius": 2.95,
+   "quillHeight": 0.19,
+   "diameter": 6.3258,
+   "rootOffset": [
+    0.0,
+    0.4,
+    0.0
+   ],
+   "rootNote": "an R6 HumanoidRootPart at ballCentre * CFrame.new(rootOffset) stands inside the inner shell",
+   "colors": {
+    "Blue": [
+     35,
+     95,
+     235
+    ],
+    "Gold": [
+     255,
+     196,
+     40
+    ]
+   }
+  },
+  "Cannon": {
+   "pieces": [
+    "EV_Cannon",
+    "EV_CannonMetal",
+    "EV_CannonDark",
+    "EV_CannonStripe",
+    "EV_CannonGlow"
+   ],
+   "primary": "EV_Cannon",
+   "boundsMin": [
+    -1.6038,
+    -1.9737,
+    -3.0559
+   ],
+   "boundsMax": [
+    1.6038,
+    0.9761,
+    1.1544
+   ],
+   "size": [
+    3.2076,
+    2.9498,
+    4.2103
+   ],
+   "attachments": {
+    "Mount": {
+     "position": [
+      0.0,
+      0.0,
+      0.0
+     ],
+     "direction": [
+      0.0,
+      0.0,
+      -1.0
+     ]
+    },
+    "Muzzle": {
+     "position": [
+      0.0,
+      -0.9572,
+      -2.7037
+     ],
+     "direction": [
+      0.0,
+      -0.342,
+      -0.9397
+     ]
+    },
+    "Spawn": {
+     "position": [
+      0.0,
+      -1.5386,
+      -4.3011
+     ],
+     "direction": [
+      0.0,
+      -0.342,
+      -0.9397
+     ]
+    }
+   },
+   "origin": "the MOUNT point on the Egg Mobile's black bowl (front, under the lamp); axes = the ship's",
+   "mount": {
+    "ship": [
+     0.0,
+     1.95,
+     -3.114
+    ],
+    "hull": [
+     0.0,
+     -1.05,
+     -3.114
+    ],
+    "azimuth": 0.0,
+    "onBowlAtY": 1.95,
+    "placement": "cannon:PivotTo(eggFloor * CFrame.new(mount.ship)) or EggHull.CFrame * CFrame.new(mount.hull); no rotation: the cannon's axes are the ship's (its barrel already points 20 degrees down)"
+   },
+   "muzzle": {
+    "local": [
+     0.0,
+     -0.9572,
+     -2.7037
+    ],
+    "ship": [
+     0.0,
+     0.9928,
+     -5.8177
+    ],
+    "hull": [
+     0.0,
+     -2.0072,
+     -5.8177
+    ],
+    "direction": [
+     0.0,
+     -0.342,
+     -0.9397
+    ],
+    "up": [
+     0.0,
+     0.9397,
+     -0.342
+    ],
+    "boreRadius": 0.848,
+    "boreDepth": 1.46,
+    "spawnLocal": [
+     0.0,
+     -1.5386,
+     -4.3011
+    ],
+    "spawnShip": [
+     0.0,
+     0.4114,
+     -7.4152
+    ],
+    "spawnHull": [
+     0.0,
+     -2.5886,
+     -7.4152
+    ],
+    "note": "the muzzle face centre; a 3-stud bomb spawned at spawn* with its nose along direction clears the barrel"
+   },
+   "trunnion": {
+    "local": [
+     0.0,
+     -0.15,
+     -0.486
+    ],
+    "ship": [
+     0.0,
+     1.8,
+     -3.6
+    ],
+    "hull": [
+     0.0,
+     -1.2,
+     -3.6
+    ]
+   },
+   "frames": "ship = the Egg Mobile floor frame (its manifest ship space); hull = from EggMobile.HullCenter (the EggHull part), same axes; local = from the cannon pivot (the mount point)",
+   "pitchDegrees": 20.0,
+   "fitTo": {
+    "eggMobileKitVersion": 2,
+    "eggMobileRevision": "centered-round-lamp-reference-alignment-2026-09-26",
+    "hullBottom": 0.6,
+    "wallFrom": 3.9,
+    "hullRadius": 3.86
+   }
+  }
+ },
+ "pieces": [
+  {
+   "name": "EV_Bomb",
+   "asset": "Bomb",
+   "role": "body",
+   "primary": true,
+   "size": [
+    1.5199,
+    2.2,
+    1.5199
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.02,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    66,
+    71,
+    84
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.22,
+   "transparency": 0.0,
+   "castShadow": true,
+   "shading": "smooth",
+   "tris": 2816,
+   "verts": 1450,
+   "renderVerts": 2554
+  },
+  {
+   "name": "EV_BombStripe",
+   "asset": "Bomb",
+   "role": "trim",
+   "primary": false,
+   "size": [
+    1.5015,
+    1.198,
+    1.5015
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -0.419,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    255,
+    204,
+    22
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": true,
+   "shading": "smooth",
+   "tris": 1232,
+   "verts": 616,
+   "renderVerts": 1026
+  },
+  {
+   "name": "EV_BombFins",
+   "asset": "Bomb",
+   "role": "trim",
+   "primary": false,
+   "size": [
+    1.5009,
+    2.524,
+    1.5216
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.238,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    30,
+    31,
+    38
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.1,
+   "transparency": 0.0,
+   "castShadow": true,
+   "shading": "smooth",
+   "tris": 1924,
+   "verts": 1010,
+   "renderVerts": 2465
+  },
+  {
+   "name": "EV_BombNose",
+   "asset": "Bomb",
+   "role": "trim",
+   "primary": false,
+   "size": [
+    1.2557,
+    0.52,
+    1.2557
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -1.24,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    214,
+    36,
+    36
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.12,
+   "transparency": 0.0,
+   "castShadow": true,
+   "shading": "smooth",
+   "tris": 704,
+   "verts": 354,
+   "renderVerts": 442
+  },
+  {
+   "name": "EV_ChaosEmerald",
+   "asset": "ChaosEmerald",
+   "role": "gem",
+   "primary": true,
+   "size": [
+    1.6,
+    1.5,
+    1.6
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.0,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    20,
+    220,
+    90
+   ],
+   "material": "Glass",
+   "reflectance": 0.25,
+   "transparency": 0.15,
+   "castShadow": false,
+   "shading": "flat",
+   "tris": 78,
+   "verts": 41,
+   "renderVerts": 192
+  },
+  {
+   "name": "EV_SpinBall",
+   "asset": "SpinBall",
+   "role": "shell",
+   "primary": true,
+   "size": [
+    6.1,
+    6.3258,
+    6.2947
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -0.0192,
+    0.0238
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    35,
+    95,
+    235
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.15,
+   "transparency": 0.0,
+   "castShadow": false,
+   "shading": "smooth",
+   "tris": 14384,
+   "verts": 7196,
+   "renderVerts": 8282
+  },
+  {
+   "name": "EV_Cannon",
+   "asset": "Cannon",
+   "role": "body",
+   "primary": true,
+   "size": [
+    2.0,
+    2.7404,
+    3.5229
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -0.3941,
+    -0.9425
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    230,
+    233,
+    238
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.18,
+   "transparency": 0.0,
+   "castShadow": true,
+   "shading": "smooth",
+   "tris": 2736,
+   "verts": 1393,
+   "renderVerts": 1798
+  },
+  {
+   "name": "EV_CannonMetal",
+   "asset": "Cannon",
+   "role": "trim",
+   "primary": false,
+   "size": [
+    3.2075,
+    2.7493,
+    4.2104
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -0.5991,
+    -0.9508
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    160,
+    165,
+    176
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.15,
+   "transparency": 0.0,
+   "castShadow": true,
+   "shading": "smooth",
+   "tris": 3496,
+   "verts": 1756,
+   "renderVerts": 3074
+  },
+  {
+   "name": "EV_CannonDark",
+   "asset": "Cannon",
+   "role": "trim",
+   "primary": false,
+   "size": [
+    2.8963,
+    2.3365,
+    3.8076
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -0.5807,
+    -1.0758
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    26,
+    26,
+    32
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.05,
+   "transparency": 0.0,
+   "castShadow": false,
+   "shading": "smooth",
+   "tris": 1734,
+   "verts": 934,
+   "renderVerts": 1759
+  },
+  {
+   "name": "EV_CannonStripe",
+   "asset": "Cannon",
+   "role": "trim",
+   "primary": false,
+   "size": [
+    1.929,
+    1.9133,
+    1.0037
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -0.6901,
+    -1.995
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    255,
+    204,
+    22
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "shading": "smooth",
+   "tris": 576,
+   "verts": 288,
+   "renderVerts": 538
+  },
+  {
+   "name": "EV_CannonGlow",
+   "asset": "Cannon",
+   "role": "glow",
+   "primary": false,
+   "size": [
+    1.5806,
+    1.4973,
+    0.5856
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    -0.4681,
+    -1.3599
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    70,
+    238,
+    255
+   ],
+   "material": "Neon",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "shading": "smooth",
+   "tris": 720,
+   "verts": 362,
+   "renderVerts": 722
+  }
+ ],
+ "reimportCheck": {
+  "worstErrorStuds": 5e-05,
+  "missing": [],
+  "extra": []
+ }
+}

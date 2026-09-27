@@ -1,0 +1,4 @@
+PASS one admin panel: old panel and client retired, no floating bar, one topbar icon, F2 and chat commands open it, stats and passes work, no Gekkoh giveaway
+PASS the World 1, 2 and 3 testing places show the preview features to every player
+PASS the Spin Wheel button: beside x2 Speed with no background, a turning wheel, free/tickets/countdown/price texts, opens the panel
+PASS the Main HUD comes back from every topbar menu; the admin panel opens at once with F2, scales to the screen, and all its categories send their actions

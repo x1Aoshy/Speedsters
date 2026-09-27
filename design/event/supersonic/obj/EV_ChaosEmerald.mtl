@@ -1,0 +1,12 @@
+# Blender 4.5.3 LTS MTL File: 'EventKit_Source.blend'
+# www.blender.org
+
+newmtl EV_ChaosEmerald_Mat
+Ns 960.400024
+Ka 1.000000 1.000000 1.000000
+Kd 0.003847 0.393631 0.056233
+Ks 1.000000 1.000000 1.000000
+Ke 0.002099 0.214708 0.030673
+Ni 1.900000
+d 1.000000
+illum 2

@@ -1,0 +1,72 @@
+{
+  "commands": [
+    "lune run audit/persistence/compile_merged.luau",
+    "lune run audit/test_pad_volumes.luau",
+    "lune run audit/test_stamina_replication.luau",
+    "lune run audit/test_hazard_contact_review.luau",
+    "lune run audit/persistence/test_regression.luau World1",
+    "lune run audit/persistence/test_regression.luau World2"
+  ],
+  "results": [
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "bb099a",
+        "wall_time_seconds": 0.0000021,
+        "exit_code": 0,
+        "original_token_count": 8,
+        "output": "PASS all merged sources compile\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "f67b98",
+        "wall_time_seconds": 0.0000057,
+        "exit_code": 1,
+        "original_token_count": 55,
+        "output": "C:\\Users\\Aoshy´\\Desktop\\Update2\\audit/test_pad_volumes:15: assertion failed!\n[Stack Begin]\n    Script '[C]' - function 'assert'\n    Script 'C:\\Users\\Aoshy´\\Desktop\\Update2\\audit/test_pad_volumes', Line 15\n[Stack End]\n\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "ce58e6",
+        "wall_time_seconds": 0.0000011,
+        "exit_code": 0,
+        "original_token_count": 67,
+        "output": "PASS World1: actual stamina runtime/Heartbeat at 4Hz; frame-authoritative drain/flight; zero/full/max immediate; aliases and cleanup\nPASS World2: actual stamina runtime/Heartbeat at 4Hz; frame-authoritative drain/flight; zero/full/max immediate; aliases and cleanup\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "68e33f",
+        "wall_time_seconds": 0.0000018,
+        "exit_code": 0,
+        "original_token_count": 108,
+        "output": "PASS Presser: body only; accessory/root exclusion; broad phase requires real shape contact\nPASS Hammer: late-added and removed body parts refresh contact filter\nPASS Tree remote: integer indices, teleport/safe protection, swing eligibility, sender-only death\nPASS Tree client: respawn disconnects old avatar; protection respected locally\nAll hazard review tests passed (mocked spatial engine; geometry must be playtested in Roblox)\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "720c01",
+        "wall_time_seconds": 0.1336646,
+        "exit_code": 0,
+        "original_token_count": 108,
+        "output": "PASS World1 OG-shaped migration: all fields, unknown extensions and 252 receipts retained\nPASS corrupt/future records unchanged; production failures and contended callback fail closed\nPASS old server cannot overwrite replacement lease\nPASS starter bundle, rank reward, gift route, World2 unlock and potion survive rejoin without duplicate grants\nPASS actual receipt command builder + DataService: reward and RobuxSpent exactly once\n"
+      }
+    },
+    {
+      "status": "fulfilled",
+      "value": {
+        "chunk_id": "fd28bc",
+        "wall_time_seconds": 0.2508613,
+        "exit_code": 0,
+        "original_token_count": 108,
+        "output": "PASS World2 OG-shaped migration: all fields, unknown extensions and 252 receipts retained\nPASS corrupt/future records unchanged; production failures and contended callback fail closed\nPASS old server cannot overwrite replacement lease\nPASS starter bundle, rank reward, gift route, World2 unlock and potion survive rejoin without duplicate grants\nPASS actual receipt command builder + DataService: reward and RobuxSpent exactly once\n"
+      }
+    }
+  ]
+}

@@ -1,0 +1,13 @@
+# not part of the game project: installers, data dumps, scratch work, old snapshots (incl. third-party places)
+DataAnalysis/
+scratch/
+Outdated/
+# build outputs: keep only the reports
+output/**
+!output/**/
+!output/**/*.md
+# locks and caches
+*.lock
+__pycache__/
+*.pyc
+*.blend1

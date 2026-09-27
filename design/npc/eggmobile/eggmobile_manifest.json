@@ -1,0 +1,1627 @@
+{
+ "generator": "audit/egg_mobile_bpy.py",
+ "kitVersion": 2,
+ "design": "classic Egg Mobile (white hull, black bottom, glass bubble, blue bench, octagonal nozzle)",
+ "fbx": "EggMobileKit.fbx",
+ "rbxm": "design/npc/EggMobileKit.rbxm (saved from Studio after Import 3D)",
+ "units": "1 unit = 1 stud; FBX UnitScaleFactor 1.0 (cm), like GreenHillKit.fbx; axes -Z forward, Y up (Roblox axes)",
+ "pivot": "every piece: the ship origin (the floor spot under the ship centre); identity transforms",
+ "placement": "part.CFrame = floor * CFrame.new(bboxCenterOffset) * CFrame.Angles(0, -importYaw, 0); part.Size = size (importYaw: the quarter turn Studio added, read from the MeshParts' PivotOffset against -bboxCenterOffset)",
+ "textures": "none: every piece is one colour; Shared/EggMobile sets Color / Material / Reflectance / Transparency from here",
+ "totalTris": 35120,
+ "shipBounds": {
+  "min": [
+   -4.9412,
+   0.565,
+   -4.4087
+  ],
+  "max": [
+   4.9412,
+   7.0458,
+   4.7
+  ]
+ },
+ "ship": {
+  "hullCenter": [
+   0.0,
+   3.0,
+   0.0
+  ],
+  "seatRoot": [
+   0.0,
+   5.55,
+   0.45
+  ],
+  "floorTop": 4.9,
+  "rimTop": 5.44,
+  "rimInner": 3.56,
+  "hullRadius": 3.86,
+  "whiteOut": 0.045,
+  "hullBottom": 0.6,
+  "wallFrom": 3.9,
+  "whiteEdge": 2.05,
+  "sticks": {
+   "R": {
+    "side": 1,
+    "pivot": [
+     1.7,
+     5.12,
+     -0.63
+    ],
+    "length": 1.1
+   },
+   "L": {
+    "side": -1,
+    "pivot": [
+     -1.7,
+     5.12,
+     -0.63
+    ],
+    "length": 1.1
+   }
+  },
+  "fanPivot": [
+   0.0,
+   3.3,
+   3.87
+  ],
+  "exhaustPoint": [
+   0.0,
+   3.3,
+   3.45
+  ],
+  "nozzle": {
+   "y": 3.3,
+   "z": 3.25,
+   "depth": 1.35,
+   "outer": 1.22,
+   "fanH": 0.62
+  },
+  "canopy": {
+   "r": 3.68,
+   "b": 1.72,
+   "cy": 5.27,
+   "n": [
+    0.0,
+    1.0
+   ],
+   "lean": 0.03,
+   "d": -0.68,
+   "psi": [
+    -79.35,
+    79.35
+   ]
+  },
+  "plasmaBottom": 0.58
+ },
+ "fbxFacts": {
+  "EggMobileKit.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 1207596
+  },
+  "EM_Black.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 96908
+  },
+  "EM_Chrome.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 145148
+  },
+  "EM_DashRed.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 24044
+  },
+  "EM_FanRear.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 30428
+  },
+  "EM_Glass.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 90140
+  },
+  "EM_GlowExhaust.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 18716
+  },
+  "EM_GlowPlasma.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 19996
+  },
+  "EM_GlowPlasmaCore.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 18460
+  },
+  "EM_HullBlack.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 131964
+  },
+  "EM_HullWhite.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 183068
+  },
+  "EM_Lamp.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 27116
+  },
+  "EM_LogoRed.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 114092
+  },
+  "EM_Metal.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 205372
+  },
+  "EM_MetalDark.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 126812
+  },
+  "EM_Screen.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 22172
+  },
+  "EM_Seat.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 59900
+  },
+  "EM_StickL.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 21644
+  },
+  "EM_StickR.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 21676
+  },
+  "EM_TrimYellow.fbx": {
+   "unitScaleFactor": 0.9999999776482582,
+   "asciiOnly": true,
+   "userFolderInside": false,
+   "bytes": 60124
+  }
+ },
+ "bottomPoints": [
+  [
+   -0.09,
+   0.58,
+   0.451
+  ],
+  [
+   -0.13,
+   0.628,
+   0.487
+  ],
+  [
+   -0.144,
+   0.565,
+   1.091
+  ],
+  [
+   -0.442,
+   0.94,
+   1.649
+  ],
+  [
+   -0.418,
+   1.156,
+   2.103
+  ],
+  [
+   -0.497,
+   1.419,
+   2.496
+  ],
+  [
+   -0.176,
+   0.58,
+   0.425
+  ],
+  [
+   -0.383,
+   0.61,
+   0.924
+  ],
+  [
+   -0.421,
+   0.565,
+   1.016
+  ],
+  [
+   -0.854,
+   0.94,
+   1.479
+  ],
+  [
+   -0.948,
+   1.156,
+   1.923
+  ],
+  [
+   -1.126,
+   1.419,
+   2.283
+  ],
+  [
+   -0.256,
+   0.58,
+   0.382
+  ],
+  [
+   -0.609,
+   0.61,
+   0.793
+  ],
+  [
+   -0.67,
+   0.565,
+   0.873
+  ],
+  [
+   -1.126,
+   0.94,
+   1.284
+  ],
+  [
+   -1.414,
+   1.156,
+   1.612
+  ],
+  [
+   -1.678,
+   1.419,
+   1.913
+  ],
+  [
+   -0.382,
+   0.58,
+   0.256
+  ],
+  [
+   -0.866,
+   0.61,
+   0.5
+  ],
+  [
+   -0.953,
+   0.565,
+   0.55
+  ],
+  [
+   -1.42,
+   0.94,
+   0.948
+  ],
+  [
+   -1.857,
+   1.156,
+   1.072
+  ],
+  [
+   -2.204,
+   1.419,
+   1.273
+  ],
+  [
+   -0.425,
+   0.58,
+   0.176
+  ],
+  [
+   -0.966,
+   0.61,
+   0.259
+  ],
+  [
+   -1.063,
+   0.565,
+   0.285
+  ],
+  [
+   -1.617,
+   0.94,
+   0.549
+  ],
+  [
+   -2.071,
+   1.156,
+   0.555
+  ],
+  [
+   -2.458,
+   1.419,
+   0.659
+  ],
+  [
+   -0.451,
+   0.58,
+   0.09
+  ],
+  [
+   -0.503,
+   0.628,
+   0.033
+  ],
+  [
+   -1.091,
+   0.565,
+   0.144
+  ],
+  [
+   -1.704,
+   0.94,
+   0.112
+  ],
+  [
+   -2.14,
+   1.156,
+   0.14
+  ],
+  [
+   -2.54,
+   1.419,
+   0.166
+  ],
+  [
+   -0.451,
+   0.58,
+   -0.09
+  ],
+  [
+   -0.487,
+   0.628,
+   -0.13
+  ],
+  [
+   -1.091,
+   0.565,
+   -0.144
+  ],
+  [
+   -1.649,
+   0.94,
+   -0.442
+  ],
+  [
+   -2.103,
+   1.156,
+   -0.418
+  ],
+  [
+   -2.496,
+   1.419,
+   -0.497
+  ],
+  [
+   -0.425,
+   0.58,
+   -0.176
+  ],
+  [
+   -0.924,
+   0.61,
+   -0.383
+  ],
+  [
+   -1.016,
+   0.565,
+   -0.421
+  ],
+  [
+   -1.479,
+   0.94,
+   -0.854
+  ],
+  [
+   -1.923,
+   1.156,
+   -0.948
+  ],
+  [
+   -2.283,
+   1.419,
+   -1.126
+  ],
+  [
+   -0.382,
+   0.58,
+   -0.256
+  ],
+  [
+   -0.793,
+   0.61,
+   -0.609
+  ],
+  [
+   -0.873,
+   0.565,
+   -0.67
+  ],
+  [
+   -1.284,
+   0.94,
+   -1.126
+  ],
+  [
+   -1.612,
+   1.156,
+   -1.414
+  ],
+  [
+   -1.913,
+   1.419,
+   -1.678
+  ],
+  [
+   -0.256,
+   0.58,
+   -0.382
+  ],
+  [
+   -0.5,
+   0.61,
+   -0.866
+  ],
+  [
+   -0.55,
+   0.565,
+   -0.953
+  ],
+  [
+   -0.948,
+   0.94,
+   -1.42
+  ],
+  [
+   -1.072,
+   1.156,
+   -1.857
+  ],
+  [
+   -1.273,
+   1.419,
+   -2.204
+  ],
+  [
+   -0.176,
+   0.58,
+   -0.425
+  ],
+  [
+   -0.259,
+   0.61,
+   -0.966
+  ],
+  [
+   -0.285,
+   0.565,
+   -1.063
+  ],
+  [
+   -0.549,
+   0.94,
+   -1.617
+  ],
+  [
+   -0.555,
+   1.156,
+   -2.071
+  ],
+  [
+   -0.659,
+   1.419,
+   -2.458
+  ],
+  [
+   -0.09,
+   0.58,
+   -0.451
+  ],
+  [
+   -0.033,
+   0.628,
+   -0.503
+  ],
+  [
+   -0.144,
+   0.565,
+   -1.091
+  ],
+  [
+   -0.112,
+   0.94,
+   -1.704
+  ],
+  [
+   -0.14,
+   1.156,
+   -2.14
+  ],
+  [
+   -0.166,
+   1.419,
+   -2.54
+  ],
+  [
+   0.0,
+   0.58,
+   -0.0
+  ],
+  [
+   0.0,
+   0.628,
+   -0.504
+  ],
+  [
+   0.0,
+   0.565,
+   -1.1
+  ],
+  [
+   0.0,
+   0.94,
+   -1.707
+  ],
+  [
+   0.0,
+   1.156,
+   -2.145
+  ],
+  [
+   0.0,
+   1.419,
+   -2.545
+  ],
+  [
+   0.176,
+   0.58,
+   -0.425
+  ],
+  [
+   0.383,
+   0.61,
+   -0.924
+  ],
+  [
+   0.421,
+   0.565,
+   -1.016
+  ],
+  [
+   0.854,
+   0.94,
+   -1.479
+  ],
+  [
+   0.948,
+   1.156,
+   -1.923
+  ],
+  [
+   1.126,
+   1.419,
+   -2.283
+  ],
+  [
+   0.256,
+   0.58,
+   -0.382
+  ],
+  [
+   0.609,
+   0.61,
+   -0.793
+  ],
+  [
+   0.67,
+   0.565,
+   -0.873
+  ],
+  [
+   1.126,
+   0.94,
+   -1.284
+  ],
+  [
+   1.414,
+   1.156,
+   -1.612
+  ],
+  [
+   1.678,
+   1.419,
+   -1.913
+  ],
+  [
+   0.382,
+   0.58,
+   -0.256
+  ],
+  [
+   0.866,
+   0.61,
+   -0.5
+  ],
+  [
+   0.953,
+   0.565,
+   -0.55
+  ],
+  [
+   1.42,
+   0.94,
+   -0.948
+  ],
+  [
+   1.857,
+   1.156,
+   -1.072
+  ],
+  [
+   2.204,
+   1.419,
+   -1.273
+  ],
+  [
+   0.425,
+   0.58,
+   -0.176
+  ],
+  [
+   0.966,
+   0.61,
+   -0.259
+  ],
+  [
+   1.063,
+   0.565,
+   -0.285
+  ],
+  [
+   1.617,
+   0.94,
+   -0.549
+  ],
+  [
+   2.071,
+   1.156,
+   -0.555
+  ],
+  [
+   2.458,
+   1.419,
+   -0.659
+  ],
+  [
+   0.451,
+   0.58,
+   -0.09
+  ],
+  [
+   0.503,
+   0.628,
+   -0.033
+  ],
+  [
+   1.091,
+   0.565,
+   -0.144
+  ],
+  [
+   1.704,
+   0.94,
+   -0.112
+  ],
+  [
+   2.14,
+   1.156,
+   -0.14
+  ],
+  [
+   2.54,
+   1.419,
+   -0.166
+  ],
+  [
+   0.451,
+   0.58,
+   0.09
+  ],
+  [
+   0.487,
+   0.628,
+   0.13
+  ],
+  [
+   1.091,
+   0.565,
+   0.144
+  ],
+  [
+   1.649,
+   0.94,
+   0.442
+  ],
+  [
+   2.103,
+   1.156,
+   0.418
+  ],
+  [
+   2.496,
+   1.419,
+   0.497
+  ],
+  [
+   0.425,
+   0.58,
+   0.176
+  ],
+  [
+   0.924,
+   0.61,
+   0.383
+  ],
+  [
+   1.016,
+   0.565,
+   0.421
+  ],
+  [
+   1.479,
+   0.94,
+   0.854
+  ],
+  [
+   1.923,
+   1.156,
+   0.948
+  ],
+  [
+   2.283,
+   1.419,
+   1.126
+  ],
+  [
+   0.382,
+   0.58,
+   0.256
+  ],
+  [
+   0.793,
+   0.61,
+   0.609
+  ],
+  [
+   0.873,
+   0.565,
+   0.67
+  ],
+  [
+   1.284,
+   0.94,
+   1.126
+  ],
+  [
+   1.612,
+   1.156,
+   1.414
+  ],
+  [
+   1.913,
+   1.419,
+   1.678
+  ],
+  [
+   0.256,
+   0.58,
+   0.382
+  ],
+  [
+   0.5,
+   0.61,
+   0.866
+  ],
+  [
+   0.55,
+   0.565,
+   0.953
+  ],
+  [
+   0.948,
+   0.94,
+   1.42
+  ],
+  [
+   1.072,
+   1.156,
+   1.857
+  ],
+  [
+   1.273,
+   1.419,
+   2.204
+  ],
+  [
+   0.176,
+   0.58,
+   0.425
+  ],
+  [
+   0.259,
+   0.61,
+   0.966
+  ],
+  [
+   0.285,
+   0.565,
+   1.063
+  ],
+  [
+   0.549,
+   0.94,
+   1.617
+  ],
+  [
+   0.555,
+   1.156,
+   2.071
+  ],
+  [
+   0.659,
+   1.419,
+   2.458
+  ],
+  [
+   0.09,
+   0.58,
+   0.451
+  ],
+  [
+   0.033,
+   0.628,
+   0.503
+  ],
+  [
+   0.144,
+   0.565,
+   1.091
+  ],
+  [
+   0.112,
+   0.94,
+   1.704
+  ],
+  [
+   0.14,
+   1.156,
+   2.14
+  ],
+  [
+   0.166,
+   1.419,
+   2.54
+  ]
+ ],
+ "pieces": [
+  {
+   "name": "EM_HullWhite",
+   "role": "static",
+   "size": [
+    7.8096,
+    3.4179,
+    7.8097
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    3.731,
+    -0.0001
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    230,
+    233,
+    238
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.18,
+   "transparency": 0.0,
+   "castShadow": true,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 6016,
+   "verts": 3252,
+   "renderVerts": 3638
+  },
+  {
+   "name": "EM_HullBlack",
+   "role": "static",
+   "size": [
+    7.72,
+    3.3,
+    7.72
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    2.25,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    26,
+    26,
+    32
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.15,
+   "transparency": 0.0,
+   "castShadow": true,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 4512,
+   "verts": 2305,
+   "renderVerts": 2437
+  },
+  {
+   "name": "EM_Metal",
+   "role": "static",
+   "size": [
+    9.8823,
+    4.8729,
+    9.0087
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    4.6093,
+    0.0956
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    160,
+    165,
+    176
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.15,
+   "transparency": 0.0,
+   "castShadow": true,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 5104,
+   "verts": 2588,
+   "renderVerts": 4942
+  },
+  {
+   "name": "EM_MetalDark",
+   "role": "static",
+   "size": [
+    9.0765,
+    6.015,
+    8.466
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    3.6475,
+    0.317
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    72,
+    74,
+    88
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.08,
+   "transparency": 0.0,
+   "castShadow": true,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 3372,
+   "verts": 1773,
+   "renderVerts": 3749
+  },
+  {
+   "name": "EM_Black",
+   "role": "static",
+   "size": [
+    8.1981,
+    2.7226,
+    7.4154
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    3.9037,
+    -0.1977
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    20,
+    20,
+    24
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 2124,
+   "verts": 1166,
+   "renderVerts": 2650
+  },
+  {
+   "name": "EM_TrimYellow",
+   "role": "static",
+   "size": [
+    7.8883,
+    1.5228,
+    5.8446
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    4.5481,
+    1.7777
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    255,
+    204,
+    22
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": true,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 1280,
+   "verts": 650,
+   "renderVerts": 1142
+  },
+  {
+   "name": "EM_Seat",
+   "role": "static",
+   "size": [
+    4.42,
+    2.0374,
+    1.9796
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    5.7958,
+    1.5108
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    28,
+    116,
+    232
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.06,
+   "transparency": 0.0,
+   "castShadow": true,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 1540,
+   "verts": 784,
+   "renderVerts": 1208
+  },
+  {
+   "name": "EM_Glass",
+   "role": "static",
+   "size": [
+    7.2332,
+    1.6858,
+    3.0091
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    6.1129,
+    -2.1754
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    205,
+    232,
+    255
+   ],
+   "material": "Glass",
+   "reflectance": 0.3,
+   "transparency": 0.6,
+   "castShadow": false,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 2336,
+   "verts": 1170,
+   "renderVerts": 1609
+  },
+  {
+   "name": "EM_Chrome",
+   "role": "static",
+   "size": [
+    7.5234,
+    6.0717,
+    7.3547
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    3.6008,
+    -0.266
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    226,
+    229,
+    236
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.3,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 4204,
+   "verts": 2242,
+   "renderVerts": 4622
+  },
+  {
+   "name": "EM_LogoRed",
+   "role": "static",
+   "size": [
+    7.911,
+    1.0558,
+    1.5055
+   ],
+   "bboxCenterOffset": [
+    0.0001,
+    2.9461,
+    0.0663
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    165,
+    25,
+    25
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": null,
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 2416,
+   "verts": 1180,
+   "renderVerts": 2434
+  },
+  {
+   "name": "EM_Lamp",
+   "role": "glow",
+   "size": [
+    1.38,
+    1.3812,
+    0.4538
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    3.9503,
+    -4.028
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    255,
+    212,
+    36
+   ],
+   "material": "Neon",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": "Lamp",
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 384,
+   "verts": 194,
+   "renderVerts": 306
+  },
+  {
+   "name": "EM_DashRed",
+   "role": "glow",
+   "size": [
+    2.4803,
+    0.52,
+    0.3239
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    5.92,
+    -1.7261
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    255,
+    48,
+    48
+   ],
+   "material": "Neon",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": "DashLight",
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 288,
+   "verts": 148,
+   "renderVerts": 272
+  },
+  {
+   "name": "EM_Screen",
+   "role": "glow",
+   "size": [
+    1.12,
+    1.12,
+    0.085
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    5.98,
+    -1.9875
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    70,
+    230,
+    255
+   ],
+   "material": "Neon",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": "Screen",
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 240,
+   "verts": 122,
+   "renderVerts": 210
+  },
+  {
+   "name": "EM_GlowPlasma",
+   "role": "glow",
+   "size": [
+    2.0,
+    0.69,
+    2.0
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.955,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    70,
+    238,
+    255
+   ],
+   "material": "Neon",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": "Plasma",
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 192,
+   "verts": 98,
+   "renderVerts": 198
+  },
+  {
+   "name": "EM_GlowPlasmaCore",
+   "role": "glow",
+   "size": [
+    0.92,
+    0.7,
+    0.92
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    0.93,
+    0.0
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    205,
+    255,
+    255
+   ],
+   "material": "Neon",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": "PlasmaCore",
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 128,
+   "verts": 66,
+   "renderVerts": 134
+  },
+  {
+   "name": "EM_GlowExhaust",
+   "role": "glow",
+   "size": [
+    1.44,
+    1.44,
+    0.08
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    3.3,
+    3.57
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    70,
+    238,
+    255
+   ],
+   "material": "Neon",
+   "reflectance": 0.0,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": "Exhaust",
+   "side": null,
+   "rideOn": null,
+   "motorPivot": null,
+   "tris": 128,
+   "verts": 66,
+   "renderVerts": 138
+  },
+  {
+   "name": "EM_FanRear",
+   "role": "fan",
+   "size": [
+    1.4,
+    1.4,
+    0.34
+   ],
+   "bboxCenterOffset": [
+    0.0,
+    3.3,
+    3.92
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    150,
+    156,
+    170
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.12,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": null,
+   "side": 1,
+   "rideOn": null,
+   "motorPivot": [
+    0.0,
+    3.3,
+    3.87
+   ],
+   "tris": 408,
+   "verts": 222,
+   "renderVerts": 546
+  },
+  {
+   "name": "EM_StickL",
+   "role": "stick",
+   "size": [
+    0.26,
+    1.21,
+    0.26
+   ],
+   "bboxCenterOffset": [
+    -1.7,
+    5.725,
+    -0.63
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    230,
+    36,
+    36
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.05,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": null,
+   "side": -1,
+   "rideOn": null,
+   "motorPivot": [
+    -1.7,
+    5.12,
+    -0.63
+   ],
+   "tris": 224,
+   "verts": 114,
+   "renderVerts": 202
+  },
+  {
+   "name": "EM_StickR",
+   "role": "stick",
+   "size": [
+    0.26,
+    1.21,
+    0.26
+   ],
+   "bboxCenterOffset": [
+    1.7,
+    5.725,
+    -0.63
+   ],
+   "pivot": [
+    0,
+    0,
+    0
+   ],
+   "color": [
+    230,
+    36,
+    36
+   ],
+   "material": "SmoothPlastic",
+   "reflectance": 0.05,
+   "transparency": 0.0,
+   "castShadow": false,
+   "glow": null,
+   "side": 1,
+   "rideOn": null,
+   "motorPivot": [
+    1.7,
+    5.12,
+    -0.63
+   ],
+   "tris": 224,
+   "verts": 114,
+   "renderVerts": 202
+  }
+ ],
+ "revision": "centered-round-lamp-reference-alignment-2026-09-26",
+ "reimportCheck": {
+  "worstErrorStuds": 4.9e-05,
+  "missing": [],
+  "extra": []
+ },
+ "textureNotes": "Original per-piece colors preserved. Blender file packs generated enamel microdetail as roughness only; FBX keeps the 19-piece color contract."
+}

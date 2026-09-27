@@ -1,0 +1,55 @@
+local task=require('@lune/task')
+local Actor=require('../merged/World1/ServerScriptService/Services/Data/SessionActor')
+local Adapter=require('../merged/World1/ServerScriptService/Services/Data/DataStoreAdapter')
+local function open(store,id)
+	local a=Actor.new({userId=id,storeAdapter=store});local h=a:Open();assert(h.ok);return a,h.value
+end
+local store=Adapter.CreateMock({Player_1={Version=306,Speed=100,Wins=1000}})
+local a,h=open(store,1)
+local oldUpdate=store.UpdateAsync;local delay=false
+function store:UpdateAsync(k,fn)
+	local r=oldUpdate(self,k,fn)
+	if delay then delay=false;task.wait(0.10) end
+	return r
+end
+delay=true
+local committed,gained,preferred=false,false,false
+task.spawn(function() local r=a:Commit(h,{operationId='wins1',fingerprint='10',commands={{kind='GrantExact',stat='Wins',amount=10}}});assert(r.kind=='Committed');committed=true end)
+task.wait(0.02)
+task.spawn(function() assert(a:AccrueSpeed(h,25).ok);gained=true end)
+task.spawn(function() assert(a:SetPreference(h,'HidePopups',true).ok);preferred=true end)
+task.wait(0.20)
+assert(committed and gained and preferred)
+assert(a:Inspect(h).value.profile.Speed==125)
+assert(a:Inspect(h).value.profile.Settings.HidePopups==true)
+assert(a:Release(h).kind=='Released')
+assert(store:GetData('Player_1').Speed==125)
+print('PASS concurrent Commit + gain + preference + Release preserve all changes')
+local ts=Adapter.CreateMock({Player_2={Version=306,Speed=100,Wins=1000}})
+local b,bh=open(ts,2)
+ts:SetFailureMode('Player_2','Timeout')
+local request={operationId='receipt:buy',receiptId='buy',fingerprint='buy500',commands={{kind='GrantExact',stat='Speed',amount=500}}}
+assert(b:Commit(bh,request).kind=='Pending')
+assert(ts:GetData('Player_2').Speed==600)
+assert(b:Release(bh).kind=='Failed')
+assert(ts:GetData('Player_2').Speed==600)
+ts:SetFailureMode('Player_2','None')
+assert(b:Release(bh).kind=='Released')
+assert(ts:GetData('Player_2').Speed==600)
+local c,ch=open(ts,2)
+assert(c:Commit(ch,request).kind=='AlreadyCommitted')
+assert(c:Inspect(ch).value.profile.Speed==600)
+print('PASS applied timeout + retry + final release + rejoin + receipt retry: exactly 600')
+local ns=Adapter.CreateMock({Player_3={Version=306,Speed=100,Wins=1000}})
+local d,dh=open(ns,3)
+ns:SetFailureMode('Player_3','Down')
+assert(d:Commit(dh,request).kind=='Pending')
+assert(ns:GetData('Player_3').Speed==100)
+ns:SetFailureMode('Player_3','None')
+assert(d:Commit(dh,request).kind=='AlreadyCommitted')
+assert(d:Inspect(dh).value.profile.Speed==600)
+assert(d:Commit(dh,{operationId='mult',fingerprint='mult4',commands={{kind='SetPersistent',key='PermanentBaseSpeedMultiplier',value=4}}}).kind=='Committed')
+assert(d:Release(dh).kind=='Released')
+local e,eh=open(ns,3);assert(e:Inspect(eh).value.profile.PermanentBaseSpeedMultiplier==4)
+print('PASS unapplied failure retries once; multiplier survives rejoin')
+

@@ -1,0 +1,30 @@
+{
+  "V2": {
+    "changes": [
+      "ServerScriptService.Bootstrap",
+      "ServerScriptService.Progression.PlayerStatsBridge",
+      "ServerScriptService.Services.Data.DataStoreAdapter",
+      "ServerScriptService.Services.Data.SessionActor",
+      "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient",
+      "StarterPlayer.StarterPlayerScripts.UI.MainHUDController"
+    ],
+    "compiled": 175,
+    "file": "output/Update2_revision/V2Speedsters.rbxl",
+    "instances": 26869,
+    "onlySourceChangesVerified": true
+  },
+  "World2": {
+    "changes": [
+      "ServerScriptService.Bootstrap",
+      "ServerScriptService.Progression.PlayerStatsBridge",
+      "ServerScriptService.Services.Data.DataStoreAdapter",
+      "ServerScriptService.Services.Data.SessionActor",
+      "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient",
+      "StarterPlayer.StarterPlayerScripts.UI.MainHUDController"
+    ],
+    "compiled": 223,
+    "file": "output/Update2_revision/World2.rbxl",
+    "instances": 15116,
+    "onlySourceChangesVerified": true
+  }
+}

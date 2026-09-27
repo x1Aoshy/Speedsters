@@ -1,0 +1,40 @@
+PASS OG-shaped profile: speed/wins/rebirths/inventory/multipliers/receipts/daily preserved
+PASS second owner blocked and stale owner cannot save
+CONFIRMED BLOCKER: corrupt records overwritten with defaults
+CHECK future schema rejects after acquiring/releasing lease
+CONFIRMED BLOCKER: production fallback claims mock save is durable
+CONFIRMED BLOCKER: stale callback flag accepts another session profile
+CONFIRMED REMAINING BLOCKER: speed earned during Commit is discarded (125 -> 100)
+CONFIRMED REMAINING BLOCKER: timeout-applied grant overwritten by Release (600 -> 100)
+CONFIRMED REMAINING BLOCKER: mutating Inspect copies cannot persist purchases/multipliers
+DONE source/V2 offline only; remaining blockers are expected reproductions, not a release approval
+PASS OG-shaped profile: speed/wins/rebirths/inventory/multipliers/receipts/daily preserved
+PASS second owner blocked and stale owner cannot save
+PASS corrupt records remain untouched
+PASS future schema remains untouched
+PASS unavailable store fails closed
+PASS retried acquire callback cannot accept another owner
+CONFIRMED REMAINING BLOCKER: speed earned during Commit is discarded (125 -> 100)
+CONFIRMED REMAINING BLOCKER: timeout-applied grant overwritten by Release (600 -> 100)
+CONFIRMED REMAINING BLOCKER: mutating Inspect copies cannot persist purchases/multipliers
+DONE patched/V2 offline only; remaining blockers are expected reproductions, not a release approval
+PASS OG-shaped profile: speed/wins/rebirths/inventory/multipliers/receipts/daily preserved
+PASS second owner blocked and stale owner cannot save
+PASS corrupt records remain untouched
+PASS future schema remains untouched
+PASS unavailable store fails closed
+PASS retried acquire callback cannot accept another owner
+CONFIRMED REMAINING BLOCKER: speed earned during Commit is discarded (125 -> 100)
+CONFIRMED REMAINING BLOCKER: timeout-applied grant overwritten by Release (600 -> 100)
+CONFIRMED REMAINING BLOCKER: mutating Inspect copies cannot persist purchases/multipliers
+DONE patched/World2 offline only; remaining blockers are expected reproductions, not a release approval
+PASS popup shoe, tween to bar, impact: audit/patched/V2
+PASS fallback treadmill, remote deduplication, HidePopups, rebirth and initial load
+PASS popup shoe, tween to bar, impact: audit/patched/World2
+PASS fallback treadmill, remote deduplication, HidePopups, rebirth and initial load
+PASS SettingsUpdate allowlist/types/finite numbers
+PASS confirmed save required; Pending/Failed/Released are not success
+PASS OG permanent wins bonus and no false success without durable reward
+PASS SettingsUpdate allowlist/types/finite numbers
+PASS confirmed save required; Pending/Failed/Released are not success
+PASS OG permanent wins bonus and no false success without durable reward

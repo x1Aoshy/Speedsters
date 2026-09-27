@@ -1,0 +1,9 @@
+-- StarterPlayerScripts/Gameplay/World3LeaderboardChampions - RETIRED 2026-09-26 (owner).
+-- 2026-09-26 (owner): "the leaderboards don't look good - make the characters' accessories show
+-- properly and make them dance". This script stood its own copy of every leaderboard champion
+-- on the same stands as UI/GlobalLeaderboardDisplay (in World 2 both showed: two overlapping
+-- statues per stand; in World 3 it deleted the shared ones), every part anchored, so the
+-- accessories stayed where the asset left them and nothing could animate.
+-- The champions are now UI/GlobalLeaderboardDisplay's alone, in all three worlds
+-- (Shared/LeaderboardChampionRig: accessories welded, only the root anchored, dancing).
+-- Kept as a comment-only stub: the build keeps every authored script of the input place.

@@ -1,0 +1,12 @@
+local fs = require("@lune/fs")
+local r = require("@lune/roblox")
+local luau = require("@lune/luau")
+
+local place = r.deserializePlace(fs.readFile("World1 Speedtercorrect.rbxl"))
+local ws = place:GetService("Workspace")
+print("safezone2.2 in ws:", ws:FindFirstChild("safezone2.2") ~= nil)
+print("Japanese Torii Gate in ws:", ws:FindFirstChild("Japanese Torii Gate") ~= nil)
+print("Sonic.EXE in ws:", ws:FindFirstChild("Sonic.EXE") ~= nil)
+print("WinStage.2 in ws:", ws:FindFirstChild("WinStage.2") ~= nil)
+print("SixSevenArea in ws:", ws:FindFirstChild("SixSevenArea") ~= nil)
+print("neworld1 in ws:", ws:FindFirstChild("neworld1") ~= nil)

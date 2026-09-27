@@ -1,0 +1,1292 @@
+{
+ "note": "Fallback files only. Same 23 names, sizes, pivots and texture as GreenHillKit.fbx; the three palms differ slightly at the trunk base (flare ring order fixed so no faces fold back); other pieces only lose loose vertices. kit_manifest.json and layout.json apply unchanged.",
+ "fbxSettings": "METRIC unit scale 1.0, apply_unit_scale, Apply Scalings = FBX All -> UnitScaleFactor 100; raw coordinates = studs; -Z forward, Y up; identity transforms; triangles; PNG embedded; ASCII-only paths",
+ "fbxFacts": {
+  "Kit_Bromeliad.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_Bromeliad.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_Bromeliad.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_BushA.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_BushA.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_BushA.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_BushB.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_BushB.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_BushB.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_Cloud.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_Cloud.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_Cloud.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_FenceSection.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_FenceSection.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_FenceSection.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_Fern.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_Fern.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_Fern.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_FlowerPatch.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_FlowerPatch.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_FlowerPatch.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_GrassTuft.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_GrassTuft.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_GrassTuft.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_MesaSpire.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_MesaSpire.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_MesaSpire.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_MesaTall.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_MesaTall.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_MesaTall.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_MesaWide.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_MesaWide.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_MesaWide.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_PalmA.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_PalmA.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_PalmA.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_PalmB.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_PalmB.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_PalmB.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_PalmC.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_PalmC.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_PalmC.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_RockA.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_RockA.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_RockA.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_RockB.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_RockB.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_RockB.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_SpeedPad.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_SpeedPad.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_SpeedPad.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_Sunflower.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_Sunflower.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_Sunflower.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_TerraceCorner.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_TerraceCorner.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_TerraceCorner.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_TerraceL.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_TerraceL.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_TerraceL.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_TerraceM.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_TerraceM.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_TerraceM.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_TerraceRound.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_TerraceRound.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_TerraceRound.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "Kit_TerraceS.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\fbx\\Kit_TerraceS.fbm\\GreenHillAtlas.png",
+    "KString",
+    "Kit_TerraceS.fbm\\GreenHillAtlas.png"
+   ]
+  },
+  "GreenHillKit_all.fbx": {
+   "unitScaleFactor": 100.0,
+   "embeddedPng": true,
+   "asciiPaths": true,
+   "texturePaths": [
+    "C:\\Users\\AOSHY~1\\AppData\\Local\\Temp\\gh_kit_ga3bzte_\\GreenHillKit_all.fbm\\GreenHillAtlas.png",
+    "GreenHillKit_all.fbm\\GreenHillAtlas.png",
+    "KString"
+   ]
+  }
+ },
+ "robloxLimitValidation": [
+  {
+   "name": "Kit_PalmA",
+   "tris": 2720,
+   "ngons": 0,
+   "verts": 2081,
+   "renderVerts": 2139,
+   "minArea": 0.00953570008277893,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    25.89,
+    35.353,
+    26.661
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_PalmB",
+   "tris": 2476,
+   "ngons": 0,
+   "verts": 1907,
+   "renderVerts": 1953,
+   "minArea": 0.008368737995624542,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    25.853,
+    29.256,
+    23.89
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_PalmC",
+   "tris": 2264,
+   "ngons": 0,
+   "verts": 1753,
+   "renderVerts": 1790,
+   "minArea": 0.006039788480848074,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    18.337,
+    18.972,
+    20.08
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_Fern",
+   "tris": 1320,
+   "ngons": 0,
+   "verts": 1166,
+   "renderVerts": 1364,
+   "minArea": 0.0014161175349727273,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    8.574,
+    3.19,
+    8.667
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_Sunflower",
+   "tris": 984,
+   "ngons": 0,
+   "verts": 1146,
+   "renderVerts": 1269,
+   "minArea": 0.004863784182816744,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    3.426,
+    6.365,
+    4.634
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_Bromeliad",
+   "tris": 1038,
+   "ngons": 0,
+   "verts": 901,
+   "renderVerts": 904,
+   "minArea": 0.002121854806318879,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    5.133,
+    1.865,
+    5.136
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_BushA",
+   "tris": 1260,
+   "ngons": 0,
+   "verts": 1236,
+   "renderVerts": 1356,
+   "minArea": 0.016917984932661057,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    9.982,
+    5.28,
+    8.081
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_BushB",
+   "tris": 512,
+   "ngons": 0,
+   "verts": 432,
+   "renderVerts": 528,
+   "minArea": 0.03464554622769356,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    9.984,
+    3.993,
+    9.472
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_RockA",
+   "tris": 1280,
+   "ngons": 0,
+   "verts": 642,
+   "renderVerts": 642,
+   "minArea": 0.01257589552551508,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    6.314,
+    3.984,
+    4.859
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_RockB",
+   "tris": 960,
+   "ngons": 0,
+   "verts": 486,
+   "renderVerts": 486,
+   "minArea": 0.009109904058277607,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    7.06,
+    2.593,
+    4.538
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_GrassTuft",
+   "tris": 264,
+   "ngons": 0,
+   "verts": 440,
+   "renderVerts": 440,
+   "minArea": 0.04397239908576012,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    3.08,
+    2.078,
+    7.224
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_FlowerPatch",
+   "tris": 424,
+   "ngons": 0,
+   "verts": 777,
+   "renderVerts": 849,
+   "minArea": 0.011941088363528252,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    5.144,
+    1.459,
+    5.597
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_TerraceS",
+   "tris": 784,
+   "ngons": 0,
+   "verts": 449,
+   "renderVerts": 694,
+   "minArea": 0.02808995358645916,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    22.77,
+    49.014,
+    26.759
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_TerraceM",
+   "tris": 1180,
+   "ngons": 0,
+   "verts": 675,
+   "renderVerts": 1056,
+   "minArea": 0.02493908815085888,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    26.772,
+    49.031,
+    42.778
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_TerraceL",
+   "tris": 1404,
+   "ngons": 0,
+   "verts": 803,
+   "renderVerts": 1260,
+   "minArea": 0.02791883982717991,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    30.767,
+    49.012,
+    58.761
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_TerraceCorner",
+   "tris": 1252,
+   "ngons": 0,
+   "verts": 717,
+   "renderVerts": 1104,
+   "minArea": 0.025671178475022316,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    38.772,
+    49.028,
+    38.747
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_TerraceRound",
+   "tris": 831,
+   "ngons": 0,
+   "verts": 476,
+   "renderVerts": 731,
+   "minArea": 0.02187231183052063,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    30.955,
+    49.011,
+    28.375
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_MesaTall",
+   "tris": 1796,
+   "ngons": 0,
+   "verts": 1026,
+   "renderVerts": 1662,
+   "minArea": 0.0037753020878881216,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    46.605,
+    97.012,
+    46.06
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_MesaWide",
+   "tris": 2172,
+   "ngons": 0,
+   "verts": 1249,
+   "renderVerts": 2022,
+   "minArea": 0.031231068074703217,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    84.316,
+    63.033,
+    61.455
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_MesaSpire",
+   "tris": 796,
+   "ngons": 0,
+   "verts": 446,
+   "renderVerts": 766,
+   "minArea": 0.05156489089131355,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    29.986,
+    89.016,
+    28.767
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_FenceSection",
+   "tris": 400,
+   "ngons": 0,
+   "verts": 254,
+   "renderVerts": 350,
+   "minArea": 0.03250234201550484,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    1.12,
+    4.564,
+    17.12
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_SpeedPad",
+   "tris": 182,
+   "ngons": 0,
+   "verts": 144,
+   "renderVerts": 334,
+   "minArea": 0.00814441591501236,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    18.0,
+    0.495,
+    16.0
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  },
+  {
+   "name": "Kit_Cloud",
+   "tris": 1344,
+   "ngons": 0,
+   "verts": 688,
+   "renderVerts": 688,
+   "minArea": 2.659553289413452,
+   "degenerate": 0,
+   "looseVerts": 0,
+   "looseEdges": 0,
+   "sizeStuds": [
+    87.473,
+    27.1,
+    34.01
+   ],
+   "uvMaps": 1,
+   "materials": 1,
+   "flippedEdges": 0,
+   "nanNormals": 0,
+   "shapeKeys": 0,
+   "modifiers": 0,
+   "asciiNames": true,
+   "identityXform": true,
+   "ok": true,
+   "errors": []
+  }
+ ],
+ "reimportCheck": {
+  "worstSizeErrorStuds": 3.814697265625e-06,
+  "rows": [
+   [
+    "Kit_PalmA.obj",
+    "Kit_PalmA",
+    [
+     25.89,
+     35.353,
+     26.661
+    ]
+   ],
+   [
+    "Kit_PalmB.obj",
+    "Kit_PalmB",
+    [
+     25.853,
+     29.256,
+     23.89
+    ]
+   ],
+   [
+    "Kit_PalmC.obj",
+    "Kit_PalmC",
+    [
+     18.337,
+     18.972,
+     20.08
+    ]
+   ],
+   [
+    "Kit_Fern.obj",
+    "Kit_Fern",
+    [
+     8.574,
+     3.19,
+     8.667
+    ]
+   ],
+   [
+    "Kit_Sunflower.obj",
+    "Kit_Sunflower",
+    [
+     3.426,
+     6.365,
+     4.634
+    ]
+   ],
+   [
+    "Kit_Bromeliad.obj",
+    "Kit_Bromeliad",
+    [
+     5.133,
+     1.865,
+     5.136
+    ]
+   ],
+   [
+    "Kit_BushA.obj",
+    "Kit_BushA",
+    [
+     9.982,
+     5.28,
+     8.081
+    ]
+   ],
+   [
+    "Kit_BushB.obj",
+    "Kit_BushB",
+    [
+     9.984,
+     3.993,
+     9.472
+    ]
+   ],
+   [
+    "Kit_RockA.obj",
+    "Kit_RockA",
+    [
+     6.314,
+     3.984,
+     4.859
+    ]
+   ],
+   [
+    "Kit_RockB.obj",
+    "Kit_RockB",
+    [
+     7.06,
+     2.593,
+     4.538
+    ]
+   ],
+   [
+    "Kit_GrassTuft.obj",
+    "Kit_GrassTuft",
+    [
+     3.08,
+     2.078,
+     7.224
+    ]
+   ],
+   [
+    "Kit_FlowerPatch.obj",
+    "Kit_FlowerPatch",
+    [
+     5.144,
+     1.459,
+     5.597
+    ]
+   ],
+   [
+    "Kit_TerraceS.obj",
+    "Kit_TerraceS",
+    [
+     22.77,
+     49.014,
+     26.759
+    ]
+   ],
+   [
+    "Kit_TerraceM.obj",
+    "Kit_TerraceM",
+    [
+     26.772,
+     49.031,
+     42.778
+    ]
+   ],
+   [
+    "Kit_TerraceL.obj",
+    "Kit_TerraceL",
+    [
+     30.767,
+     49.012,
+     58.761
+    ]
+   ],
+   [
+    "Kit_TerraceCorner.obj",
+    "Kit_TerraceCorner",
+    [
+     38.772,
+     49.028,
+     38.747
+    ]
+   ],
+   [
+    "Kit_TerraceRound.obj",
+    "Kit_TerraceRound",
+    [
+     30.955,
+     49.011,
+     28.375
+    ]
+   ],
+   [
+    "Kit_MesaTall.obj",
+    "Kit_MesaTall",
+    [
+     46.605,
+     97.012,
+     46.06
+    ]
+   ],
+   [
+    "Kit_MesaWide.obj",
+    "Kit_MesaWide",
+    [
+     84.316,
+     63.033,
+     61.455
+    ]
+   ],
+   [
+    "Kit_MesaSpire.obj",
+    "Kit_MesaSpire",
+    [
+     29.986,
+     89.016,
+     28.767
+    ]
+   ],
+   [
+    "Kit_FenceSection.obj",
+    "Kit_FenceSection",
+    [
+     1.12,
+     4.564,
+     17.12
+    ]
+   ],
+   [
+    "Kit_SpeedPad.obj",
+    "Kit_SpeedPad",
+    [
+     18.0,
+     0.495,
+     16.0
+    ]
+   ],
+   [
+    "Kit_Cloud.obj",
+    "Kit_Cloud",
+    [
+     87.473,
+     27.1,
+     34.01
+    ]
+   ],
+   [
+    "Kit_PalmA.fbx",
+    "Kit_PalmA",
+    [
+     25.89,
+     35.353,
+     26.661
+    ]
+   ],
+   [
+    "Kit_PalmB.fbx",
+    "Kit_PalmB",
+    [
+     25.853,
+     29.256,
+     23.89
+    ]
+   ],
+   [
+    "Kit_PalmC.fbx",
+    "Kit_PalmC",
+    [
+     18.337,
+     18.972,
+     20.08
+    ]
+   ],
+   [
+    "Kit_Fern.fbx",
+    "Kit_Fern",
+    [
+     8.574,
+     3.19,
+     8.667
+    ]
+   ],
+   [
+    "Kit_Sunflower.fbx",
+    "Kit_Sunflower",
+    [
+     3.426,
+     6.365,
+     4.634
+    ]
+   ],
+   [
+    "Kit_Bromeliad.fbx",
+    "Kit_Bromeliad",
+    [
+     5.133,
+     1.865,
+     5.136
+    ]
+   ],
+   [
+    "Kit_BushA.fbx",
+    "Kit_BushA",
+    [
+     9.982,
+     5.28,
+     8.081
+    ]
+   ],
+   [
+    "Kit_BushB.fbx",
+    "Kit_BushB",
+    [
+     9.984,
+     3.993,
+     9.472
+    ]
+   ],
+   [
+    "Kit_RockA.fbx",
+    "Kit_RockA",
+    [
+     6.314,
+     3.984,
+     4.859
+    ]
+   ],
+   [
+    "Kit_RockB.fbx",
+    "Kit_RockB",
+    [
+     7.06,
+     2.593,
+     4.538
+    ]
+   ],
+   [
+    "Kit_GrassTuft.fbx",
+    "Kit_GrassTuft",
+    [
+     3.08,
+     2.078,
+     7.224
+    ]
+   ],
+   [
+    "Kit_FlowerPatch.fbx",
+    "Kit_FlowerPatch",
+    [
+     5.144,
+     1.459,
+     5.597
+    ]
+   ],
+   [
+    "Kit_TerraceS.fbx",
+    "Kit_TerraceS",
+    [
+     22.77,
+     49.014,
+     26.759
+    ]
+   ],
+   [
+    "Kit_TerraceM.fbx",
+    "Kit_TerraceM",
+    [
+     26.772,
+     49.031,
+     42.778
+    ]
+   ],
+   [
+    "Kit_TerraceL.fbx",
+    "Kit_TerraceL",
+    [
+     30.767,
+     49.012,
+     58.761
+    ]
+   ],
+   [
+    "Kit_TerraceCorner.fbx",
+    "Kit_TerraceCorner",
+    [
+     38.772,
+     49.028,
+     38.747
+    ]
+   ],
+   [
+    "Kit_TerraceRound.fbx",
+    "Kit_TerraceRound",
+    [
+     30.955,
+     49.011,
+     28.375
+    ]
+   ],
+   [
+    "Kit_MesaTall.fbx",
+    "Kit_MesaTall",
+    [
+     46.605,
+     97.012,
+     46.06
+    ]
+   ],
+   [
+    "Kit_MesaWide.fbx",
+    "Kit_MesaWide",
+    [
+     84.316,
+     63.033,
+     61.455
+    ]
+   ],
+   [
+    "Kit_MesaSpire.fbx",
+    "Kit_MesaSpire",
+    [
+     29.986,
+     89.016,
+     28.767
+    ]
+   ],
+   [
+    "Kit_FenceSection.fbx",
+    "Kit_FenceSection",
+    [
+     1.12,
+     4.564,
+     17.12
+    ]
+   ],
+   [
+    "Kit_SpeedPad.fbx",
+    "Kit_SpeedPad",
+    [
+     18.0,
+     0.495,
+     16.0
+    ]
+   ],
+   [
+    "Kit_Cloud.fbx",
+    "Kit_Cloud",
+    [
+     87.473,
+     27.1,
+     34.01
+    ]
+   ],
+   [
+    "GreenHillKit_all.fbx",
+    "Kit_TerraceL",
+    [
+     30.767,
+     49.012,
+     58.761
+    ]
+   ],
+   [
+    "GreenHillKit_all.fbx",
+    "Kit_MesaTall",
+    [
+     46.605,
+     97.012,
+     46.06
+    ]
+   ],
+   [
+    "GreenHillKit_all.fbx",
+    "Kit_SpeedPad",
+    [
+     18.0,
+     0.495,
+     16.0
+    ]
+   ]
+  ]
+ }
+}

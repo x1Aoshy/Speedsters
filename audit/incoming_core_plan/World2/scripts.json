@@ -1,0 +1,1147 @@
+[
+  {
+    "class": "LocalScript",
+    "id": 580,
+    "path": "ReplicatedFirst.LegacyRunControllerCleanup"
+  },
+  {
+    "class": "LocalScript",
+    "id": 581,
+    "path": "ReplicatedFirst.SpawnFloorSurfaceFix"
+  },
+  {
+    "class": "LocalScript",
+    "id": 582,
+    "path": "ReplicatedFirst.LoadingScreen"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 626,
+    "path": "ReplicatedStorage.Icon"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 627,
+    "path": "ReplicatedStorage.AdminBannerConfig"
+  },
+  {
+    "class": "Script",
+    "id": 637,
+    "path": "ServerScriptService.Bootstrap"
+  },
+  {
+    "class": "Script",
+    "id": 675,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 679,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 700,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 711,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 716,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 718,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 723,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 728,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 747,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 764,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 797,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 800,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 825,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 865,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 875,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 889,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 906,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 913,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 985,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 986,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 1005,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 1036,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 1053,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 1063,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 1083,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 1202,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 1286,
+    "path": "Workspace.Lava.Kill script"
+  },
+  {
+    "class": "Script",
+    "id": 1341,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 1461,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "Script",
+    "id": 1462,
+    "path": "Workspace.FadingPart.FadingScript"
+  },
+  {
+    "class": "Script",
+    "id": 1742,
+    "path": "Workspace.Conveyor.Script"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4404,
+    "path": "Workspace.BestRunAnimR6.README"
+  },
+  {
+    "class": "Script",
+    "id": 4413,
+    "path": "StarterPlayer.StarterCharacterScripts.R6DeathRagdoll"
+  },
+  {
+    "class": "Script",
+    "id": 4414,
+    "path": "StarterPlayer.StarterCharacterScripts.R6AnimatorAuthority"
+  },
+  {
+    "class": "LocalScript",
+    "id": 4415,
+    "path": "StarterPlayer.StarterCharacterScripts.R15SpeedsterRun"
+  },
+  {
+    "class": "LocalScript",
+    "id": 4416,
+    "path": "StarterPlayer.StarterCharacterScripts.Animate"
+  },
+  {
+    "class": "LocalScript",
+    "id": 4417,
+    "path": "StarterPlayer.StarterPlayerScripts.AsmrEffectsClient"
+  },
+  {
+    "class": "LocalScript",
+    "id": 4450,
+    "path": "StarterGui.Messages.MessageHandler"
+  },
+  {
+    "class": "LocalScript",
+    "id": 4460,
+    "path": "StarterGui.Index.IndexScript"
+  },
+  {
+    "class": "LocalScript",
+    "id": 4465,
+    "path": "StarterGui.Backpack.BackpackScript"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4570,
+    "path": "ReplicatedStorage.Shared.SuitCatalog"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4571,
+    "path": "ReplicatedStorage.Shared.StudUi"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4572,
+    "path": "ReplicatedStorage.Shared.PurchaseButtonSound"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4573,
+    "path": "ReplicatedStorage.Shared.ProgressBar"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4574,
+    "path": "ReplicatedStorage.Shared.PlaytimeRewards"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4575,
+    "path": "ReplicatedStorage.Shared.ModalJuice"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4576,
+    "path": "ReplicatedStorage.Shared.MenuPanelLayout"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4577,
+    "path": "ReplicatedStorage.Shared.MenuEvents"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4578,
+    "path": "ReplicatedStorage.Shared.DailyRewardsData"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4579,
+    "path": "ReplicatedStorage.Shared.DailyRewards"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4580,
+    "path": "ReplicatedStorage.Shared.CosmeticCatalog"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4581,
+    "path": "ReplicatedStorage.Shared.ConsolePanelSupport"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4582,
+    "path": "ReplicatedStorage.Shared.Config"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4583,
+    "path": "ReplicatedStorage.Shared.AdminGlobalEvents"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4602,
+    "path": "ReplicatedStorage.Icon.VERSION"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4603,
+    "path": "ReplicatedStorage.Icon.TopbarPlusReference"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4604,
+    "path": "ReplicatedStorage.Icon.TopbarPlusGui"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4605,
+    "path": "ReplicatedStorage.Icon.Themes"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4606,
+    "path": "ReplicatedStorage.Icon.Signal"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4607,
+    "path": "ReplicatedStorage.Icon.Maid"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4608,
+    "path": "ReplicatedStorage.Icon.IconController"
+  },
+  {
+    "class": "Script",
+    "id": 4609,
+    "path": "ServerScriptService.Worlds.WorldPortalService"
+  },
+  {
+    "class": "Script",
+    "id": 4610,
+    "path": "ServerScriptService.Worlds.World2StageSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4611,
+    "path": "ServerScriptService.Worlds.TeleportSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4612,
+    "path": "ServerScriptService.Social.GlobalAnnouncementService"
+  },
+  {
+    "class": "Script",
+    "id": 4613,
+    "path": "ServerScriptService.Social.PlaytimeRewards"
+  },
+  {
+    "class": "Script",
+    "id": 4614,
+    "path": "ServerScriptService.Social.GlobalLeaderboards"
+  },
+  {
+    "class": "Script",
+    "id": 4615,
+    "path": "ServerScriptService.Social.FirstTimeTutorial"
+  },
+  {
+    "class": "Script",
+    "id": 4616,
+    "path": "ServerScriptService.Social.DailyLoginSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4617,
+    "path": "ServerScriptService.Social.CodesSystem"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4618,
+    "path": "ServerScriptService.Services.PadTouchService"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4619,
+    "path": "ServerScriptService.Services.DynamicCodeDefinitions"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4620,
+    "path": "ServerScriptService.Services.RemoteGuard"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4621,
+    "path": "ServerScriptService.Services.RewardPadClaims"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4626,
+    "path": "ServerScriptService.Services.StageTeleportService"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4627,
+    "path": "ServerScriptService.Services.ServerRateLimiter"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4628,
+    "path": "ServerScriptService.Services.PotionServer"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4629,
+    "path": "ServerScriptService.Services.MovementGuard"
+  },
+  {
+    "class": "Script",
+    "id": 4630,
+    "path": "ServerScriptService.Progression.World2TreadmillOverheadLabels"
+  },
+  {
+    "class": "Script",
+    "id": 4631,
+    "path": "ServerScriptService.Progression.TreadmillTraining"
+  },
+  {
+    "class": "Script",
+    "id": 4632,
+    "path": "ServerScriptService.Progression.TreadmillOverheadLabels"
+  },
+  {
+    "class": "Script",
+    "id": 4633,
+    "path": "ServerScriptService.Progression.TreadmillCollisionFix"
+  },
+  {
+    "class": "Script",
+    "id": 4634,
+    "path": "ServerScriptService.Progression.RebirthSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4635,
+    "path": "ServerScriptService.Progression.RankReward"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4636,
+    "path": "ServerScriptService.Progression.ProgressionBridge"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4637,
+    "path": "ServerScriptService.Progression.PlayerStatsBridge"
+  },
+  {
+    "class": "Script",
+    "id": 4638,
+    "path": "ServerScriptService.Progression.PlayerStats"
+  },
+  {
+    "class": "Script",
+    "id": 4639,
+    "path": "ServerScriptService.Progression.LevelUpConfettiTemplate"
+  },
+  {
+    "class": "Script",
+    "id": 4640,
+    "path": "ServerScriptService.Progression.LevelProgress"
+  },
+  {
+    "class": "Script",
+    "id": 4641,
+    "path": "ServerScriptService.Infrastructure.WaterStreamingSafety"
+  },
+  {
+    "class": "Script",
+    "id": 4642,
+    "path": "ServerScriptService.Infrastructure.AutoReconnect"
+  },
+  {
+    "class": "Script",
+    "id": 4643,
+    "path": "ServerScriptService.Infrastructure.AnimationReplicationSync"
+  },
+  {
+    "class": "Script",
+    "id": 4644,
+    "path": "ServerScriptService.Infrastructure.AAA_ReferenceClipLighting"
+  },
+  {
+    "class": "Script",
+    "id": 4645,
+    "path": "ServerScriptService.Gameplay.World2WallFlightBarriers"
+  },
+  {
+    "class": "Script",
+    "id": 4646,
+    "path": "ServerScriptService.Gameplay.World2FlightAbility"
+  },
+  {
+    "class": "Script",
+    "id": 4647,
+    "path": "ServerScriptService.Gameplay.World2TreeSlammers"
+  },
+  {
+    "class": "Script",
+    "id": 4648,
+    "path": "ServerScriptService.Gameplay.World2SafeZones"
+  },
+  {
+    "class": "Script",
+    "id": 4649,
+    "path": "ServerScriptService.Gameplay.World2SpeedForce"
+  },
+  {
+    "class": "Script",
+    "id": 4650,
+    "path": "ServerScriptService.Gameplay.World2ManualStagePads"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4651,
+    "path": "ServerScriptService.Gameplay.World2StageTeleportService"
+  },
+  {
+    "class": "Script",
+    "id": 4652,
+    "path": "ServerScriptService.Gameplay.WinPadStagePlacement"
+  },
+  {
+    "class": "Script",
+    "id": 4653,
+    "path": "ServerScriptService.Gameplay.TogetherController"
+  },
+  {
+    "class": "Script",
+    "id": 4654,
+    "path": "ServerScriptService.Gameplay.StageDecor"
+  },
+  {
+    "class": "Script",
+    "id": 4655,
+    "path": "ServerScriptService.Gameplay.SpawnOutlineChecker"
+  },
+  {
+    "class": "Script",
+    "id": 4656,
+    "path": "ServerScriptService.Gameplay.RotatingLaser"
+  },
+  {
+    "class": "Script",
+    "id": 4658,
+    "path": "ServerScriptService.Economy.VipSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4659,
+    "path": "ServerScriptService.Economy.TrailShopSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4660,
+    "path": "ServerScriptService.Economy.SpeedProductPurchases"
+  },
+  {
+    "class": "Script",
+    "id": 4661,
+    "path": "ServerScriptService.Economy.SkinSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4662,
+    "path": "ServerScriptService.Economy.AuraShopSystem"
+  },
+  {
+    "class": "Script",
+    "id": 4663,
+    "path": "ServerScriptService.Bosses.World2SonicEXEBoss"
+  },
+  {
+    "class": "Script",
+    "id": 4664,
+    "path": "ServerScriptService.Bosses.ZoomBoss"
+  },
+  {
+    "class": "Script",
+    "id": 4665,
+    "path": "ServerScriptService.Bosses.RemoveWallyWestBoss"
+  },
+  {
+    "class": "Script",
+    "id": 4666,
+    "path": "ServerScriptService.Admin.ChatBoostCommands"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 4667,
+    "path": "ServerScriptService.Admin.AdminRequestValidation"
+  },
+  {
+    "class": "Script",
+    "id": 4668,
+    "path": "ServerScriptService.Admin.AdminPanelService"
+  },
+  {
+    "class": "Script",
+    "id": 4669,
+    "path": "ServerScriptService.Admin.AdminGiveCommands"
+  },
+  {
+    "class": "Script",
+    "id": 4670,
+    "path": "ServerScriptService.Admin.AdminCommands"
+  },
+  {
+    "class": "Script",
+    "id": 4671,
+    "path": "ServerScriptService.Admin.AdminAbuseServer"
+  },
+  {
+    "class": "Script",
+    "id": 4700,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4702,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4704,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4706,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4708,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4709,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4712,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4714,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4716,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Bubble.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4718,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4720,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4722,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4724,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4725,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4728,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4730,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4732,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4734,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4736,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Keyboard.Script"
+  },
+  {
+    "class": "Script",
+    "id": 4746,
+    "path": "Workspace.Model.Conveyor.Script"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9503,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.CodesModalController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9504,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.AdminPanelController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9505,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.UpdateLogsController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9506,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.WalkSpeedSelector"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9507,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.VipChatTag"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9508,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.ConsoleUiScale"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9509,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TreadmillLockPanel"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9510,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TopbarIconsController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9511,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TimeGiftController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9512,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.TeleportController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9513,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.ShopController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9514,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.SettingsController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9515,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.RevivePrompt"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9516,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.RebirthController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9517,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.RankRewardPanel"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9518,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.OverheadStats"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9519,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.MainHUDController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9520,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.GlobalLeaderboardDisplay"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9521,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.FirstTimeTutorial"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9522,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.EvolveController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9523,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.DailyRewardController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9524,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.WorldsController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9525,
+    "path": "StarterPlayer.StarterPlayerScripts.UI.AbilitiesPanel"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9526,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.SpeedsterClient"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9527,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.CtrlShiftLock"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9528,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.World2SpeedForce"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9529,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.World2FlightAbility"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9530,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.WallImpactAntiFling"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9531,
+    "path": "StarterPlayer.StarterPlayerScripts.Movement.InstantMovementController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9532,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.FadingPlatformsClient"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9533,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2LeaderboardChampions"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9534,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2SixSevenAreaAmbience"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9535,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2SonicEXEBoss"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9536,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2TreeSlammers"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9537,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.World2ManualPadTextDistance"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9538,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ZoomBossAnimation"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9539,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ZoomArenaAmbience"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9540,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.WinPadTextDistance"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9541,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.WinPadFeedback"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9542,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.TreadmillRebirthBillboardScale"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9543,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.TreadmillOverheadPerspective"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9544,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.SpeedGainPopupSoundPatch"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9545,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.RotatingLaserVisual"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9546,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.ReverseFlashBossAnimation"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9547,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.RemoteAnimatorFidelity"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9548,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.RedBallContact"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9549,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.LevelUpCelebration"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9550,
+    "path": "StarterPlayer.StarterPlayerScripts.Gameplay.BoostNotifier"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9551,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.SfxAudioController"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9552,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.RunningAndTreadmillSound"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9553,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.LeftButtonClickSoundAuthority"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9554,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.BackgroundMusic"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9555,
+    "path": "StarterPlayer.StarterPlayerScripts.Audio.AudioIdReset"
+  },
+  {
+    "class": "LocalScript",
+    "id": 9556,
+    "path": "StarterPlayer.StarterPlayerScripts.Admin.AdminAbuseClient"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9851,
+    "path": "ReplicatedStorage.Shared.Math.SpeedFormula"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9852,
+    "path": "ReplicatedStorage.Shared.Math.NumberFormat"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9853,
+    "path": "ReplicatedStorage.Shared.Catalogs.CodesCatalog"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9871,
+    "path": "ReplicatedStorage.Icon.Themes.Default"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9872,
+    "path": "ReplicatedStorage.Icon.Themes.BlueGradient"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9873,
+    "path": "ServerScriptService.Services.Stats.StatsService"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9874,
+    "path": "ServerScriptService.Services.Stats.StatsProjection"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9875,
+    "path": "ServerScriptService.Services.Stats.CharacterStatsAdapter"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9876,
+    "path": "ServerScriptService.Services.Monetization.ReceiptLedger"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9877,
+    "path": "ServerScriptService.Services.Monetization.ProductRegistry"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9878,
+    "path": "ServerScriptService.Services.Monetization.MonetizationService"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9879,
+    "path": "ServerScriptService.Services.Data.SessionLease"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9880,
+    "path": "ServerScriptService.Services.Data.SessionActor"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9881,
+    "path": "ServerScriptService.Services.Data.SaveCoordinator"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9882,
+    "path": "ServerScriptService.Services.Data.RetryPolicy"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9883,
+    "path": "ServerScriptService.Services.Data.ProfileReducers"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9884,
+    "path": "ServerScriptService.Services.Data.ProfileCodec"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9885,
+    "path": "ServerScriptService.Services.Data.DataStoreAdapter"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9886,
+    "path": "ServerScriptService.Services.Data.DataService"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9887,
+    "path": "ServerScriptService.Services.Buffs.BuffService"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9888,
+    "path": "ServerScriptService.Services.Buffs.BuffRules"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9889,
+    "path": "ServerScriptService.Economy.Cosmetics.CosmeticTemplateBuilder"
+  },
+  {
+    "class": "ModuleScript",
+    "id": 9890,
+    "path": "ServerScriptService.Economy.Cosmetics.CosmeticService"
+  },
+  {
+    "class": "Script",
+    "id": 9891,
+    "path": "ServerScriptService.Economy.Cosmetics.CosmeticBootstrap"
+  },
+  {
+    "class": "Script",
+    "id": 10055,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "id": 10056,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "id": 10059,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "id": 10060,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "id": 10062,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  },
+  {
+    "class": "Script",
+    "id": 10064,
+    "path": "Workspace.ASMR kit -  by Agus_Fellini2.Butters.Butter.Script"
+  }
+]

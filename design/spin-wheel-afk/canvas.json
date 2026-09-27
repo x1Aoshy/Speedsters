@@ -1,0 +1,64 @@
+{
+  "artboards": [
+    {
+      "file": "Main.dc.html",
+      "title": "Spin Wheel",
+      "x": 0,
+      "y": 0,
+      "w": 1280,
+      "h": 720
+    },
+    {
+      "file": "WheelResult.dc.html",
+      "title": "Spin Wheel - result",
+      "x": 1360,
+      "y": 0,
+      "w": 1280,
+      "h": 720
+    },
+    {
+      "file": "WheelPhone.dc.html",
+      "title": "Spin Wheel - phone",
+      "x": 0,
+      "y": 840,
+      "w": 844,
+      "h": 390
+    },
+    {
+      "file": "WheelBillboard.dc.html",
+      "title": "Wheel billboard",
+      "x": 924,
+      "y": 840,
+      "w": 560,
+      "h": 420
+    },
+    {
+      "file": "AfkZone.dc.html",
+      "title": "AFK Zone HUD",
+      "x": 0,
+      "y": 1400,
+      "w": 1280,
+      "h": 720
+    },
+    {
+      "file": "AfkBillboard.dc.html",
+      "title": "AFK Zone billboard",
+      "x": 1360,
+      "y": 1400,
+      "w": 560,
+      "h": 240
+    }
+  ],
+  "annotations": [
+    {
+      "id": "sample-values",
+      "x": 1564,
+      "y": 840,
+      "w": 320,
+      "text": "Reward amounts, odds and times are sample values. In game, Wins and Speed rewards scale with the player's level, and spin prices come from the developer products once they exist ([PRICE])."
+    }
+  ],
+  "launch": {
+    "view": "canvas"
+  }
+}

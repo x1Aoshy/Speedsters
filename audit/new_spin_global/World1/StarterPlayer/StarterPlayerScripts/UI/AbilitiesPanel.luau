@@ -1,0 +1,510 @@
+local GuiService = game:GetService("GuiService")
+local MarketplaceService = game:GetService("MarketplaceService")
+local Players = game:GetService("Players")
+local ReplicatedStorage = game:GetService("ReplicatedStorage")
+local RunService = game:GetService("RunService")
+local SoundService = game:GetService("SoundService")
+local TweenService = game:GetService("TweenService")
+local UserInputService = game:GetService("UserInputService")
+
+local player = Players.LocalPlayer
+local playerGui = player:WaitForChild("PlayerGui")
+local Config = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("Config"))
+local MenuEvents = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("MenuEvents"))
+local WinsMath = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("WinsMath"))
+
+if Config.AbilityFlightEnabled ~= true then
+	return
+end
+
+local Remotes = ReplicatedStorage:WaitForChild("Remotes")
+local AbilityShopAction = Remotes:WaitForChild("AbilityShopAction")
+local AbilityShopUpdate = Remotes:WaitForChild("AbilityShopUpdate")
+local openAbilitiesPanel = MenuEvents.Get("OpenAbilitiesPanel")
+local otherPanelEvents = {
+	MenuEvents.Get("OpenEvolvePanel"), MenuEvents.Get("OpenRebirthPanel"), MenuEvents.Get("OpenDailyPanel"),
+	MenuEvents.Get("OpenTrailsPanel"), MenuEvents.Get("OpenAurasPanel"), MenuEvents.Get("OpenIndexPanel"),
+	MenuEvents.Get("OpenTeleportPanel"),
+}
+
+local gui
+while not gui do
+	gui = playerGui:FindFirstChild("Abilities")
+	if not gui then
+		task.wait(0.25)
+	end
+end 
+
+local panel = gui:WaitForChild("Panel")
+
+-- Posición original respetada desde Studio
+local OPEN_POSITION = panel.Position
+local CLOSED_POSITION = UDim2.new(OPEN_POSITION.X.Scale, OPEN_POSITION.X.Offset, 1.28, 0)
+
+local title = panel:WaitForChild("Name")
+if title and title:IsA("TextLabel") then
+	title.Text = "Abilities"
+end
+
+local closeButton = panel:WaitForChild("Close")
+local card = panel:WaitForChild("ScrollingFrame"):WaitForChild("Frame")
+
+-- Purchase buttons
+local purchaseFrame = card:WaitForChild("Frame")
+local winsButton = purchaseFrame:WaitForChild("WinsPurchase")
+local robuxButton = purchaseFrame:WaitForChild("RobuxPurchase")
+
+local flightGamePassId = tonumber(Config.AbilityFlightGamePassId or Config.AbilityFlightProductId) or 1978623069
+
+local currentState = {
+	Owned = player:GetAttribute("FlightAbilityOwned") == true, 
+	Equipped = player:GetAttribute("FlightAbilityEquipped") == true, 
+	Wins = 0, 
+	-- Placeholder until the server payload lands. Priced the same way the server
+	-- prices it, so the card never flashes the undamped figure first.
+	WinsCost = WinsMath.GetProgressionPriceFor(
+		tonumber(Config.AbilityFlightWinsCost) or 25000000,
+		player,
+		Config.ProgressionPriceMultiplierExponent
+	), 
+	ProductId = flightGamePassId, 
+	RobuxPrice = tonumber(Config.AbilityFlightPriceRobux) or 799, 
+	Message = ""
+}
+
+local lastOwned = currentState.Owned
+
+local function formatNumber(value) 
+	local n = tonumber(value) or 0
+	if n >= 1e9 then
+		return string.format("%.2fB", n / 1e9):gsub("%.?0+([B])", "%1")
+	elseif n >= 1e6 then
+		return string.format("%.2fM", n / 1e6):gsub("%.?0+([M])", "%1")
+	elseif n >= 1e3 then
+		return string.format("%.1fK", n / 1e3):gsub("%.?0+([K])", "%1")
+	end
+	return tostring(math.floor(n))
+end
+
+local flightDescLabel: TextLabel? = nil
+for _, child in ipairs(card:GetChildren()) do
+	if child:IsA("TextLabel") and child.Text:lower():find("fly") and child.Text:lower():find("glide") then
+		flightDescLabel = child
+		break
+	end
+end
+
+local function updateFlightDescription()
+	if not flightDescLabel then return end
+	local lastInputType = UserInputService:GetLastInputType()
+	local isGamepad = false
+	pcall(function()
+		isGamepad = GuiService:IsTenFootInterface()
+	end)
+	isGamepad = isGamepad
+		or UserInputService.GamepadEnabled
+		or #UserInputService:GetConnectedGamepads() > 0
+		or lastInputType == Enum.UserInputType.Gamepad1
+		or lastInputType == Enum.UserInputType.Gamepad2
+		or lastInputType == Enum.UserInputType.Gamepad3
+		or lastInputType == Enum.UserInputType.Gamepad4
+		or lastInputType == Enum.UserInputType.Gamepad5
+		or lastInputType == Enum.UserInputType.Gamepad6
+		or lastInputType == Enum.UserInputType.Gamepad7
+		or lastInputType == Enum.UserInputType.Gamepad8
+
+	local isTouch = (lastInputType == Enum.UserInputType.Touch or UserInputService.TouchEnabled) and not UserInputService.KeyboardEnabled
+
+	if isGamepad then
+		flightDescLabel.Text = "Hold (A) or RB to fly, release to glide."
+	elseif isTouch then
+		flightDescLabel.Text = "Hold Jump button to fly, release to glide."
+	else
+		flightDescLabel.Text = "Hold Space to fly, release to glide."
+	end
+end
+
+local function playSound(id, name)
+	local sound = SoundService:FindFirstChild(name) or Instance.new("Sound")
+	sound.Name = name
+	sound.SoundId = id
+	sound.Volume = 0.8
+	sound.Parent = SoundService
+	sound.TimePosition = 0
+	SoundService:PlayLocalSound(sound)
+end
+
+local winsButtonText = winsButton:FindFirstChild("Name")
+local winsButtonIcon = winsButton:FindFirstChildOfClass("ImageLabel")
+local robuxButtonText = robuxButton:FindFirstChild("Name")
+local robuxButtonIcon = robuxButton:FindFirstChildOfClass("ImageLabel")
+
+local function render()
+	local owned = currentState.Owned == true
+	local equipped = owned and currentState.Equipped == true
+
+	if winsButtonText and winsButtonText:IsA("TextLabel") then
+		winsButtonText.Text = owned and (equipped and "UNEQUIP" or "EQUIP") or formatNumber(currentState.WinsCost) .. " Wins"
+	end
+	if winsButtonIcon then
+		winsButtonIcon.Visible = not owned
+	end
+	winsButton.BackgroundColor3 = owned and (equipped and Color3.fromRGB(235, 92, 66) or Color3.fromRGB(60, 208, 76)) or Color3.fromRGB(60, 208, 76)
+
+	if robuxButtonText and robuxButtonText:IsA("TextLabel") then
+		robuxButtonText.Text = owned and "Purchased" or tostring(math.floor(currentState.RobuxPrice))
+	end
+	if robuxButtonIcon then
+		robuxButtonIcon.Visible = not owned
+	end
+	robuxButton.Active = not owned
+
+	if owned and not lastOwned then 
+		playSound("rbxassetid://80736831159506", "AbilityShopSuccessSound") 
+	end
+	lastOwned = owned
+	updateFlightDescription()
+end
+
+-- Fetch live GamePass price from Roblox
+task.spawn(function()
+	local ok, info = pcall(function()
+		return MarketplaceService:GetProductInfo(flightGamePassId, Enum.InfoType.GamePass)
+	end)
+	if (not ok or not info or not info.PriceInRobux) then
+		local altOk, altInfo = pcall(function()
+			return MarketplaceService:GetProductInfo(flightGamePassId, Enum.InfoType.Product)
+		end)
+		if altOk and altInfo and altInfo.PriceInRobux then
+			ok, info = altOk, altInfo
+		end
+	end
+	if ok and info and info.PriceInRobux then
+		local origPrice = tonumber(info.UserBasePriceInRobux or info.BasePriceInRobux or info.OriginalPrice or info.PriceInRobux) or 799
+		currentState.RobuxPrice = origPrice
+		render()
+	end
+end)
+
+UserInputService.LastInputTypeChanged:Connect(updateFlightDescription)
+UserInputService.GamepadConnected:Connect(updateFlightDescription)
+UserInputService.GamepadDisconnected:Connect(updateFlightDescription)
+task.defer(updateFlightDescription)
+
+AbilityShopUpdate.OnClientEvent:Connect(function(state)
+	if type(state) ~= "table" then return end
+	local flight = type(state.Flight) == "table" and state.Flight or {}
+	currentState.Owned = flight.Owned == true
+	currentState.Equipped = flight.Equipped == true
+	currentState.Wins = tonumber(state.Wins) or currentState.Wins
+	currentState.WinsCost = tonumber(flight.WinsCost) or currentState.WinsCost
+	currentState.ProductId = tonumber(flight.ProductId) or currentState.ProductId
+	local srvRobuxPrice = tonumber(flight.RobuxPrice)
+	if srvRobuxPrice and srvRobuxPrice >= 799 then
+		currentState.RobuxPrice = srvRobuxPrice
+	else
+		currentState.RobuxPrice = math.max(currentState.RobuxPrice, 799)
+	end
+	currentState.Message = tostring(state.Message or "")
+	render()
+end)
+
+player:GetAttributeChangedSignal("FlightAbilityOwned"):Connect(function() 
+	currentState.Owned = player:GetAttribute("FlightAbilityOwned") == true 
+	render() 
+end)
+
+player:GetAttributeChangedSignal("FlightAbilityEquipped"):Connect(function() 
+	currentState.Equipped = player:GetAttribute("FlightAbilityEquipped") == true 
+	render() 
+end)
+
+MarketplaceService.PromptGamePassPurchaseFinished:Connect(function(buyer, passId, wasPurchased)
+	if buyer == player and tonumber(passId) == flightGamePassId and wasPurchased then
+		currentState.Owned = true
+		currentState.Equipped = true
+		render()
+	end
+end)
+
+local lastAbilityActionAt = 0
+winsButton.Activated:Connect(function()
+	if os.clock() - lastAbilityActionAt < 0.3 then return end
+	lastAbilityActionAt = os.clock()
+	if currentState.Owned then
+		AbilityShopAction:FireServer(currentState.Equipped and "Unequip" or "Equip", "Flight")
+	else
+		AbilityShopAction:FireServer("BuyWins", "Flight")
+	end
+end)
+
+robuxButton.Activated:Connect(function()
+	if currentState.Owned then return end
+	if RunService:IsStudio() then
+		AbilityShopAction:FireServer("StudioBuyRobux", "Flight")
+	else
+		MarketplaceService:PromptGamePassPurchase(player, flightGamePassId)
+	end
+end)
+
+----------------------------------------------------------------------
+-- The Sonic Burst card (Core/Abilities/SonicBurstService): the designer's Flight card
+-- re-dressed (Shared.SonicBurstUi), saved in the place; bought with Wins, then equipped.
+----------------------------------------------------------------------
+local requestBurstState = function() end
+if Config.AbilitySonicBurstEnabled == true then
+	local SonicBurstUi = require(ReplicatedStorage:WaitForChild("Shared"):WaitForChild("SonicBurstUi"))
+	local list = panel:WaitForChild("ScrollingFrame")
+	local burstCard = list:FindFirstChild(SonicBurstUi.CardName) or list:WaitForChild(SonicBurstUi.CardName, 5)
+	if not burstCard then
+		-- A place without the saved card: the same one, made here from the Flight card.
+		burstCard = SonicBurstUi.DecorateCard(card:Clone())
+		burstCard.Parent = list
+	end
+	local burstAction = Remotes:WaitForChild("SonicBurstAction")
+	local burstUpdate = Remotes:WaitForChild("SonicBurstUpdate")
+	local burstButton = burstCard:WaitForChild("Frame"):WaitForChild("WinsPurchase")
+	local burstButtonText = burstButton:FindFirstChild("Name")
+	local burstButtonIcon = burstButton:FindFirstChildOfClass("ImageLabel")
+	local burstGamePassId = tonumber(Config.AbilitySonicBurstGamePassId) or 1985906818
+	local burstRobuxPrice = tonumber(Config.AbilitySonicBurstPriceRobux) or 499
+	local burstRobuxButton = burstCard:WaitForChild("Frame"):FindFirstChild("RobuxPurchase")
+	local burstRobuxButtonText = burstRobuxButton and burstRobuxButton:FindFirstChild("Name")
+	local burstRobuxButtonIcon = burstRobuxButton and burstRobuxButton:FindFirstChildOfClass("ImageLabel")
+	local burstDescription = nil
+	for _, child in ipairs(burstCard:GetChildren()) do
+		if child:IsA("TextLabel") and child:GetAttribute("SonicBurstDescription") == true then
+			burstDescription = child
+		end
+	end
+	local burstState = {
+		Owned = player:GetAttribute("SonicBurstOwned") == true,
+		Equipped = player:GetAttribute("SonicBurstEquipped") == true,
+		-- Until the server's quote lands, priced the way the server prices it.
+		WinsCost = WinsMath.GetProgressionPriceFor(
+			tonumber(Config.AbilitySonicBurstWinsCost) or 500000000,
+			player,
+			Config.ProgressionPriceMultiplierExponent
+		),
+	}
+	local burstWasOwned = burstState.Owned
+
+	local function renderBurst()
+		local owned = burstState.Owned
+		local equipped = owned and burstState.Equipped
+		if burstButtonText and burstButtonText:IsA("TextLabel") then
+			burstButtonText.Text = owned and (equipped and "UNEQUIP" or "EQUIP") or formatNumber(burstState.WinsCost) .. " Wins"
+		end
+		if burstButtonIcon then
+			burstButtonIcon.Visible = not owned
+		end
+		burstButton.BackgroundColor3 = if equipped then Color3.fromRGB(235, 92, 66) else Color3.fromRGB(60, 208, 76)
+
+		if burstRobuxButton and burstRobuxButtonText and burstRobuxButtonText:IsA("TextLabel") then
+			burstRobuxButtonText.Text = owned and "Purchased" or tostring(math.floor(burstRobuxPrice))
+		end
+		if burstRobuxButtonIcon then
+			burstRobuxButtonIcon.Visible = not owned
+		end
+		if burstRobuxButton then
+			burstRobuxButton.Active = not owned
+		end
+
+		if owned and not burstWasOwned then
+			playSound("rbxassetid://80736831159506", "AbilityShopSuccessSound")
+		end
+		burstWasOwned = owned
+		if burstDescription then
+			local last = UserInputService:GetLastInputType()
+			local gamepad = last.Name:find("Gamepad") ~= nil
+			local touch = UserInputService.TouchEnabled and not UserInputService.KeyboardEnabled
+			local key = if gamepad then "L2" elseif touch then "Burst" else "Shift"
+			burstDescription.Text = "Hold " .. key .. " to charge the run, let go to burst forward."
+		end
+	end
+
+	burstUpdate.OnClientEvent:Connect(function(message)
+		if type(message) ~= "table" or message.Kind ~= "State" then
+			return
+		end
+		burstState.Owned = message.Owned == true
+		burstState.Equipped = message.Equipped == true
+		burstState.WinsCost = tonumber(message.WinsCost) or burstState.WinsCost
+		renderBurst()
+	end)
+	player:GetAttributeChangedSignal("SonicBurstOwned"):Connect(function()
+		burstState.Owned = player:GetAttribute("SonicBurstOwned") == true
+		renderBurst()
+	end)
+	player:GetAttributeChangedSignal("SonicBurstEquipped"):Connect(function()
+		burstState.Equipped = player:GetAttribute("SonicBurstEquipped") == true
+		renderBurst()
+	end)
+	UserInputService.LastInputTypeChanged:Connect(renderBurst)
+
+	local lastBurstActionAt = 0
+	burstButton.Activated:Connect(function()
+		if os.clock() - lastBurstActionAt < 0.3 then
+			return
+		end
+		lastBurstActionAt = os.clock()
+		if burstState.Owned then
+			burstAction:FireServer(burstState.Equipped and "Unequip" or "Equip")
+		else
+			burstAction:FireServer("BuyWins")
+		end
+	end)
+
+	if burstRobuxButton then
+		burstRobuxButton.Activated:Connect(function()
+			if burstState.Owned then return end
+			if RunService:IsStudio() then
+				burstAction:FireServer("StudioGrant")
+			else
+				MarketplaceService:PromptGamePassPurchase(player, burstGamePassId)
+			end
+		end)
+	end
+
+	MarketplaceService.PromptGamePassPurchaseFinished:Connect(function(buyer, passId, wasPurchased)
+		if buyer == player and tonumber(passId) == burstGamePassId and wasPurchased then
+			burstState.Owned = true
+			burstState.Equipped = true
+			renderBurst()
+		end
+	end)
+
+	task.spawn(function()
+		local ok, info = pcall(function()
+			return MarketplaceService:GetProductInfo(burstGamePassId, Enum.InfoType.GamePass)
+		end)
+		if ok and info and info.PriceInRobux and burstRobuxButtonText then
+			local price = tonumber(info.UserBasePriceInRobux or info.BasePriceInRobux or info.OriginalPrice or info.PriceInRobux) or burstRobuxPrice
+			burstRobuxPrice = price
+			if not burstState.Owned then
+				burstRobuxButtonText.Text = tostring(price)
+			end
+		end
+	end)
+
+	requestBurstState = function()
+		burstAction:FireServer("RequestState")
+	end
+	renderBurst()
+end
+
+local isOpen = false
+local isClosing = false
+local activeTween
+
+local dimOverlay = gui:FindFirstChild("Dim")
+local dimTween = nil
+
+local function closePanel(instant)
+	if not isOpen and not gui.Enabled then return end
+
+	if instant then
+		isOpen = false
+		isClosing = false
+		if activeTween then activeTween:Cancel() end
+		if dimTween then dimTween:Cancel() end
+		gui.Enabled = false
+		panel.Position = CLOSED_POSITION
+		if dimOverlay and dimOverlay:IsA("GuiObject") then
+			dimOverlay.Visible = false
+			dimOverlay.Active = false
+			dimOverlay.BackgroundTransparency = 1
+		end
+		return
+	end
+
+	if isClosing then return end
+	isClosing = true
+
+	if dimOverlay and dimOverlay:IsA("GuiObject") then
+		if dimTween then dimTween:Cancel() end
+		dimTween = TweenService:Create(dimOverlay, TweenInfo.new(0.18, Enum.EasingStyle.Sine, Enum.EasingDirection.In), {BackgroundTransparency = 1})
+		dimTween:Play()
+	end
+
+	if activeTween then activeTween:Cancel() end
+	activeTween = TweenService:Create(panel, TweenInfo.new(0.18, Enum.EasingStyle.Quad, Enum.EasingDirection.In), {Position = CLOSED_POSITION})
+	activeTween:Play()
+
+	task.delay(0.18, function()
+		if not isClosing then return end
+		isClosing = false
+		isOpen = false
+		gui.Enabled = false
+		panel.Position = CLOSED_POSITION
+		if dimOverlay and dimOverlay:IsA("GuiObject") then
+			dimOverlay.Visible = false
+			dimOverlay.Active = false
+		end
+	end)
+end
+
+local function openPanel()
+	if isOpen and gui.Enabled and not isClosing then return end
+	isClosing = false
+	isOpen = true
+	gui.Enabled = true
+
+	if dimOverlay and dimOverlay:IsA("GuiObject") then
+		if dimTween then dimTween:Cancel() end
+		dimOverlay.Visible = true
+		dimOverlay.Active = true
+		dimOverlay.BackgroundTransparency = 1
+		dimTween = TweenService:Create(dimOverlay, TweenInfo.new(0.20, Enum.EasingStyle.Sine, Enum.EasingDirection.Out), {BackgroundTransparency = 0.55})
+		dimTween:Play()
+	end
+
+	if activeTween then activeTween:Cancel() end
+	panel.Position = CLOSED_POSITION
+	AbilityShopAction:FireServer("RequestState")
+	requestBurstState()
+
+	activeTween = TweenService:Create(panel, TweenInfo.new(0.24, Enum.EasingStyle.Back, Enum.EasingDirection.Out), {Position = OPEN_POSITION})
+	activeTween:Play()
+end
+
+if dimOverlay and dimOverlay:IsA("GuiObject") then
+	dimOverlay.InputBegan:Connect(function(input)
+		if input.UserInputType == Enum.UserInputType.MouseButton1 or input.UserInputType == Enum.UserInputType.Touch then
+			closePanel()
+		end
+	end)
+end
+
+openAbilitiesPanel.Event:Connect(function(action)
+	if action == "Open" or action == "LeftButtonSwitch" then
+		openPanel()
+	elseif action == "Close" then
+		closePanel()
+	else
+		if isOpen then closePanel() else openPanel() end
+	end
+end)
+
+MenuEvents.CloseAll.Event:Connect(function() 
+	closePanel(true) 
+end)
+
+-- A closing panel counts as closed, so reopening it quickly opens it (MenuEvents).
+MenuEvents.MarkReady("Abilities", function() return isOpen and not isClosing end)
+
+for _, event in ipairs(otherPanelEvents) do 
+	event.Event:Connect(function() 
+		if isOpen then closePanel(true) end 
+	end) 
+end
+
+closeButton.Activated:Connect(function()
+	closePanel()
+end)
+
+
+
+closePanel(true)
+render()
+AbilityShopAction:FireServer("RequestState")

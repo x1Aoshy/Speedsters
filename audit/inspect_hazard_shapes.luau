@@ -1,0 +1,2 @@
+local fs=require('@lune/fs');local r=require('@lune/roblox');local g=r.deserializePlace(fs.readFile('World1 Speedtercorrect.rbxl'))
+for _,p in g:GetDescendants() do if p:IsA('BasePart') then local path=p:GetFullName():lower(); if path:find('neworld1') and (path:find('lava') or path:find('laser') or path:find('pressdown') or path:find('.fast.')) then local ok,shape=pcall(function() return p.Shape end);print(p:GetFullName(),p.ClassName,ok and tostring(shape) or '',tostring(p.Size)) end end end
